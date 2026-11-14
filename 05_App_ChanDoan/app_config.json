@@ -1,0 +1,11 @@
+{
+  "_ghi_chu": "Cau hinh app. Doi mo hinh: chep best.pt + config.json + concept_thresholds.json cua luot khac vao thu muc model\\ (hoac sua model_dir).",
+  "model_dir": "model",
+  "model_name": "ConvNeXt-Tiny + Concept Attention + CBM + MLP (seed 43)",
+  "knowledge_file": "knowledge/ontology_v18.json",
+  "uncertain_threshold": 0.6,
+  "_ghi_chu_nguong": "Neu xac suat benh cao nhat < nguong nay -> 'Khong chac chan'. Da chon tren tap val (0,55-0,70 cho ket qua nhu nhau tren val).",
+  "heatmap_alpha": 0.6,
+  "_ghi_chu_heatmap_alpha": "Do dam mac dinh cua heatmap (0..1); tren web chinh bang thanh truot.",
+  "device": "auto"
+}

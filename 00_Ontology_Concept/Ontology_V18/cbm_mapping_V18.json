@@ -1,0 +1,444 @@
+{
+  "version": "1.8.0",
+  "concept_version": "1.8",
+  "ontology_iri": "http://example.org/rice-cbm/ontology/v18",
+  "label_values": {
+    "1": "quan sát có",
+    "0": "đủ rõ và không có",
+    "9": "không xác định – bị mask khi học, không coi là 0"
+  },
+  "classes": {
+    "03_dao_on_la": {
+      "name_vi": "Đạo ôn",
+      "folder": "Leaf Blast",
+      "iri": "http://example.org/rice-cbm/ontology/v18#D_DaoOn",
+      "type": "RiceDisease"
+    },
+    "02_dom_nau": {
+      "name_vi": "Đốm nâu",
+      "folder": "Brown Spot",
+      "iri": "http://example.org/rice-cbm/ontology/v18#D_DomNau",
+      "type": "RiceDisease"
+    },
+    "01_bac_la": {
+      "name_vi": "Bạc lá",
+      "folder": "Bacterial Leaf Blight",
+      "iri": "http://example.org/rice-cbm/ontology/v18#D_BacLa",
+      "type": "RiceDisease"
+    },
+    "04_kho_van": {
+      "name_vi": "Khô vằn",
+      "folder": "Sheath Blight",
+      "iri": "http://example.org/rice-cbm/ontology/v18#D_KhoVan",
+      "type": "RiceDisease"
+    },
+    "05_la_khoe": {
+      "name_vi": "Lá khỏe",
+      "folder": "Healthy Rice Leaf",
+      "iri": "http://example.org/rice-cbm/ontology/v18#L_LaKhoe",
+      "type": "ImageLevelLabel"
+    }
+  },
+  "concepts": {
+    "C01": {
+      "name_vi": "Vết hình mắt én, hai đầu hẹp, giữa phình",
+      "iri": "http://example.org/rice-cbm/ontology/v18#C01",
+      "described_for": [
+        "Đạo ôn"
+      ],
+      "evidence": [
+        "E01"
+      ],
+      "used_in_bottleneck": true,
+      "train_counts": {
+        "1": 112,
+        "0": 489,
+        "9": 2049
+      }
+    },
+    "C02": {
+      "name_vi": "Phần giữa vết bệnh màu xám tro",
+      "iri": "http://example.org/rice-cbm/ontology/v18#C02",
+      "described_for": [
+        "Đạo ôn"
+      ],
+      "evidence": [
+        "E01"
+      ],
+      "used_in_bottleneck": false,
+      "train_counts": {
+        "1": 33,
+        "0": 236,
+        "9": 2381
+      }
+    },
+    "C03": {
+      "name_vi": "Viền vết bệnh màu nâu",
+      "iri": "http://example.org/rice-cbm/ontology/v18#C03",
+      "described_for": [
+        "Đạo ôn",
+        "Đốm nâu",
+        "Khô vằn"
+      ],
+      "evidence": [
+        "E02",
+        "E09",
+        "E16"
+      ],
+      "used_in_bottleneck": true,
+      "train_counts": {
+        "1": 1922,
+        "0": 234,
+        "9": 494
+      }
+    },
+    "C04": {
+      "name_vi": "Vùng tổn thương kéo dài theo hướng gân lá",
+      "iri": "http://example.org/rice-cbm/ontology/v18#C04",
+      "described_for": [
+        "Bạc lá"
+      ],
+      "evidence": [
+        "E22"
+      ],
+      "used_in_bottleneck": true,
+      "train_counts": {
+        "1": 2043,
+        "0": 346,
+        "9": 261
+      }
+    },
+    "C05": {
+      "name_vi": "Quầng vàng phía ngoài viền nâu của vết",
+      "iri": "http://example.org/rice-cbm/ontology/v18#C05",
+      "described_for": [
+        "Đạo ôn"
+      ],
+      "evidence": [
+        "E03"
+      ],
+      "used_in_bottleneck": true,
+      "train_counts": {
+        "1": 206,
+        "0": 319,
+        "9": 2125
+      }
+    },
+    "C06": {
+      "name_vi": "Đốm hình tròn hoặc bầu dục",
+      "iri": "http://example.org/rice-cbm/ontology/v18#C06",
+      "described_for": [
+        "Đốm nâu",
+        "Khô vằn"
+      ],
+      "evidence": [
+        "E08",
+        "E15"
+      ],
+      "used_in_bottleneck": true,
+      "train_counts": {
+        "1": 1163,
+        "0": 376,
+        "9": 1111
+      }
+    },
+    "C07": {
+      "name_vi": "Phần chính của đốm trên lá màu nâu lợt",
+      "iri": "http://example.org/rice-cbm/ontology/v18#C07",
+      "described_for": [
+        "Đốm nâu"
+      ],
+      "evidence": [
+        "E09"
+      ],
+      "used_in_bottleneck": true,
+      "train_counts": {
+        "1": 125,
+        "0": 370,
+        "9": 2155
+      }
+    },
+    "C08": {
+      "name_vi": "Vòng đồng tâm bên trong vết đốm",
+      "iri": "http://example.org/rice-cbm/ontology/v18#C08",
+      "described_for": [
+        "Đốm nâu"
+      ],
+      "evidence": [
+        "E10"
+      ],
+      "used_in_bottleneck": false,
+      "train_counts": {
+        "1": 8,
+        "0": 377,
+        "9": 2265
+      }
+    },
+    "C09": {
+      "name_vi": "Tổn thương tiếp giáp chóp hoặc mép lá",
+      "iri": "http://example.org/rice-cbm/ontology/v18#C09",
+      "described_for": [
+        "Bạc lá"
+      ],
+      "evidence": [
+        "E21",
+        "E22"
+      ],
+      "used_in_bottleneck": true,
+      "train_counts": {
+        "1": 1625,
+        "0": 618,
+        "9": 407
+      }
+    },
+    "C10": {
+      "name_vi": "Vùng/vết tổn thương màu xám – xám trắng",
+      "iri": "http://example.org/rice-cbm/ontology/v18#C10",
+      "described_for": [
+        "Bạc lá",
+        "Khô vằn"
+      ],
+      "evidence": [
+        "E16",
+        "E23"
+      ],
+      "used_in_bottleneck": true,
+      "train_counts": {
+        "1": 789,
+        "0": 366,
+        "9": 1495
+      }
+    },
+    "C11": {
+      "name_vi": "Viền ngoài vùng tổn thương có hình gợn sóng",
+      "iri": "http://example.org/rice-cbm/ontology/v18#C11",
+      "described_for": [
+        "Bạc lá"
+      ],
+      "evidence": [
+        "E24"
+      ],
+      "used_in_bottleneck": true,
+      "train_counts": {
+        "1": 190,
+        "0": 883,
+        "9": 1577
+      }
+    },
+    "C12": {
+      "name_vi": "Nhiều vết bệnh liên kết với nhau",
+      "iri": "http://example.org/rice-cbm/ontology/v18#C12",
+      "described_for": [
+        "Đạo ôn"
+      ],
+      "evidence": [
+        "E04"
+      ],
+      "used_in_bottleneck": true,
+      "train_counts": {
+        "1": 87,
+        "0": 639,
+        "9": 1924
+      }
+    },
+    "C13": {
+      "name_vi": "Tổn thương trên bẹ lá",
+      "iri": "http://example.org/rice-cbm/ontology/v18#C13",
+      "described_for": [
+        "Khô vằn",
+        "Bạc lá"
+      ],
+      "evidence": [
+        "E15",
+        "E25"
+      ],
+      "used_in_bottleneck": false,
+      "train_counts": {
+        "1": 0,
+        "0": 0,
+        "9": 2650
+      }
+    },
+    "C14": {
+      "name_vi": "Vết tổn thương có hình dạng không đều",
+      "iri": "http://example.org/rice-cbm/ontology/v18#C14",
+      "described_for": [
+        "Khô vằn"
+      ],
+      "evidence": [
+        "E17"
+      ],
+      "used_in_bottleneck": true,
+      "train_counts": {
+        "1": 1326,
+        "0": 552,
+        "9": 772
+      }
+    },
+    "C15": {
+      "name_vi": "Vết loang lỗ, vằn vện như da hổ",
+      "iri": "http://example.org/rice-cbm/ontology/v18#C15",
+      "described_for": [
+        "Khô vằn"
+      ],
+      "evidence": [
+        "E17"
+      ],
+      "used_in_bottleneck": true,
+      "train_counts": {
+        "1": 180,
+        "0": 1800,
+        "9": 670
+      }
+    },
+    "C16": {
+      "name_vi": "Không thấy tổn thương rõ trên phần phiến lá quan sát",
+      "iri": "http://example.org/rice-cbm/ontology/v18#C16",
+      "described_for": [],
+      "evidence": [],
+      "used_in_bottleneck": true,
+      "train_counts": {
+        "1": 234,
+        "0": 2262,
+        "9": 154
+      }
+    }
+  },
+  "bottleneck_concepts": [
+    "C01",
+    "C03",
+    "C04",
+    "C05",
+    "C06",
+    "C07",
+    "C09",
+    "C10",
+    "C11",
+    "C12",
+    "C14",
+    "C15",
+    "C16"
+  ],
+  "bottleneck_rule": ">= 80 ảnh nhãn 1 và >= 80 ảnh nhãn 0 trên train; sau train loại khỏi giải thích nếu AUC val < 0.75",
+  "label_constraints": [
+    {
+      "if": {
+        "C16": 1
+      },
+      "then_zero": [
+        "C01",
+        "C02",
+        "C03",
+        "C04",
+        "C05",
+        "C06",
+        "C07",
+        "C08",
+        "C09",
+        "C10",
+        "C11",
+        "C12",
+        "C14",
+        "C15"
+      ]
+    }
+  ],
+  "combinations": [
+    {
+      "code": "P01",
+      "disease": "Đạo ôn",
+      "required": [
+        "C01",
+        "C02",
+        "C03"
+      ],
+      "optional": [
+        "C05"
+      ],
+      "scope": "Cùng một vết",
+      "page": 141,
+      "evidence": [
+        "E01",
+        "E02",
+        "E03"
+      ],
+      "missing_from_bottleneck": [
+        "C02"
+      ],
+      "evaluable_from_model": false,
+      "interpretation": "C05 có thể bổ sung mô tả; thiếu C05 không tự loại đạo ôn. Đầu ra là phù hợp tổ hợp mô tả. Không có mức mạnh/rất mạnh hoặc xác suất. Thiếu tổ hợp không loại trừ bệnh."
+    },
+    {
+      "code": "P02",
+      "disease": "Đốm nâu",
+      "required": [
+        "C06",
+        "C07",
+        "C03",
+        "C08"
+      ],
+      "optional": [],
+      "scope": "Cùng một vết",
+      "page": 142,
+      "evidence": [
+        "E08",
+        "E09",
+        "E10"
+      ],
+      "missing_from_bottleneck": [
+        "C08"
+      ],
+      "evaluable_from_model": false,
+      "interpretation": "Đặc điểm nhiều đốm rời rạc của bản cũ đã bị loại. Không thấy rõ vòng đồng tâm là 9, không phải bằng chứng loại bệnh. Đầu ra là phù hợp tổ hợp mô tả. Không có mức mạnh/rất mạnh hoặc xác suất. Thiếu tổ hợp không loại trừ bệnh."
+    },
+    {
+      "code": "P03",
+      "disease": "Bạc lá",
+      "required": [
+        "C09",
+        "C10",
+        "C11"
+      ],
+      "optional": [
+        "C04"
+      ],
+      "scope": "Cùng vùng trên cùng lá",
+      "page": 145,
+      "evidence": [
+        "E21",
+        "E22",
+        "E23",
+        "E24"
+      ],
+      "missing_from_bottleneck": [],
+      "evaluable_from_model": true,
+      "interpretation": "C09 là vị trí quan sát, không khẳng định khởi phát; C04 có thể bổ sung. Đầu ra là phù hợp tổ hợp mô tả. Không có mức mạnh/rất mạnh hoặc xác suất. Thiếu tổ hợp không loại trừ bệnh. (v1.8: C10 nay gồm cả màu xám của khô vằn; cần C09 + C11 đi kèm để phù hợp bạc lá.)"
+    },
+    {
+      "code": "P04",
+      "disease": "Khô vằn",
+      "required": [
+        "C10",
+        "C03",
+        "C13"
+      ],
+      "optional": [
+        "C06",
+        "C15"
+      ],
+      "scope": "Cùng một vết trên bẹ",
+      "page": 143,
+      "evidence": [
+        "E15",
+        "E16",
+        "E17"
+      ],
+      "missing_from_bottleneck": [
+        "C13"
+      ],
+      "evaluable_from_model": false,
+      "interpretation": "Phù hợp một phần mô tả màu và vị trí; xem thêm C06 hoặc C15. Không dùng C13 đơn độc. Đầu ra là phù hợp tổ hợp mô tả. Không có mức mạnh/rất mạnh hoặc xác suất. Thiếu tổ hợp không loại trừ bệnh. (v1.8: C17 đã gộp vào C10.)"
+    }
+  ],
+  "combination_note": "Nhãn và dự đoán ở cấp ảnh: chỉ báo 'phù hợp ở cấp ảnh', không khẳng định cùng vết. Thiếu tổ hợp không loại trừ bệnh."
+}

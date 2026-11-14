@@ -1,0 +1,17 @@
+﻿code,name,diseases,evidence,unit,status,used_in_bottleneck,train_n1,train_n0,train_n9
+C01,"Vết hình mắt én, hai đầu hẹp, giữa phình",Đạo ôn,E01,Từng vết,ACTIVE_SOURCE,True,112,489,2049
+C02,Phần giữa vết bệnh màu xám tro,Đạo ôn,E01,Từng vết,ACTIVE_SOURCE,False,33,236,2381
+C03,Viền vết bệnh màu nâu,Đạo ôn; Đốm nâu; Khô vằn,E02; E09; E16,Từng vết,ACTIVE_SOURCE,True,1922,234,494
+C04,Vùng tổn thương kéo dài theo hướng gân lá,Bạc lá,E22,Cùng vùng trên cùng lá,ACTIVE_OPERATIONAL_FROM_SOURCE,True,2043,346,261
+C05,Quầng vàng phía ngoài viền nâu của vết,Đạo ôn,E03,Từng vết,ACTIVE_SOURCE,True,206,319,2125
+C06,Đốm hình tròn hoặc bầu dục,Đốm nâu; Khô vằn,E08; E15,Từng vết,ACTIVE_SOURCE,True,1163,376,1111
+C07,Phần chính của đốm trên lá màu nâu lợt,Đốm nâu,E09,Từng vết,ACTIVE_SOURCE,True,125,370,2155
+C08,Vòng đồng tâm bên trong vết đốm,Đốm nâu,E10,Từng vết,ACTIVE_SOURCE,False,8,377,2265
+C09,Tổn thương tiếp giáp chóp hoặc mép lá,Bạc lá,E21; E22,Cùng vùng trên cùng lá,ACTIVE_OPERATIONAL_FROM_SOURCE,True,1625,618,407
+C10,Vùng/vết tổn thương màu xám – xám trắng,Bạc lá; Khô vằn,E16; E23,Từng vết hoặc cùng vùng trên cùng lá/bẹ,ACTIVE_MERGED_FROM_SOURCE,True,789,366,1495
+C11,Viền ngoài vùng tổn thương có hình gợn sóng,Bạc lá,E24,Cùng vùng trên cùng lá,ACTIVE_SOURCE,True,190,883,1577
+C12,Nhiều vết bệnh liên kết với nhau,Đạo ôn,E04,Cùng vùng trên cùng lá,ACTIVE_SOURCE,True,87,639,1924
+C13,Tổn thương trên bẹ lá,Khô vằn; Bạc lá,E15; E25,Bẹ lá mang tổn thương,ACTIVE_SOURCE,False,0,0,2650
+C14,Vết tổn thương có hình dạng không đều,Khô vằn,E17,Từng vết,ACTIVE_OPERATIONAL_FROM_SOURCE,True,1326,552,772
+C15,"Vết loang lỗ, vằn vện như da hổ",Khô vằn,E17,Cùng vùng trên cùng lá hoặc bẹ,ACTIVE_SOURCE,True,180,1800,670
+C16,Không thấy tổn thương rõ trên phần phiến lá quan sát,,,Phần phiến lá quan sát,ACTIVE_PROJECT_LABEL,True,234,2262,154

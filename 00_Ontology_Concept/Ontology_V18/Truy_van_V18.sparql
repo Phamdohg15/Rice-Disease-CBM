@@ -1,0 +1,39 @@
+PREFIX ex:   <http://example.org/rice-cbm/ontology/v18#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+# Mỗi khối dưới đây là một SELECT riêng; trong Protégé (SPARQL Query) chạy từng khối.
+# Kết quả là tra cứu tri thức, không phải chẩn đoán.
+
+# --- 1. Concept được sách mô tả cho từng bệnh, kèm bằng chứng và trang
+PREFIX ex:   <http://example.org/rice-cbm/ontology/v18#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?benh ?ma ?concept ?bangchung ?trang ?trichdoan WHERE {
+  ?c ex:describedForDisease ?d ; ex:code ?ma ; rdfs:label ?concept ; ex:hasEvidence ?e .
+  ?d rdfs:label ?benh .
+  ?e ex:code ?bangchung ; ex:printedPage ?trang ; ex:quote ?trichdoan ; ex:evidenceAbout ?d .
+} ORDER BY ?benh ?ma
+
+# --- 2. Tổ hợp ứng viên P01–P04, concept bắt buộc và có đánh giá được từ mô hình không
+PREFIX ex:   <http://example.org/rice-cbm/ontology/v18#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?tohop ?benh ?concept ?trongBottleneck ?danhGiaDuoc WHERE {
+  ?p a ex:CandidateCombination ; ex:code ?tohop ; ex:combinationFor ?d ;
+     ex:requiresConcept ?c ; ex:evaluableFromModel ?danhGiaDuoc .
+  ?d rdfs:label ?benh .
+  ?c ex:code ?concept ; ex:usedInBottleneck ?trongBottleneck .
+} ORDER BY ?tohop ?concept
+
+# --- 3. Concept đưa vào bottleneck CBM và số nhãn train
+PREFIX ex:   <http://example.org/rice-cbm/ontology/v18#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?ma ?ten ?n1 ?n0 ?n9 ?trongBottleneck WHERE {
+  ?c a ex:VisualConcept ; ex:code ?ma ; rdfs:label ?ten ; ex:usedInBottleneck ?trongBottleneck ;
+     ex:trainPositive ?n1 ; ex:trainNegative ?n0 ; ex:trainUnknown ?n9 .
+} ORDER BY ?ma
+
+# --- 4. Concept dùng chung cho nhiều bệnh (không đặc hiệu)
+PREFIX ex:   <http://example.org/rice-cbm/ontology/v18#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?ma ?ten (COUNT(DISTINCT ?d) AS ?soBenh) WHERE {
+  ?c ex:code ?ma ; rdfs:label ?ten ; ex:describedForDisease ?d .
+} GROUP BY ?ma ?ten HAVING (COUNT(DISTINCT ?d) > 1) ORDER BY ?ma

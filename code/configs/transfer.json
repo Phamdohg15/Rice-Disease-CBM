@@ -1,0 +1,25 @@
+{
+  "_ghi_chu": "Thi nghiem transfer learning (2026-11-14). Chien luoc A (fine-tune toan bo) = cac luot da co trong runs/. File nay chi dung cho run_tl.py.",
+  "runs_root": "runs_tl",
+  "stage1": {
+    "_ghi_chu": "Giai doan 1: dong bang toan bo backbone, chi hoc phan dau moi (baseline: lop Linear cuoi; CBM: chieu 1x1 + Transformer + truy van concept + dau concept + MLP)",
+    "learning_rate": 0.001,
+    "epochs": 30,
+    "patience": 10
+  },
+  "stage2": {
+    "_ghi_chu": "Giai doan 2: mo khoi stride-32 cua backbone, mot lr chung cho moi tham so dang hoc (theo notebook cua thay: 1e-3 roi 1e-5)",
+    "learning_rate": 0.00001,
+    "epochs": 30,
+    "patience": 10
+  },
+  "freeze_batchnorm": true,
+  "_ghi_chu_unfreeze": "Quy tac chung cho 5 backbone: mo toan bo cac khoi chay o do phan giai thap nhat (stride 32), ke ca lop ha mau dau khoi. BatchNorm trong cac khoi nay van dong bang.",
+  "unfreeze_stride32": {
+    "resnet18": ["layer4"],
+    "densenet121": ["features.transition3", "features.denseblock4", "features.norm5"],
+    "efficientnet_b0": ["features.6", "features.7", "features.8"],
+    "convnext_tiny": ["features.6", "features.7"],
+    "mobilenet_v2": ["features.14", "features.15", "features.16", "features.17", "features.18"]
+  }
+}

@@ -1,0 +1,23 @@
+﻿HƯỚNG DẪN SỬ DỤNG – ỨNG DỤNG CHẨN ĐOÁN BỆNH LÁ LÚA
+=====================================================
+
+Yêu cầu: máy Windows 10/11 64-bit. Không cần internet, không cần cài Python hay thư viện nào.
+
+1. Chép NGUYÊN thư mục "ChanDoanLua" sang máy cần chạy (USB, ổ cứng...).
+   Nên đặt ở đường dẫn ngắn, ví dụ D:\ChanDoanLua hoặc Desktop.
+2. Bấm đúp "chay_app.bat".
+   - Cửa sổ đen hiện ra, đợi khoảng 10–20 giây để nạp mô hình.
+   - Trình duyệt tự mở trang chẩn đoán. Nếu không tự mở, vào http://127.0.0.1:8000
+3. Chọn ảnh lá lúa (bấm, kéo thả hoặc Ctrl+V). Có sẵn 5 ảnh mẫu trong thư mục "anh_mau".
+4. Bấm "Dự đoán ảnh mới" để thử ảnh khác.
+5. Tắt app: đóng cửa sổ đen.
+
+Ghi chú
+- App chạy bằng CPU; mỗi ảnh mất khoảng dưới 1 giây.
+- Nếu Windows hỏi quyền mạng (Firewall) cho python.exe: chọn Cho phép / Allow
+  (app chỉ chạy trên chính máy này, không gửi dữ liệu ra ngoài).
+- Nếu cổng 8000 đang bận, app tự chuyển sang 8001, 8002... (xem dòng địa chỉ trong cửa sổ đen).
+- Đổi ngưỡng "Không chắc chắn" hoặc độ đậm heatmap mặc định: sửa app_config.json.
+
+Mô hình: ConvNeXt-Tiny + Concept Attention + CBM (14 concept V1.8) + MLP, seed 43.
+Kiểm tra chéo: Ontology bệnh lúa V1.8 (tổ hợp P01–P04, ràng buộc lá khỏe C16).

@@ -1,0 +1,6 @@
+,01_dao_on,02_dom_nau,03_bac_la,04_kho_van,05_la_khoe
+01_dao_on,24,2,1,0,0
+02_dom_nau,1,24,0,0,1
+03_bac_la,2,1,21,0,0
+04_kho_van,1,0,3,23,0
+05_la_khoe,1,2,0,0,19

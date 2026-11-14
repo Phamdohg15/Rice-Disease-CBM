@@ -1,0 +1,217 @@
+{
+  "_nguon": "Ontology V1.8 (D:\\Thesis\\Ontology\\Ontology_V18): Concept_V18.csv + cbm_mapping_V18.json. Concept trong mo hinh = 14 concept bottleneck.",
+  "classes": {
+    "01_dao_on": "Đạo ôn",
+    "02_dom_nau": "Đốm nâu",
+    "03_bac_la": "Bạc lá",
+    "04_kho_van": "Khô vằn",
+    "05_la_khoe": "Lá khỏe"
+  },
+  "concepts": {
+    "C01": {
+      "ten": "Vết hình mắt én, hai đầu hẹp, giữa phình",
+      "mo_ta_cho_benh": [
+        "Đạo ôn"
+      ]
+    },
+    "C02": {
+      "ten": "Phần giữa vết bệnh màu xám tro",
+      "mo_ta_cho_benh": [
+        "Đạo ôn"
+      ]
+    },
+    "C03": {
+      "ten": "Viền vết bệnh màu nâu",
+      "mo_ta_cho_benh": [
+        "Đạo ôn",
+        "Đốm nâu",
+        "Khô vằn"
+      ]
+    },
+    "C04": {
+      "ten": "Vùng tổn thương kéo dài theo hướng gân lá",
+      "mo_ta_cho_benh": [
+        "Bạc lá"
+      ]
+    },
+    "C05": {
+      "ten": "Quầng vàng phía ngoài viền nâu của vết",
+      "mo_ta_cho_benh": [
+        "Đạo ôn"
+      ]
+    },
+    "C06": {
+      "ten": "Đốm hình tròn hoặc bầu dục",
+      "mo_ta_cho_benh": [
+        "Đốm nâu",
+        "Khô vằn"
+      ]
+    },
+    "C07": {
+      "ten": "Phần chính của đốm trên lá màu nâu lợt",
+      "mo_ta_cho_benh": [
+        "Đốm nâu"
+      ]
+    },
+    "C09": {
+      "ten": "Tổn thương tiếp giáp chóp hoặc mép lá",
+      "mo_ta_cho_benh": [
+        "Bạc lá"
+      ]
+    },
+    "C10": {
+      "ten": "Vùng/vết tổn thương màu xám – xám trắng",
+      "mo_ta_cho_benh": [
+        "Bạc lá",
+        "Khô vằn"
+      ]
+    },
+    "C11": {
+      "ten": "Viền ngoài vùng tổn thương có hình gợn sóng",
+      "mo_ta_cho_benh": [
+        "Bạc lá"
+      ]
+    },
+    "C12": {
+      "ten": "Nhiều vết bệnh liên kết với nhau",
+      "mo_ta_cho_benh": [
+        "Đạo ôn"
+      ]
+    },
+    "C14": {
+      "ten": "Vết tổn thương có hình dạng không đều",
+      "mo_ta_cho_benh": [
+        "Khô vằn"
+      ]
+    },
+    "C15": {
+      "ten": "Vết loang lỗ, vằn vện như da hổ",
+      "mo_ta_cho_benh": [
+        "Khô vằn"
+      ]
+    },
+    "C16": {
+      "ten": "Không thấy tổn thương rõ trên phần phiến lá quan sát",
+      "mo_ta_cho_benh": []
+    }
+  },
+  "khong_do_duoc": {
+    "C08": "Vòng đồng tâm bên trong vết đốm",
+    "C13": "Tổn thương trên bẹ lá"
+  },
+  "to_hop": [
+    {
+      "ma": "P01",
+      "benh": "01_dao_on",
+      "ten_benh": "Đạo ôn",
+      "bat_buoc": [
+        "C01",
+        "C02",
+        "C03"
+      ],
+      "tuy_chon": [
+        "C05"
+      ],
+      "pham_vi": "Cùng một vết",
+      "trang": 141,
+      "bang_chung": [
+        "E01",
+        "E02",
+        "E03"
+      ],
+      "bat_buoc_do_duoc": [
+        "C01",
+        "C02",
+        "C03"
+      ],
+      "bat_buoc_chua_do": []
+    },
+    {
+      "ma": "P02",
+      "benh": "02_dom_nau",
+      "ten_benh": "Đốm nâu",
+      "bat_buoc": [
+        "C06",
+        "C07",
+        "C03",
+        "C08"
+      ],
+      "tuy_chon": [],
+      "pham_vi": "Cùng một vết",
+      "trang": 142,
+      "bang_chung": [
+        "E08",
+        "E09",
+        "E10"
+      ],
+      "bat_buoc_do_duoc": [
+        "C06",
+        "C07",
+        "C03"
+      ],
+      "bat_buoc_chua_do": [
+        "C08"
+      ]
+    },
+    {
+      "ma": "P03",
+      "benh": "03_bac_la",
+      "ten_benh": "Bạc lá",
+      "bat_buoc": [
+        "C09",
+        "C10",
+        "C11"
+      ],
+      "tuy_chon": [
+        "C04"
+      ],
+      "pham_vi": "Cùng vùng trên cùng lá",
+      "trang": 145,
+      "bang_chung": [
+        "E21",
+        "E22",
+        "E23",
+        "E24"
+      ],
+      "bat_buoc_do_duoc": [
+        "C09",
+        "C10",
+        "C11"
+      ],
+      "bat_buoc_chua_do": []
+    },
+    {
+      "ma": "P04",
+      "benh": "04_kho_van",
+      "ten_benh": "Khô vằn",
+      "bat_buoc": [
+        "C10",
+        "C03",
+        "C13"
+      ],
+      "tuy_chon": [
+        "C06",
+        "C15"
+      ],
+      "pham_vi": "Cùng một vết trên bẹ",
+      "trang": 143,
+      "bang_chung": [
+        "E15",
+        "E16",
+        "E17"
+      ],
+      "bat_buoc_do_duoc": [
+        "C10",
+        "C03"
+      ],
+      "bat_buoc_chua_do": [
+        "C13"
+      ]
+    }
+  ],
+  "la_khoe": {
+    "concept": "C16",
+    "ghi_chu": "Lá khỏe: C16 bật và không có concept tổn thương nào bật (ràng buộc nhãn của ontology)."
+  },
+  "ghi_chu_chung": "Nhãn và dự đoán ở cấp ảnh: chỉ báo 'phù hợp ở cấp ảnh', không khẳng định cùng vết. Thiếu tổ hợp không loại trừ bệnh."
+}

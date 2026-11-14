@@ -1,0 +1,56 @@
+[13:00:31] === resnet18_cbm_seed43 | GPU NVIDIA GeForce RTX 5070 | 16 concept ===
+[13:00:31] So anh: train=587, val=126, test=126
+[13:00:32] Tham so: 12,425,941
+[13:01:08] epoch 01 | train loss=2.5011 F1=0.1287 | val CE=1.6030 acc=0.1349 F1=0.0741 val_cAUC=0.659 | 36s *
+[13:01:28] epoch 02 | train loss=2.3456 F1=0.2330 | val CE=1.5252 acc=0.3889 F1=0.2624 val_cAUC=0.794 | 20s *
+[13:01:47] epoch 03 | train loss=2.1575 F1=0.4011 | val CE=1.4335 acc=0.4683 F1=0.3654 val_cAUC=0.853 | 20s *
+[13:02:07] epoch 04 | train loss=2.0135 F1=0.4044 | val CE=1.3341 acc=0.5635 F1=0.4467 val_cAUC=0.888 | 20s *
+[13:02:27] epoch 05 | train loss=1.8491 F1=0.4683 | val CE=1.2285 acc=0.5952 F1=0.5268 val_cAUC=0.876 | 20s *
+[13:02:46] epoch 06 | train loss=1.6863 F1=0.5465 | val CE=1.1008 acc=0.5952 F1=0.5227 val_cAUC=0.881 | 20s
+[13:03:06] epoch 07 | train loss=1.5433 F1=0.5713 | val CE=1.0215 acc=0.6190 F1=0.5713 val_cAUC=0.886 | 20s *
+[13:03:26] epoch 08 | train loss=1.5009 F1=0.5441 | val CE=0.8822 acc=0.6746 F1=0.6015 val_cAUC=0.887 | 20s *
+[13:03:46] epoch 09 | train loss=1.3485 F1=0.6248 | val CE=0.8721 acc=0.6587 F1=0.6465 val_cAUC=0.903 | 20s *
+[13:04:05] epoch 10 | train loss=1.2414 F1=0.6905 | val CE=0.8336 acc=0.7143 F1=0.7205 val_cAUC=0.895 | 20s *
+[13:04:25] epoch 11 | train loss=1.1465 F1=0.7645 | val CE=0.7574 acc=0.7222 F1=0.7155 val_cAUC=0.896 | 20s
+[13:04:45] epoch 12 | train loss=1.0849 F1=0.7859 | val CE=0.7062 acc=0.7381 F1=0.7379 val_cAUC=0.900 | 20s *
+[13:05:04] epoch 13 | train loss=1.0553 F1=0.7934 | val CE=0.7161 acc=0.7381 F1=0.7387 val_cAUC=0.907 | 20s *
+[13:05:24] epoch 14 | train loss=1.0147 F1=0.8149 | val CE=0.6703 acc=0.7698 F1=0.7725 val_cAUC=0.905 | 20s *
+[13:05:44] epoch 15 | train loss=0.9465 F1=0.8535 | val CE=0.6159 acc=0.8095 F1=0.8075 val_cAUC=0.910 | 20s *
+[13:06:03] epoch 16 | train loss=0.9166 F1=0.8610 | val CE=0.6459 acc=0.7857 F1=0.7840 val_cAUC=0.917 | 20s
+[13:06:23] epoch 17 | train loss=0.8710 F1=0.8884 | val CE=0.6118 acc=0.7778 F1=0.7836 val_cAUC=0.911 | 20s
+[13:06:43] epoch 18 | train loss=0.8192 F1=0.8923 | val CE=0.5497 acc=0.8571 F1=0.8599 val_cAUC=0.913 | 20s *
+[13:07:02] epoch 19 | train loss=0.7606 F1=0.9134 | val CE=0.4918 acc=0.8413 F1=0.8469 val_cAUC=0.907 | 20s
+[13:07:22] epoch 20 | train loss=0.7133 F1=0.9365 | val CE=0.5446 acc=0.7937 F1=0.8002 val_cAUC=0.918 | 20s
+[13:07:42] epoch 21 | train loss=0.7095 F1=0.9229 | val CE=0.6939 acc=0.7857 F1=0.7900 val_cAUC=0.919 | 20s
+[13:08:01] epoch 22 | train loss=0.7107 F1=0.9007 | val CE=0.5603 acc=0.8413 F1=0.8431 val_cAUC=0.916 | 20s
+[13:08:21] epoch 23 | train loss=0.6332 F1=0.9461 | val CE=0.5359 acc=0.8333 F1=0.8399 val_cAUC=0.918 | 20s
+[13:08:41] epoch 24 | train loss=0.6021 F1=0.9599 | val CE=0.4805 acc=0.8651 F1=0.8689 val_cAUC=0.923 | 20s *
+[13:09:00] epoch 25 | train loss=0.5689 F1=0.9615 | val CE=0.4734 acc=0.8492 F1=0.8543 val_cAUC=0.922 | 20s
+[13:09:20] epoch 26 | train loss=0.5409 F1=0.9731 | val CE=0.4386 acc=0.8413 F1=0.8472 val_cAUC=0.919 | 20s
+[13:09:40] epoch 27 | train loss=0.5274 F1=0.9715 | val CE=0.4917 acc=0.8492 F1=0.8533 val_cAUC=0.916 | 20s
+[13:10:00] epoch 28 | train loss=0.5266 F1=0.9717 | val CE=0.5209 acc=0.8492 F1=0.8532 val_cAUC=0.912 | 20s
+[13:10:19] epoch 29 | train loss=0.5086 F1=0.9764 | val CE=0.5162 acc=0.8333 F1=0.8376 val_cAUC=0.922 | 20s
+[13:10:39] epoch 30 | train loss=0.4852 F1=0.9764 | val CE=0.5032 acc=0.8492 F1=0.8532 val_cAUC=0.919 | 20s
+[13:10:59] epoch 31 | train loss=0.4849 F1=0.9799 | val CE=0.4385 acc=0.8810 F1=0.8840 val_cAUC=0.925 | 20s *
+[13:11:18] epoch 32 | train loss=0.4543 F1=0.9884 | val CE=0.4279 acc=0.8651 F1=0.8688 val_cAUC=0.923 | 20s
+[13:11:38] epoch 33 | train loss=0.4402 F1=0.9932 | val CE=0.4491 acc=0.8810 F1=0.8821 val_cAUC=0.927 | 20s
+[13:11:58] epoch 34 | train loss=0.4407 F1=0.9832 | val CE=0.5563 acc=0.8651 F1=0.8679 val_cAUC=0.927 | 20s
+[13:12:17] epoch 35 | train loss=0.4171 F1=0.9901 | val CE=0.5040 acc=0.8333 F1=0.8378 val_cAUC=0.930 | 20s
+[13:12:37] epoch 36 | train loss=0.4093 F1=0.9918 | val CE=0.4512 acc=0.8810 F1=0.8842 val_cAUC=0.929 | 20s *
+[13:12:57] epoch 37 | train loss=0.4010 F1=0.9950 | val CE=0.4828 acc=0.8651 F1=0.8683 val_cAUC=0.930 | 20s
+[13:13:16] epoch 38 | train loss=0.4102 F1=0.9900 | val CE=0.4345 acc=0.8810 F1=0.8836 val_cAUC=0.929 | 20s
+[13:13:36] epoch 39 | train loss=0.3933 F1=0.9966 | val CE=0.4280 acc=0.8810 F1=0.8836 val_cAUC=0.929 | 20s
+[13:13:56] epoch 40 | train loss=0.3764 F1=0.9983 | val CE=0.4357 acc=0.8810 F1=0.8836 val_cAUC=0.930 | 20s
+[13:14:16] epoch 41 | train loss=0.3666 F1=0.9983 | val CE=0.4332 acc=0.8651 F1=0.8683 val_cAUC=0.929 | 20s
+[13:14:35] epoch 42 | train loss=0.3571 F1=0.9949 | val CE=0.4282 acc=0.8651 F1=0.8686 val_cAUC=0.931 | 20s
+[13:14:55] epoch 43 | train loss=0.3668 F1=0.9933 | val CE=0.4125 acc=0.8492 F1=0.8541 val_cAUC=0.931 | 20s
+[13:15:14] epoch 44 | train loss=0.3559 F1=0.9984 | val CE=0.4590 acc=0.8730 F1=0.8757 val_cAUC=0.931 | 20s
+[13:15:34] epoch 45 | train loss=0.3608 F1=0.9933 | val CE=0.4186 acc=0.8571 F1=0.8613 val_cAUC=0.928 | 20s
+[13:15:54] epoch 46 | train loss=0.3479 F1=0.9984 | val CE=0.4192 acc=0.8651 F1=0.8693 val_cAUC=0.928 | 20s
+[13:16:13] epoch 47 | train loss=0.3450 F1=0.9967 | val CE=0.4358 acc=0.8651 F1=0.8688 val_cAUC=0.927 | 20s
+[13:16:33] epoch 48 | train loss=0.3368 F1=1.0000 | val CE=0.4372 acc=0.8730 F1=0.8760 val_cAUC=0.927 | 20s
+[13:16:33] Early stopping sau 12 epoch khong cai thien
+[13:16:33] Train xong: 48 epoch, best epoch 36, 16.0 phut
+[13:16:37] VAL: acc=0.8810 F1=0.8842 concept AUC=0.929 F1=0.728
+[13:16:40] TEST: acc=0.8651 F1=0.8681 concept AUC=0.889 F1=0.671
+[13:16:40] XONG

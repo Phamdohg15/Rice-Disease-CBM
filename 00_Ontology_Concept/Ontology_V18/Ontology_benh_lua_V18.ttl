@@ -1,0 +1,1204 @@
+@prefix ex: <http://example.org/rice-cbm/ontology/v18#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/rice-cbm/ontology/v18>
+    a owl:Ontology ;
+    rdfs:comment "16 concept C01–C16 theo Bang_concept_v1_8. Nguồn bệnh học duy nhất: S01 Giáo trình Cây lúa (2008). Tổ hợp P01–P04 là thiết kế truy vấn nghiên cứu, không phải luật chẩn đoán. Không có SWRL hoặc tiên đề điều kiện đủ."@vi ;
+    rdfs:label "Ontology bệnh lúa cho CBM – concept V1.8"@vi ;
+    owl:priorVersion <https://example.org/rice-v16-two-books> ;
+    owl:versionInfo "1.8.0" .
+
+ex:BacterialDisease
+    a owl:Class ;
+    rdfs:label "Bệnh do vi khuẩn"@vi ;
+    rdfs:subClassOf ex:RiceDisease .
+
+ex:C01
+    a ex:VisualConcept ,
+        owl:NamedIndividual ;
+    ex:assignedPer ex:U_TungVet ;
+    ex:basis "Trực tiếp từ giáo trình"@vi ;
+    ex:bottleneckStatus "Đưa vào bottleneck"@vi ;
+    ex:bottleneckTodo "Rà lại ảnh đạo ôn (phóng to); bổ sung ảnh rõ dấu từ bộ paddy."@vi ;
+    ex:code "C01" ;
+    ex:conceptStatus "ACTIVE_SOURCE" ;
+    ex:describedForDisease ex:D_DaoOn ;
+    ex:hasEvidence ex:E01 ;
+    ex:migrationFromV17 "Giữ nguyên mã và nhãn v1.7."@vi ;
+    ex:observableOnLeafImages "true"^^xsd:boolean ;
+    ex:rule0 "Vùng cần xét đủ rõ và xác nhận không có đặc điểm này; không suy từ nhãn bệnh."@vi ;
+    ex:rule1 "Vùng cần xét đủ rõ và có đặc điểm đúng định nghĩa; lưu định danh vết/vùng tương ứng."@vi ;
+    ex:rule9 "Không thấy đủ vùng cần xét, ảnh mờ, bị che/cắt hoặc không đủ chi tiết để quyết định."@vi ;
+    ex:sourcePages "S01, tr. 141"@vi ;
+    ex:trainNegative "489"^^xsd:integer ;
+    ex:trainPositive "112"^^xsd:integer ;
+    ex:trainUnknown "2049"^^xsd:integer ;
+    ex:usedInBottleneck "true"^^xsd:boolean ;
+    rdfs:label "Vết hình mắt én, hai đầu hẹp, giữa phình"@vi ;
+    skos:definition "Một vết có phần giữa phình và hai đầu hẹp, tạo hình mắt én. Không yêu cầu hướng theo chiều lá."@vi .
+
+ex:C02
+    a ex:VisualConcept ,
+        owl:NamedIndividual ;
+    ex:assignedPer ex:U_TungVet ;
+    ex:basis "Trực tiếp từ giáo trình"@vi ;
+    ex:bottleneckStatus "Chờ rà lại (chưa đủ dữ liệu)"@vi ;
+    ex:bottleneckTodo "Như C01."@vi ;
+    ex:code "C02" ;
+    ex:conceptStatus "ACTIVE_SOURCE" ;
+    ex:describedForDisease ex:D_DaoOn ;
+    ex:hasEvidence ex:E01 ;
+    ex:migrationFromV17 "Giữ nguyên mã và nhãn v1.7."@vi ;
+    ex:observableOnLeafImages "true"^^xsd:boolean ;
+    ex:rule0 "Vùng cần xét đủ rõ và xác nhận không có đặc điểm này; không suy từ nhãn bệnh."@vi ;
+    ex:rule1 "Vùng cần xét đủ rõ và có đặc điểm đúng định nghĩa; lưu định danh vết/vùng tương ứng."@vi ;
+    ex:rule9 "Không thấy đủ vùng cần xét, ảnh mờ, bị che/cắt hoặc không đủ chi tiết để quyết định."@vi ;
+    ex:sourcePages "S01, tr. 141"@vi ;
+    ex:trainNegative "236"^^xsd:integer ;
+    ex:trainPositive "33"^^xsd:integer ;
+    ex:trainUnknown "2381"^^xsd:integer ;
+    ex:usedInBottleneck "false"^^xsd:boolean ;
+    rdfs:label "Phần giữa vết bệnh màu xám tro"@vi ;
+    skos:definition "Phần giữa của vết bệnh có màu xám tro; không đồng nhất màu giữa vết với màu toàn vết hoặc màu trắng."@vi .
+
+ex:C03
+    a ex:VisualConcept ,
+        owl:NamedIndividual ;
+    ex:assignedPer ex:U_TungVet ;
+    ex:basis "Trực tiếp từ giáo trình"@vi ;
+    ex:bottleneckStatus "Đưa vào bottleneck"@vi ;
+    ex:code "C03" ;
+    ex:conceptStatus "ACTIVE_SOURCE" ;
+    ex:describedForDisease ex:D_DaoOn ,
+        ex:D_DomNau ,
+        ex:D_KhoVan ;
+    ex:hasEvidence ex:E02 ,
+        ex:E09 ,
+        ex:E16 ;
+    ex:migrationFromV17 "Giữ nguyên mã và nhãn v1.7."@vi ;
+    ex:observableOnLeafImages "true"^^xsd:boolean ;
+    ex:rule0 "Vùng cần xét đủ rõ và xác nhận không có đặc điểm này; không suy từ nhãn bệnh."@vi ;
+    ex:rule1 "Vùng cần xét đủ rõ và có đặc điểm đúng định nghĩa; lưu định danh vết/vùng tương ứng."@vi ;
+    ex:rule9 "Không thấy đủ vùng cần xét, ảnh mờ, bị che/cắt hoặc không đủ chi tiết để quyết định."@vi ;
+    ex:sourcePages "S01, tr. 141; 142; 143"@vi ;
+    ex:trainNegative "234"^^xsd:integer ;
+    ex:trainPositive "1922"^^xsd:integer ;
+    ex:trainUnknown "494"^^xsd:integer ;
+    ex:usedInBottleneck "true"^^xsd:boolean ;
+    rdfs:label "Viền vết bệnh màu nâu"@vi ;
+    skos:definition "Dải màu nâu tạo viền quanh vết; đốm nâu được mô tả viền nâu sậm. Không mở rộng riêng thành nâu đỏ khi sách chưa nêu."@vi .
+
+ex:C04
+    a ex:VisualConcept ,
+        owl:NamedIndividual ;
+    ex:assignedPer ex:U_CungVungTrenLa ;
+    ex:basis "Diễn giải gán ảnh từ giáo trình"@vi ;
+    ex:bottleneckStatus "Đưa vào bottleneck"@vi ;
+    ex:code "C04" ;
+    ex:conceptStatus "ACTIVE_OPERATIONAL_FROM_SOURCE" ;
+    ex:describedForDisease ex:D_BacLa ;
+    ex:hasEvidence ex:E22 ;
+    ex:migrationFromV17 "Giữ nguyên mã và nhãn v1.7."@vi ;
+    ex:observableOnLeafImages "true"^^xsd:boolean ;
+    ex:rule0 "Vùng cần xét đủ rõ và xác nhận không có đặc điểm này; không suy từ nhãn bệnh."@vi ;
+    ex:rule1 "Vùng cần xét đủ rõ và có đặc điểm đúng định nghĩa; lưu định danh vết/vùng tương ứng."@vi ;
+    ex:rule9 "Không thấy đủ vùng cần xét, ảnh mờ, bị che/cắt hoặc không đủ chi tiết để quyết định."@vi ;
+    ex:sourcePages "S01, tr. 145"@vi ;
+    ex:trainNegative "346"^^xsd:integer ;
+    ex:trainPositive "2043"^^xsd:integer ;
+    ex:trainUnknown "261"^^xsd:integer ;
+    ex:usedInBottleneck "true"^^xsd:boolean ;
+    rdfs:label "Vùng tổn thương kéo dài theo hướng gân lá"@vi ;
+    skos:definition "Vùng tổn thương quan sát được có hướng kéo dài dọc gân lá. Đây là diễn giải để gán trạng thái ảnh từ mô tả diễn tiến trong sách."@vi .
+
+ex:C05
+    a ex:VisualConcept ,
+        owl:NamedIndividual ;
+    ex:assignedPer ex:U_TungVet ;
+    ex:basis "Trực tiếp từ giáo trình"@vi ;
+    ex:bottleneckStatus "Đưa vào bottleneck"@vi ;
+    ex:bottleneckTodo "Đủ tối thiểu; theo dõi AUC."@vi ;
+    ex:code "C05" ;
+    ex:conceptStatus "ACTIVE_SOURCE" ;
+    ex:describedForDisease ex:D_DaoOn ;
+    ex:hasEvidence ex:E03 ;
+    ex:migrationFromV17 "Giữ nguyên mã và nhãn v1.7."@vi ;
+    ex:observableOnLeafImages "true"^^xsd:boolean ;
+    ex:rule0 "Vùng cần xét đủ rõ và xác nhận không có đặc điểm này; không suy từ nhãn bệnh."@vi ;
+    ex:rule1 "Vùng cần xét đủ rõ và có đặc điểm đúng định nghĩa; lưu định danh vết/vùng tương ứng."@vi ;
+    ex:rule9 "Không thấy đủ vùng cần xét, ảnh mờ, bị che/cắt hoặc không đủ chi tiết để quyết định."@vi ;
+    ex:sourcePages "S01, tr. 141"@vi ;
+    ex:trainNegative "319"^^xsd:integer ;
+    ex:trainPositive "206"^^xsd:integer ;
+    ex:trainUnknown "2125"^^xsd:integer ;
+    ex:usedInBottleneck "true"^^xsd:boolean ;
+    rdfs:label "Quầng vàng phía ngoài viền nâu của vết"@vi ;
+    skos:definition "Vùng vàng tạo quầng phía ngoài viền nâu của cùng một vết. Phân biệt với vàng cả lá hoặc sọc vàng."@vi .
+
+ex:C06
+    a ex:VisualConcept ,
+        owl:NamedIndividual ;
+    ex:assignedPer ex:U_TungVet ;
+    ex:basis "Trực tiếp từ giáo trình"@vi ;
+    ex:bottleneckStatus "Đưa vào bottleneck"@vi ;
+    ex:code "C06" ;
+    ex:conceptStatus "ACTIVE_SOURCE" ;
+    ex:describedForDisease ex:D_DomNau ,
+        ex:D_KhoVan ;
+    ex:hasEvidence ex:E08 ,
+        ex:E15 ;
+    ex:migrationFromV17 "Giữ nguyên mã và nhãn v1.7."@vi ;
+    ex:observableOnLeafImages "true"^^xsd:boolean ;
+    ex:rule0 "Vùng cần xét đủ rõ và xác nhận không có đặc điểm này; không suy từ nhãn bệnh."@vi ;
+    ex:rule1 "Vùng cần xét đủ rõ và có đặc điểm đúng định nghĩa; lưu định danh vết/vùng tương ứng."@vi ;
+    ex:rule9 "Không thấy đủ vùng cần xét, ảnh mờ, bị che/cắt hoặc không đủ chi tiết để quyết định."@vi ;
+    ex:sourcePages "S01, tr. 142; 143"@vi ;
+    ex:trainNegative "376"^^xsd:integer ;
+    ex:trainPositive "1163"^^xsd:integer ;
+    ex:trainUnknown "1111"^^xsd:integer ;
+    ex:usedInBottleneck "true"^^xsd:boolean ;
+    rdfs:label "Đốm hình tròn hoặc bầu dục"@vi ;
+    skos:definition "Một đốm có hình tròn hoặc bầu dục; không đặt yêu cầu nhỏ hoặc ngưỡng kích thước."@vi .
+
+ex:C07
+    a ex:VisualConcept ,
+        owl:NamedIndividual ;
+    ex:assignedPer ex:U_TungVet ;
+    ex:basis "Trực tiếp từ giáo trình"@vi ;
+    ex:bottleneckStatus "Đưa vào bottleneck"@vi ;
+    ex:bottleneckTodo "Rà lại ảnh đốm nâu; bổ sung ảnh rõ dấu."@vi ;
+    ex:code "C07" ;
+    ex:conceptStatus "ACTIVE_SOURCE" ;
+    ex:describedForDisease ex:D_DomNau ;
+    ex:hasEvidence ex:E09 ;
+    ex:migrationFromV17 "Giữ nguyên mã và nhãn v1.7."@vi ;
+    ex:observableOnLeafImages "true"^^xsd:boolean ;
+    ex:rule0 "Vùng cần xét đủ rõ và xác nhận không có đặc điểm này; không suy từ nhãn bệnh."@vi ;
+    ex:rule1 "Vùng cần xét đủ rõ và có đặc điểm đúng định nghĩa; lưu định danh vết/vùng tương ứng."@vi ;
+    ex:rule9 "Không thấy đủ vùng cần xét, ảnh mờ, bị che/cắt hoặc không đủ chi tiết để quyết định."@vi ;
+    ex:sourcePages "S01, tr. 142"@vi ;
+    ex:trainNegative "370"^^xsd:integer ;
+    ex:trainPositive "125"^^xsd:integer ;
+    ex:trainUnknown "2155"^^xsd:integer ;
+    ex:usedInBottleneck "true"^^xsd:boolean ;
+    rdfs:label "Phần chính của đốm trên lá màu nâu lợt"@vi ;
+    skos:definition "Phần chính bên trong đốm trên lá có màu nâu lợt. Màu nâu sậm của viền được biểu diễn bằng C03."@vi .
+
+ex:C08
+    a ex:VisualConcept ,
+        owl:NamedIndividual ;
+    ex:assignedPer ex:U_TungVet ;
+    ex:basis "Trực tiếp từ giáo trình"@vi ;
+    ex:bottleneckStatus "Chờ rà lại (chưa đủ dữ liệu)"@vi ;
+    ex:bottleneckTodo "Như C07."@vi ;
+    ex:code "C08" ;
+    ex:conceptStatus "ACTIVE_SOURCE" ;
+    ex:describedForDisease ex:D_DomNau ;
+    ex:hasEvidence ex:E10 ;
+    ex:migrationFromV17 "Giữ nguyên mã và nhãn v1.7."@vi ;
+    ex:observableOnLeafImages "true"^^xsd:boolean ;
+    ex:rule0 "Vùng cần xét đủ rõ và xác nhận không có đặc điểm này; không suy từ nhãn bệnh."@vi ;
+    ex:rule1 "Vùng cần xét đủ rõ và có đặc điểm đúng định nghĩa; lưu định danh vết/vùng tương ứng."@vi ;
+    ex:rule9 "Không thấy đủ vùng cần xét, ảnh mờ, bị che/cắt hoặc không đủ chi tiết để quyết định."@vi ;
+    ex:sourcePages "S01, tr. 142"@vi ;
+    ex:trainNegative "377"^^xsd:integer ;
+    ex:trainPositive "8"^^xsd:integer ;
+    ex:trainUnknown "2265"^^xsd:integer ;
+    ex:usedInBottleneck "false"^^xsd:boolean ;
+    rdfs:label "Vòng đồng tâm bên trong vết đốm"@vi ;
+    skos:definition "Trong cùng một vết đốm thấy cấu trúc các vòng đồng tâm."@vi .
+
+ex:C09
+    a ex:VisualConcept ,
+        owl:NamedIndividual ;
+    ex:assignedPer ex:U_CungVungTrenLa ;
+    ex:basis "Diễn giải gán ảnh từ giáo trình"@vi ;
+    ex:bottleneckStatus "Đưa vào bottleneck"@vi ;
+    ex:code "C09" ;
+    ex:conceptStatus "ACTIVE_OPERATIONAL_FROM_SOURCE" ;
+    ex:describedForDisease ex:D_BacLa ;
+    ex:hasEvidence ex:E21 ,
+        ex:E22 ;
+    ex:migrationFromV17 "Giữ nguyên mã và nhãn v1.7."@vi ;
+    ex:observableOnLeafImages "true"^^xsd:boolean ;
+    ex:rule0 "Vùng cần xét đủ rõ và xác nhận không có đặc điểm này; không suy từ nhãn bệnh."@vi ;
+    ex:rule1 "Vùng cần xét đủ rõ và có đặc điểm đúng định nghĩa; lưu định danh vết/vùng tương ứng."@vi ;
+    ex:rule9 "Không thấy đủ vùng cần xét, ảnh mờ, bị che/cắt hoặc không đủ chi tiết để quyết định."@vi ;
+    ex:sourcePages "S01, tr. 145"@vi ;
+    ex:trainNegative "618"^^xsd:integer ;
+    ex:trainPositive "1625"^^xsd:integer ;
+    ex:trainUnknown "407"^^xsd:integer ;
+    ex:usedInBottleneck "true"^^xsd:boolean ;
+    rdfs:label "Tổn thương tiếp giáp chóp hoặc mép lá"@vi ;
+    skos:definition "Vùng tổn thương có tiếp giáp quan sát được với chóp hoặc mép lá; không suy điểm khởi phát hay hướng lan."@vi .
+
+ex:C10
+    a ex:VisualConcept ,
+        owl:NamedIndividual ;
+    ex:assignedPer ex:U_TungVetHoacVung ;
+    ex:basis "Gộp hai phát biểu trực tiếp từ giáo trình"@vi ;
+    ex:bottleneckStatus "Đưa vào bottleneck"@vi ;
+    ex:code "C10" ;
+    ex:conceptStatus "ACTIVE_MERGED_FROM_SOURCE" ;
+    ex:describedForDisease ex:D_BacLa ,
+        ex:D_KhoVan ;
+    ex:hasEvidence ex:E16 ,
+        ex:E23 ;
+    ex:migrationFromV17 "C10 v1.8 = 1 nếu C10 v1.7 = 1 hoặc C17 v1.7 = 1; = 0 nếu cả hai = 0; còn lại = 9."@vi ;
+    ex:observableOnLeafImages "true"^^xsd:boolean ;
+    ex:rule0 "Vùng cần xét đủ rõ và xác nhận không có đặc điểm này; không suy từ nhãn bệnh."@vi ;
+    ex:rule1 "Vùng cần xét đủ rõ và có đặc điểm đúng định nghĩa; lưu định danh vết/vùng tương ứng."@vi ;
+    ex:rule9 "Không thấy đủ vùng cần xét, ảnh mờ, bị che/cắt hoặc không đủ chi tiết để quyết định."@vi ;
+    ex:sourcePages "S01, tr. 143; 145"@vi ;
+    ex:trainNegative "366"^^xsd:integer ;
+    ex:trainPositive "789"^^xsd:integer ;
+    ex:trainUnknown "1495"^^xsd:integer ;
+    ex:usedInBottleneck "true"^^xsd:boolean ;
+    rdfs:comment "V1.8 gộp C10 (xám trắng – bạc lá) và C17 (vết màu xám – khô vằn) của V1.7. Không gồm phần giữa xám tro hình mắt én (C02)."@vi ;
+    rdfs:label "Vùng/vết tổn thương màu xám – xám trắng"@vi ;
+    skos:definition "Phần chính của vết hoặc vùng tổn thương có màu xám đến xám trắng, phân biệt với viền nâu. Gộp C10 (xám trắng, bạc lá) và C17 (vết màu xám, khô vằn) của v1.7 vì người gán không phân biệt ổn định hai sắc độ trên ảnh. Không bao gồm phần giữa xám tro của vết hình mắt én (C02)."@vi .
+
+ex:C11
+    a ex:VisualConcept ,
+        owl:NamedIndividual ;
+    ex:assignedPer ex:U_CungVungTrenLa ;
+    ex:basis "Trực tiếp từ giáo trình"@vi ;
+    ex:bottleneckStatus "Đưa vào bottleneck"@vi ;
+    ex:bottleneckTodo "Đủ tối thiểu; theo dõi AUC."@vi ;
+    ex:code "C11" ;
+    ex:conceptStatus "ACTIVE_SOURCE" ;
+    ex:describedForDisease ex:D_BacLa ;
+    ex:hasEvidence ex:E24 ;
+    ex:migrationFromV17 "Giữ nguyên mã và nhãn v1.7."@vi ;
+    ex:observableOnLeafImages "true"^^xsd:boolean ;
+    ex:rule0 "Vùng cần xét đủ rõ và xác nhận không có đặc điểm này; không suy từ nhãn bệnh."@vi ;
+    ex:rule1 "Vùng cần xét đủ rõ và có đặc điểm đúng định nghĩa; lưu định danh vết/vùng tương ứng."@vi ;
+    ex:rule9 "Không thấy đủ vùng cần xét, ảnh mờ, bị che/cắt hoặc không đủ chi tiết để quyết định."@vi ;
+    ex:sourcePages "S01, tr. 145"@vi ;
+    ex:trainNegative "883"^^xsd:integer ;
+    ex:trainPositive "190"^^xsd:integer ;
+    ex:trainUnknown "1577"^^xsd:integer ;
+    ex:usedInBottleneck "true"^^xsd:boolean ;
+    rdfs:label "Viền ngoài vùng tổn thương có hình gợn sóng"@vi ;
+    skos:definition "Đường viền ngoài của vùng tổn thương có hình gợn sóng; không coi mọi ranh giới không đều là gợn sóng."@vi .
+
+ex:C12
+    a ex:VisualConcept ,
+        owl:NamedIndividual ;
+    ex:assignedPer ex:U_CungVungTrenLa ;
+    ex:basis "Trực tiếp từ giáo trình"@vi ;
+    ex:bottleneckStatus "Đưa vào bottleneck"@vi ;
+    ex:bottleneckTodo "Rà lại nếu còn thời gian."@vi ;
+    ex:code "C12" ;
+    ex:conceptStatus "ACTIVE_SOURCE" ;
+    ex:describedForDisease ex:D_DaoOn ;
+    ex:hasEvidence ex:E04 ;
+    ex:migrationFromV17 "Giữ nguyên mã và nhãn v1.7."@vi ;
+    ex:observableOnLeafImages "true"^^xsd:boolean ;
+    ex:rule0 "Vùng lá cần xét đủ rõ và không thấy nhiều vết bệnh liên kết với nhau."@vi ;
+    ex:rule1 "Quan sát đủ rõ nhiều vết bệnh liên kết với nhau trên cùng lá."@vi ;
+    ex:rule9 "Không đủ phạm vi hoặc chi tiết để phân biệt nhiều vết liên kết với một vết đơn hay các vết tách rời."@vi ;
+    ex:sourcePages "S01, tr. 141"@vi ;
+    ex:trainNegative "639"^^xsd:integer ;
+    ex:trainPositive "87"^^xsd:integer ;
+    ex:trainUnknown "1924"^^xsd:integer ;
+    ex:usedInBottleneck "true"^^xsd:boolean ;
+    rdfs:label "Nhiều vết bệnh liên kết với nhau"@vi ;
+    skos:definition "Nhiều vết bệnh liên kết với nhau trên cùng lá. Giáo trình mô tả ở bệnh đạo ôn: nhiều vết bệnh liên kết lại làm cả lá lúa bị cháy khô. Không thêm điều kiện kích thước lớn hoặc ngưỡng diện tích."@vi .
+
+ex:C13
+    a ex:VisualConcept ,
+        owl:NamedIndividual ;
+    ex:assignedPer ex:U_BeLa ;
+    ex:basis "Trực tiếp từ giáo trình"@vi ;
+    ex:bottleneckStatus "Chờ rà lại (chưa đủ dữ liệu)"@vi ;
+    ex:bottleneckTodo "Rà lại ảnh khô vằn (bẹ hay phiến)."@vi ;
+    ex:code "C13" ;
+    ex:conceptStatus "ACTIVE_SOURCE" ;
+    ex:describedForDisease ex:D_BacLa ,
+        ex:D_KhoVan ;
+    ex:hasEvidence ex:E15 ,
+        ex:E25 ;
+    ex:migrationFromV17 "Giữ mã. Nhãn v1.7 toàn bộ là 9; rà lại từ ảnh (ưu tiên ảnh khô vằn), phóng to khi gán."@vi ;
+    ex:observableOnLeafImages "false"^^xsd:boolean ;
+    ex:rule0 "Vùng cần xét đủ rõ và xác nhận không có đặc điểm này; không suy từ nhãn bệnh."@vi ;
+    ex:rule1 "Vùng cần xét đủ rõ và có đặc điểm đúng định nghĩa; lưu định danh vết/vùng tương ứng."@vi ;
+    ex:rule9 "Không thấy đủ vùng cần xét, ảnh mờ, bị che/cắt hoặc không đủ chi tiết để quyết định."@vi ;
+    ex:sourcePages "S01, tr. 143; 145"@vi ;
+    ex:trainNegative "0"^^xsd:integer ;
+    ex:trainPositive "0"^^xsd:integer ;
+    ex:trainUnknown "2650"^^xsd:integer ;
+    ex:usedInBottleneck "false"^^xsd:boolean ;
+    rdfs:comment "Dữ liệu hiện tại chủ yếu là ảnh phiến lá: toàn bộ nhãn train = 9. Giữ trong ontology như tri thức sách."@vi ;
+    rdfs:label "Tổn thương trên bẹ lá"@vi ;
+    skos:definition "Tổn thương nằm trên phần bẹ lá được nhận diện đủ rõ trong ảnh. Đây là đặc điểm vị trí dùng chung."@vi .
+
+ex:C14
+    a ex:VisualConcept ,
+        owl:NamedIndividual ;
+    ex:assignedPer ex:U_TungVet ;
+    ex:basis "Diễn giải gán ảnh từ giáo trình"@vi ;
+    ex:bottleneckStatus "Đưa vào bottleneck"@vi ;
+    ex:code "C14" ;
+    ex:conceptStatus "ACTIVE_OPERATIONAL_FROM_SOURCE" ;
+    ex:describedForDisease ex:D_KhoVan ;
+    ex:hasEvidence ex:E17 ;
+    ex:migrationFromV17 "Giữ nguyên mã và nhãn v1.7."@vi ;
+    ex:observableOnLeafImages "true"^^xsd:boolean ;
+    ex:rule0 "Vùng cần xét đủ rõ và xác nhận không có đặc điểm này; không suy từ nhãn bệnh."@vi ;
+    ex:rule1 "Vùng cần xét đủ rõ và có đặc điểm đúng định nghĩa; lưu định danh vết/vùng tương ứng."@vi ;
+    ex:rule9 "Không thấy đủ vùng cần xét, ảnh mờ, bị che/cắt hoặc không đủ chi tiết để quyết định."@vi ;
+    ex:sourcePages "S01, tr. 143"@vi ;
+    ex:trainNegative "552"^^xsd:integer ;
+    ex:trainPositive "1326"^^xsd:integer ;
+    ex:trainUnknown "772"^^xsd:integer ;
+    ex:usedInBottleneck "true"^^xsd:boolean ;
+    rdfs:label "Vết tổn thương có hình dạng không đều"@vi ;
+    skos:definition "Một vết có đường bao không đều. Hình tròn/bầu dục được tách sang C06; không đặt điều kiện vết lớn."@vi .
+
+ex:C15
+    a ex:VisualConcept ,
+        owl:NamedIndividual ;
+    ex:assignedPer ex:U_CungVungLaHoacBe ;
+    ex:basis "Trực tiếp từ giáo trình"@vi ;
+    ex:bottleneckStatus "Đưa vào bottleneck"@vi ;
+    ex:bottleneckTodo "Đủ tối thiểu; theo dõi AUC."@vi ;
+    ex:code "C15" ;
+    ex:conceptStatus "ACTIVE_SOURCE" ;
+    ex:describedForDisease ex:D_KhoVan ;
+    ex:hasEvidence ex:E17 ;
+    ex:migrationFromV17 "Giữ nguyên mã và nhãn v1.7."@vi ;
+    ex:observableOnLeafImages "true"^^xsd:boolean ;
+    ex:rule0 "Vùng cần xét đủ rõ và xác nhận không có đặc điểm này; không suy từ nhãn bệnh."@vi ;
+    ex:rule1 "Vùng cần xét đủ rõ và có đặc điểm đúng định nghĩa; lưu định danh vết/vùng tương ứng."@vi ;
+    ex:rule9 "Không thấy đủ vùng cần xét, ảnh mờ, bị che/cắt hoặc không đủ chi tiết để quyết định."@vi ;
+    ex:sourcePages "S01, tr. 143"@vi ;
+    ex:trainNegative "1800"^^xsd:integer ;
+    ex:trainPositive "180"^^xsd:integer ;
+    ex:trainUnknown "670"^^xsd:integer ;
+    ex:usedInBottleneck "true"^^xsd:boolean ;
+    rdfs:label "Vết loang lỗ, vằn vện như da hổ"@vi ;
+    skos:definition "Vùng tổn thương có biểu hiện loang lỗ, vằn vện gợi kiểu da hổ theo mô tả của giáo trình."@vi .
+
+ex:C16
+    a ex:VisualConcept ,
+        owl:NamedIndividual ;
+    ex:assignedPer ex:U_PhienLaQuanSat ;
+    ex:basis "Quy ước dự án / không phải phát biểu trực tiếp của sách"@vi ;
+    ex:bottleneckStatus "Đưa vào bottleneck"@vi ;
+    ex:bottleneckTodo "Cắt lá cho 165 ảnh khỏe đang = 9."@vi ;
+    ex:code "C16" ;
+    ex:conceptStatus "ACTIVE_PROJECT_LABEL" ;
+    ex:migrationFromV17 "Giữ mã. Khi C16 = 1, các concept bệnh trên phiến lá (C01–C12, C14, C15) phải là 0, không để 9; C13 giữ theo quan sát bẹ."@vi ;
+    ex:observableOnLeafImages "true"^^xsd:boolean ;
+    ex:rule0 "Thấy tổn thương hoặc bất thường rõ trên phần phiến lá cần xét."@vi ;
+    ex:rule1 "Phần phiến lá cần xét đủ rõ, không thấy tổn thương rõ trong phạm vi đó."@vi ;
+    ex:rule9 "Phiến lá quá mờ, che/cắt hoặc không đủ chi tiết để đánh giá."@vi ;
+    ex:sourcePages "Quy ước dự án"@vi ;
+    ex:trainNegative "2262"^^xsd:integer ;
+    ex:trainPositive "234"^^xsd:integer ;
+    ex:trainUnknown "154"^^xsd:integer ;
+    ex:usedInBottleneck "true"^^xsd:boolean ;
+    rdfs:comment "Ràng buộc gán nhãn: C16 = 1 kéo theo C01–C12, C14, C15 = 0 (không để 9); C13 theo quan sát bẹ."@vi ;
+    rdfs:label "Không thấy tổn thương rõ trên phần phiến lá quan sát"@vi ;
+    skos:definition "Phần phiến lá quan sát được đủ rõ và không thấy tổn thương rõ. Chỉ là nhãn biểu hiện trên ảnh, không kết luận cây khỏe sinh học."@vi .
+
+ex:CandidateCombination
+    a owl:Class ;
+    rdfs:label "Tổ hợp ứng viên nghiên cứu"@vi .
+
+ex:D_BacLa
+    a ex:BacterialDisease ,
+        ex:RiceDisease ,
+        owl:NamedIndividual ;
+    ex:datasetCode "01_bac_la" ;
+    ex:imageFolder "Bacterial Leaf Blight" ;
+    ex:pathogenAsInSource "Xanthomonas campestris pv. oyzae" ;
+    rdfs:label "Bạc lá"@vi ;
+    skos:altLabel "Bacterial Leaf Blight"@en .
+
+ex:D_DaoOn
+    a ex:FungalDisease ,
+        ex:RiceDisease ,
+        owl:NamedIndividual ;
+    ex:datasetCode "03_dao_on_la" ;
+    ex:imageFolder "Leaf Blast" ;
+    ex:pathogenAsInSource "Do nấm Pyricularia oryzae gây ra" ;
+    rdfs:label "Đạo ôn"@vi ;
+    skos:altLabel "Leaf Blast"@en .
+
+ex:D_DomNau
+    a ex:FungalDisease ,
+        ex:RiceDisease ,
+        owl:NamedIndividual ;
+    ex:datasetCode "02_dom_nau" ;
+    ex:imageFolder "Brown Spot" ;
+    ex:pathogenAsInSource "do nấm Helminthosporium oryzae" ;
+    rdfs:label "Đốm nâu"@vi ;
+    skos:altLabel "Brown Spot"@en .
+
+ex:D_KhoVan
+    a ex:FungalDisease ,
+        ex:RiceDisease ,
+        owl:NamedIndividual ;
+    ex:datasetCode "04_kho_van" ;
+    ex:imageFolder "Sheath Blight" ;
+    ex:pathogenAsInSource "Thanatephorus cucumeris (Rhizoctonia solani Kuhn)" ;
+    rdfs:label "Khô vằn"@vi ;
+    skos:altLabel "Sheath Blight"@en .
+
+ex:D_ThoiBe
+    a ex:OutOfScopeDisease ,
+        owl:NamedIndividual ;
+    rdfs:comment "Bối cảnh ngoài 4 bệnh (E27): tổn thương bẹ không độc quyền khô vằn. Không phải lớp dữ liệu."@vi ;
+    rdfs:label "Thối bẹ (Sheath rot)"@vi .
+
+ex:DatasetClass
+    a owl:Class ;
+    rdfs:label "Lớp ảnh trong dữ liệu"@vi .
+
+ex:E01
+    a ex:Evidence ,
+        owl:NamedIndividual ;
+    ex:bookSection "8.2.1.1" ;
+    ex:code "E01" ;
+    ex:evidenceAbout ex:D_DaoOn ;
+    ex:evidenceFrom ex:S01 ;
+    ex:meaningUsed "Đạo ôn: hình mắt én, hai đầu hẹp, giữa phình và có màu xám tro."@vi ;
+    ex:pdfPage "153"^^xsd:integer ;
+    ex:printedPage "141"^^xsd:integer ;
+    ex:quote "dạng hình mắt én, hai đầu hẹp, giữa phình ra có màu xám tro"@vi ;
+    ex:statementType "Tri thức bệnh học"@vi ;
+    rdfs:label "E01 – Đạo ôn"@vi .
+
+ex:E02
+    a ex:Evidence ,
+        owl:NamedIndividual ;
+    ex:bookSection "8.2.1.1" ;
+    ex:code "E02" ;
+    ex:evidenceAbout ex:D_DaoOn ;
+    ex:evidenceFrom ex:S01 ;
+    ex:meaningUsed "Đạo ôn có viền nâu rõ rệt."@vi ;
+    ex:pdfPage "153"^^xsd:integer ;
+    ex:printedPage "141"^^xsd:integer ;
+    ex:quote "Chung quanh vết bệnh có viền nâu rõ rệt"@vi ;
+    ex:statementType "Tri thức bệnh học"@vi ;
+    rdfs:label "E02 – Đạo ôn"@vi .
+
+ex:E03
+    a ex:Evidence ,
+        owl:NamedIndividual ;
+    ex:bookSection "8.2.1.1" ;
+    ex:code "E03" ;
+    ex:evidenceAbout ex:D_DaoOn ;
+    ex:evidenceFrom ex:S01 ;
+    ex:meaningUsed "Đạo ôn thường có quầng vàng ngoài viền nâu."@vi ;
+    ex:pdfPage "153"^^xsd:integer ;
+    ex:printedPage "141"^^xsd:integer ;
+    ex:quote "ngoài viền nâu thường có một quầng vàng"@vi ;
+    ex:statementType "Tri thức bệnh học"@vi ;
+    rdfs:label "E03 – Đạo ôn"@vi .
+
+ex:E04
+    a ex:Evidence ,
+        owl:NamedIndividual ;
+    ex:bookSection "8.2.1.1" ;
+    ex:code "E04" ;
+    ex:evidenceAbout ex:D_DaoOn ;
+    ex:evidenceFrom ex:S01 ;
+    ex:limitation "Ảnh tĩnh chỉ thể hiện trạng thái vùng tổn thương, không xác nhận lịch sử liên kết."@vi ;
+    ex:meaningUsed "Giáo trình ghi nhận nhiều vết đạo ôn liên kết, gây lá cháy khô."@vi ;
+    ex:pdfPage "153"^^xsd:integer ;
+    ex:printedPage "141"^^xsd:integer ;
+    ex:quote "Nhiều vết bệnh liên kết lại làm cả lá lúa bị cháy khô."@vi ;
+    ex:statementType "Diễn tiến và biểu hiện"@vi ;
+    rdfs:label "E04 – Đạo ôn"@vi .
+
+ex:E05
+    a ex:Evidence ,
+        owl:NamedIndividual ;
+    ex:bookSection "8.2.1.1" ;
+    ex:code "E05" ;
+    ex:evidenceAbout ex:D_DaoOn ;
+    ex:evidenceFrom ex:S01 ;
+    ex:meaningUsed "Tên tác nhân đạo ôn được giáo trình sử dụng."@vi ;
+    ex:pdfPage "153"^^xsd:integer ;
+    ex:printedPage "141"^^xsd:integer ;
+    ex:quote "Do nấm Pyricularia oryzae gây ra"@vi ;
+    ex:statementType "Tên tác nhân theo nguồn"@vi ;
+    rdfs:label "E05 – Đạo ôn"@vi .
+
+ex:E06
+    a ex:Evidence ,
+        owl:NamedIndividual ;
+    ex:bookSection "8.2.1.1" ;
+    ex:code "E06" ;
+    ex:evidenceAbout ex:D_DaoOn ;
+    ex:evidenceFrom ex:S01 ;
+    ex:meaningUsed "Đạo ôn được mô tả xuất hiện nhiều ở phiến lá."@vi ;
+    ex:pdfPage "153"^^xsd:integer ;
+    ex:printedPage "141"^^xsd:integer ;
+    ex:quote "nhiều nhất là ở phiến lá"@vi ;
+    ex:statementType "Vị trí"@vi ;
+    rdfs:label "E06 – Đạo ôn"@vi .
+
+ex:E07
+    a ex:Evidence ,
+        owl:NamedIndividual ;
+    ex:bookSection "8.2.1.1" ;
+    ex:code "E07" ;
+    ex:evidenceAbout ex:D_DaoOn ;
+    ex:evidenceFrom ex:S01 ;
+    ex:limitation "Không chuyển chữ nhỏ thành ngưỡng ảnh hoặc yêu cầu cho đốm nâu."@vi ;
+    ex:meaningUsed "Đốm nhỏ màu nâu là biểu hiện ban đầu của đạo ôn trong nguồn."@vi ;
+    ex:pdfPage "153"^^xsd:integer ;
+    ex:printedPage "141"^^xsd:integer ;
+    ex:quote "vết bệnh lúc đầu nhỏ màu nâu"@vi ;
+    ex:statementType "Diễn tiến"@vi ;
+    rdfs:label "E07 – Đạo ôn"@vi .
+
+ex:E08
+    a ex:Evidence ,
+        owl:NamedIndividual ;
+    ex:bookSection "8.2.1.2" ;
+    ex:code "E08" ;
+    ex:evidenceAbout ex:D_DomNau ;
+    ex:evidenceFrom ex:S01 ;
+    ex:meaningUsed "Hình tròn hoặc bầu dục của đốm nâu trên lá."@vi ;
+    ex:pdfPage "154"^^xsd:integer ;
+    ex:printedPage "142"^^xsd:integer ;
+    ex:quote "đốm bệnh có hình tròn hay bầu dục"@vi ;
+    ex:statementType "Tri thức bệnh học"@vi ;
+    rdfs:label "E08 – Đốm nâu"@vi .
+
+ex:E09
+    a ex:Evidence ,
+        owl:NamedIndividual ;
+    ex:bookSection "8.2.1.2" ;
+    ex:code "E09" ;
+    ex:evidenceAbout ex:D_DomNau ;
+    ex:evidenceFrom ex:S01 ;
+    ex:meaningUsed "Màu phần chính và màu viền của đốm nâu trên lá được tách riêng."@vi ;
+    ex:pdfPage "154"^^xsd:integer ;
+    ex:printedPage "142"^^xsd:integer ;
+    ex:quote "màu nâu lợt có viền nâu sậm"@vi ;
+    ex:statementType "Tri thức bệnh học"@vi ;
+    rdfs:label "E09 – Đốm nâu"@vi .
+
+ex:E10
+    a ex:Evidence ,
+        owl:NamedIndividual ;
+    ex:bookSection "8.2.1.2" ;
+    ex:code "E10" ;
+    ex:evidenceAbout ex:D_DomNau ;
+    ex:evidenceFrom ex:S01 ;
+    ex:meaningUsed "Cấu trúc vòng đồng tâm trong vết đốm nâu."@vi ;
+    ex:pdfPage "154"^^xsd:integer ;
+    ex:printedPage "142"^^xsd:integer ;
+    ex:quote "với các vòng đồng tâm trong vết bệnh"@vi ;
+    ex:statementType "Tri thức bệnh học"@vi ;
+    rdfs:label "E10 – Đốm nâu"@vi .
+
+ex:E11
+    a ex:Evidence ,
+        owl:NamedIndividual ;
+    ex:bookSection "8.2.1.2" ;
+    ex:code "E11" ;
+    ex:evidenceAbout ex:D_DomNau ;
+    ex:evidenceFrom ex:S01 ;
+    ex:meaningUsed "Tên tác nhân đốm nâu được giáo trình sử dụng."@vi ;
+    ex:pdfPage "154"^^xsd:integer ;
+    ex:printedPage "142"^^xsd:integer ;
+    ex:quote "do nấm Helminthosporium oryzae"@vi ;
+    ex:statementType "Tên tác nhân theo nguồn"@vi ;
+    rdfs:label "E11 – Đốm nâu"@vi .
+
+ex:E12
+    a ex:Evidence ,
+        owl:NamedIndividual ;
+    ex:bookSection "8.2.1.2" ;
+    ex:code "E12" ;
+    ex:evidenceAbout ex:D_DomNau ;
+    ex:evidenceFrom ex:S01 ;
+    ex:limitation "Không dùng đoạn này làm căn cứ cho phần chính đốm trên lá màu nâu sẫm."@vi ;
+    ex:meaningUsed "Màu nâu đen được nguồn gắn với vết trên hạt."@vi ;
+    ex:pdfPage "154"^^xsd:integer ;
+    ex:printedPage "142"^^xsd:integer ;
+    ex:quote "Trên hạt, vết bệnh có màu nâu đen"@vi ;
+    ex:statementType "Vị trí và màu sắc"@vi ;
+    rdfs:label "E12 – Đốm nâu"@vi .
+
+ex:E13
+    a ex:Evidence ,
+        owl:NamedIndividual ;
+    ex:bookSection "8.2.1.5" ;
+    ex:code "E13" ;
+    ex:evidenceAbout ex:D_KhoVan ;
+    ex:evidenceFrom ex:S01 ;
+    ex:meaningUsed "Tên đốm vằn, khô vằn và ung thư trong giáo trình."@vi ;
+    ex:pdfPage "155"^^xsd:integer ;
+    ex:printedPage "143"^^xsd:integer ;
+    ex:quote "còn gọi là khô vằn hay ung thư"@vi ;
+    ex:statementType "Tên bệnh theo nguồn"@vi ;
+    rdfs:label "E13 – Khô vằn"@vi .
+
+ex:E14
+    a ex:Evidence ,
+        owl:NamedIndividual ;
+    ex:bookSection "8.2.1.5" ;
+    ex:code "E14" ;
+    ex:evidenceAbout ex:D_KhoVan ;
+    ex:evidenceFrom ex:S01 ;
+    ex:limitation "Lưu chuỗi tên theo sách; không tự khẳng định quan hệ phân loại hiện hành bằng owl:sameAs."@vi ;
+    ex:meaningUsed "Tên tác nhân khô vằn được sách ghi."@vi ;
+    ex:pdfPage "155"^^xsd:integer ;
+    ex:printedPage "143"^^xsd:integer ;
+    ex:quote "Thanatephorus cucumeris (Rhizoctonia solani Kuhn)"@vi ;
+    ex:statementType "Tên tác nhân theo nguồn"@vi ;
+    rdfs:label "E14 – Khô vằn"@vi .
+
+ex:E15
+    a ex:Evidence ,
+        owl:NamedIndividual ;
+    ex:bookSection "8.2.1.5" ;
+    ex:code "E15" ;
+    ex:evidenceAbout ex:D_KhoVan ;
+    ex:evidenceFrom ex:S01 ;
+    ex:meaningUsed "Khô vằn: vị trí trên bẹ và hình tròn hoặc bầu dục ban đầu."@vi ;
+    ex:pdfPage "155"^^xsd:integer ;
+    ex:printedPage "143"^^xsd:integer ;
+    ex:quote "Trên bẹ lá, vết bệnh lúc đầu tròn hay bầu dục"@vi ;
+    ex:statementType "Tri thức bệnh học"@vi ;
+    rdfs:label "E15 – Khô vằn"@vi .
+
+ex:E16
+    a ex:Evidence ,
+        owl:NamedIndividual ;
+    ex:bookSection "8.2.1.5" ;
+    ex:code "E16" ;
+    ex:evidenceAbout ex:D_KhoVan ;
+    ex:evidenceFrom ex:S01 ;
+    ex:limitation "Đoạn này không nói riêng tâm trắng."@vi ;
+    ex:meaningUsed "Màu xám của vết và viền nâu ở khô vằn."@vi ;
+    ex:pdfPage "155"^^xsd:integer ;
+    ex:printedPage "143"^^xsd:integer ;
+    ex:quote "màu xám có viền nâu"@vi ;
+    ex:statementType "Tri thức bệnh học"@vi ;
+    rdfs:label "E16 – Khô vằn"@vi .
+
+ex:E17
+    a ex:Evidence ,
+        owl:NamedIndividual ;
+    ex:bookSection "8.2.1.5" ;
+    ex:code "E17" ;
+    ex:evidenceAbout ex:D_KhoVan ;
+    ex:evidenceFrom ex:S01 ;
+    ex:meaningUsed "Khô vằn có diễn tiến lan không đều và biểu hiện loang lỗ vằn vện."@vi ;
+    ex:pdfPage "155"^^xsd:integer ;
+    ex:printedPage "143"^^xsd:integer ;
+    ex:quote "sau lan ra không đều thành những vết loang lỗ vằn vện như da hổ"@vi ;
+    ex:statementType "Diễn tiến và biểu hiện"@vi ;
+    rdfs:label "E17 – Khô vằn"@vi .
+
+ex:E18
+    a ex:Evidence ,
+        owl:NamedIndividual ;
+    ex:bookSection "8.2.1.5" ;
+    ex:code "E18" ;
+    ex:evidenceAbout ex:D_KhoVan ;
+    ex:evidenceFrom ex:S01 ;
+    ex:limitation "Không dùng vị trí trên một ảnh để suy ngược cơ chế lây."@vi ;
+    ex:meaningUsed "Diễn tiến từ bẹ lên phiến lá được sách mô tả trong trường hợp lan bằng hạch nấm."@vi ;
+    ex:pdfPage "155"^^xsd:integer ;
+    ex:printedPage "143"^^xsd:integer ;
+    ex:quote "bệnh xuất hiện đầu tiên ở bẹ lá, rồi từ đó lan dần lên phiến lá"@vi ;
+    ex:statementType "Diễn tiến có điều kiện"@vi ;
+    rdfs:label "E18 – Khô vằn"@vi .
+
+ex:E19
+    a ex:Evidence ,
+        owl:NamedIndividual ;
+    ex:bookSection "8.2.1.5" ;
+    ex:code "E19" ;
+    ex:evidenceAbout ex:D_KhoVan ;
+    ex:evidenceFrom ex:S01 ;
+    ex:limitation "Lưu theo nguồn 2008; bản này không đánh giá tính cập nhật của cơ chế và không dùng làm luật ảnh."@vi ;
+    ex:meaningUsed "Phát biểu của giáo trình về lan bằng bào tử."@vi ;
+    ex:pdfPage "155"^^xsd:integer ;
+    ex:printedPage "143"^^xsd:integer ;
+    ex:quote "bệnh còn có thể lan truyền dưới dạng bào tử nấm bay trong không khí"@vi ;
+    ex:statementType "Cơ chế theo nguồn"@vi ;
+    rdfs:label "E19 – Khô vằn"@vi .
+
+ex:E20
+    a ex:Evidence ,
+        owl:NamedIndividual ;
+    ex:bookSection "8.2.1.5" ;
+    ex:code "E20" ;
+    ex:evidenceAbout ex:D_KhoVan ;
+    ex:evidenceFrom ex:S01 ;
+    ex:limitation "Chỉ biểu diễn phát biểu trong sách, không suy diễn từ ảnh tĩnh."@vi ;
+    ex:meaningUsed "Diễn tiến từ phiến xuống bẹ trong trường hợp lan bằng bào tử được sách mô tả."@vi ;
+    ex:pdfPage "155"^^xsd:integer ;
+    ex:printedPage "143"^^xsd:integer ;
+    ex:quote "bệnh sẽ lan dần từ phiến lá xuống bẹ lá"@vi ;
+    ex:statementType "Diễn tiến có điều kiện"@vi ;
+    rdfs:label "E20 – Khô vằn"@vi .
+
+ex:E21
+    a ex:Evidence ,
+        owl:NamedIndividual ;
+    ex:bookSection "8.2.2.1" ;
+    ex:code "E21" ;
+    ex:evidenceAbout ex:D_BacLa ;
+    ex:evidenceFrom ex:S01 ;
+    ex:meaningUsed "Bạc lá: vị trí và biểu hiện ban đầu."@vi ;
+    ex:pdfPage "157"^^xsd:integer ;
+    ex:printedPage "145"^^xsd:integer ;
+    ex:quote "những sọc vàng nhỏ ở chóp lá và bìa lá"@vi ;
+    ex:statementType "Diễn tiến và vị trí"@vi ;
+    rdfs:label "E21 – Bạc lá"@vi .
+
+ex:E22
+    a ex:Evidence ,
+        owl:NamedIndividual ;
+    ex:bookSection "8.2.2.1" ;
+    ex:code "E22" ;
+    ex:evidenceAbout ex:D_BacLa ;
+    ex:evidenceFrom ex:S01 ;
+    ex:limitation "C04 chỉ gán hướng quan sát được; C09 chỉ gán vị trí tiếp giáp."@vi ;
+    ex:meaningUsed "Bạc lá có diễn tiến dọc gân và từ bìa vào trong."@vi ;
+    ex:pdfPage "157"^^xsd:integer ;
+    ex:printedPage "145"^^xsd:integer ;
+    ex:quote "lan rộng và dọc theo các gân lá và từ bìa lá vào trong"@vi ;
+    ex:statementType "Diễn tiến"@vi ;
+    rdfs:label "E22 – Bạc lá"@vi .
+
+ex:E23
+    a ex:Evidence ,
+        owl:NamedIndividual ;
+    ex:bookSection "8.2.2.1" ;
+    ex:code "E23" ;
+    ex:evidenceAbout ex:D_BacLa ;
+    ex:evidenceFrom ex:S01 ;
+    ex:limitation "Màu xám trắng và trạng thái khô cần được xem xét riêng khi gán ảnh."@vi ;
+    ex:meaningUsed "Bạc lá: vết dần khô và có màu xám trắng."@vi ;
+    ex:pdfPage "157"^^xsd:integer ;
+    ex:printedPage "145"^^xsd:integer ;
+    ex:quote "Vết bệnh dần khô lại có màu xám trắng"@vi ;
+    ex:statementType "Diễn tiến và màu sắc"@vi ;
+    rdfs:label "E23 – Bạc lá"@vi .
+
+ex:E24
+    a ex:Evidence ,
+        owl:NamedIndividual ;
+    ex:bookSection "8.2.2.1" ;
+    ex:code "E24" ;
+    ex:evidenceAbout ex:D_BacLa ;
+    ex:evidenceFrom ex:S01 ;
+    ex:meaningUsed "Ranh giới ngoài vết bạc lá có hình gợn sóng."@vi ;
+    ex:pdfPage "157"^^xsd:integer ;
+    ex:printedPage "145"^^xsd:integer ;
+    ex:quote "viền ngoài vết bệnh có hình gợn sóng"@vi ;
+    ex:statementType "Tri thức bệnh học"@vi ;
+    rdfs:label "E24 – Bạc lá"@vi .
+
+ex:E25
+    a ex:Evidence ,
+        owl:NamedIndividual ;
+    ex:bookSection "8.2.2.1" ;
+    ex:code "E25" ;
+    ex:evidenceAbout ex:D_BacLa ;
+    ex:evidenceFrom ex:S01 ;
+    ex:meaningUsed "Bạc lá nặng có thể có tổn thương đến bẹ."@vi ;
+    ex:pdfPage "157"^^xsd:integer ;
+    ex:printedPage "145"^^xsd:integer ;
+    ex:quote "Bệnh nặng vết bệnh có thể lan dần đến bẹ lá"@vi ;
+    ex:statementType "Vị trí có điều kiện"@vi ;
+    rdfs:label "E25 – Bạc lá"@vi .
+
+ex:E26
+    a ex:Evidence ,
+        owl:NamedIndividual ;
+    ex:bookSection "8.2.2.1" ;
+    ex:code "E26" ;
+    ex:evidenceAbout ex:D_BacLa ;
+    ex:evidenceFrom ex:S01 ;
+    ex:limitation "Chưa kiểm tra hình trang gốc để phân biệt lỗi in và lỗi nhận dạng chữ. Không dùng chuỗi này để khẳng định tên phân loại hiện hành."@vi ;
+    ex:meaningUsed "Chuỗi tên tác nhân bạc lá trong văn bản trích xuất."@vi ;
+    ex:pdfPage "157"^^xsd:integer ;
+    ex:printedPage "145"^^xsd:integer ;
+    ex:quote "Xanthomonas campestris pv. oyzae"@vi ;
+    ex:statementType "Tên tác nhân theo nguồn"@vi ;
+    rdfs:label "E26 – Bạc lá"@vi .
+
+ex:E27
+    a ex:Evidence ,
+        owl:NamedIndividual ;
+    ex:bookSection "8.2.1.6" ;
+    ex:code "E27" ;
+    ex:evidenceAbout ex:D_ThoiBe ;
+    ex:evidenceFrom ex:S01 ;
+    ex:limitation "Không tạo bệnh mục tiêu thứ năm. Dùng để làm rõ tổn thương bẹ không độc quyền khô vằn."@vi ;
+    ex:meaningUsed "Giáo trình còn mô tả một bệnh khác ở bẹ ngoài bốn bệnh mục tiêu."@vi ;
+    ex:pdfPage "155"^^xsd:integer ;
+    ex:printedPage "143"^^xsd:integer ;
+    ex:quote "Bệnh thối bẹ (Sheath rot)"@vi ;
+    ex:statementType "Bối cảnh ngoài phạm vi"@vi ;
+    rdfs:label "E27 – Bối cảnh ngoài 4 bệnh"@vi .
+
+ex:Evidence
+    a owl:Class ;
+    rdfs:label "Bằng chứng trích từ sách"@vi ;
+    owl:disjointWith ex:VisualConcept .
+
+ex:FungalDisease
+    a owl:Class ;
+    rdfs:label "Bệnh do nấm"@vi ;
+    rdfs:subClassOf ex:RiceDisease ;
+    owl:disjointWith ex:BacterialDisease .
+
+ex:ImageLevelLabel
+    a owl:Class ;
+    rdfs:label "Nhãn biểu hiện cấp ảnh (không phải bệnh)"@vi ;
+    rdfs:subClassOf ex:DatasetClass .
+
+ex:L_LaKhoe
+    a ex:ImageLevelLabel ,
+        owl:NamedIndividual ;
+    ex:datasetCode "05_la_khoe" ;
+    ex:imageFolder "Healthy Rice Leaf" ;
+    ex:imageLabelConcept ex:C16 ;
+    rdfs:comment "Quy ước dự án: lớp ảnh, không phải bệnh và không kết luận cây khỏe sinh học. Gắn với C16."@vi ;
+    rdfs:label "Lá khỏe (không thấy tổn thương rõ)"@vi ;
+    skos:altLabel "Healthy Rice Leaf"@en .
+
+ex:ObservationUnit
+    a owl:Class ;
+    rdfs:label "Đơn vị gán nhãn"@vi .
+
+ex:OutOfScopeDisease
+    a owl:Class ;
+    rdfs:label "Bệnh ngoài phạm vi (bối cảnh)"@vi .
+
+ex:P01
+    a ex:CandidateCombination ,
+        owl:NamedIndividual ;
+    ex:code "P01" ;
+    ex:combinationEvidence ex:E01 ,
+        ex:E02 ,
+        ex:E03 ;
+    ex:combinationFor ex:D_DaoOn ;
+    ex:combinationScope ex:U_TungVet ;
+    ex:combinationStatus "RESEARCH_QUERY_NOT_DIAGNOSTIC" ;
+    ex:evaluableFromModel "false"^^xsd:boolean ;
+    ex:interpretation "C05 có thể bổ sung mô tả; thiếu C05 không tự loại đạo ôn. Đầu ra là phù hợp tổ hợp mô tả. Không có mức mạnh/rất mạnh hoặc xác suất. Thiếu tổ hợp không loại trừ bệnh."@vi ;
+    ex:limitation "Mô hình CBM hiện không dự đoán C02 (chưa vào bottleneck) nên chỉ đánh giá được một phần tổ hợp."@vi ;
+    ex:optionalConcept ex:C05 ;
+    ex:printedPage "141"^^xsd:integer ;
+    ex:requiresConcept ex:C01 ,
+        ex:C02 ,
+        ex:C03 ;
+    rdfs:label "Tổ hợp phù hợp mô tả đạo ôn"@vi .
+
+ex:P02
+    a ex:CandidateCombination ,
+        owl:NamedIndividual ;
+    ex:code "P02" ;
+    ex:combinationEvidence ex:E08 ,
+        ex:E09 ,
+        ex:E10 ;
+    ex:combinationFor ex:D_DomNau ;
+    ex:combinationScope ex:U_TungVet ;
+    ex:combinationStatus "RESEARCH_QUERY_NOT_DIAGNOSTIC" ;
+    ex:evaluableFromModel "false"^^xsd:boolean ;
+    ex:interpretation "Đặc điểm nhiều đốm rời rạc của bản cũ đã bị loại. Không thấy rõ vòng đồng tâm là 9, không phải bằng chứng loại bệnh. Đầu ra là phù hợp tổ hợp mô tả. Không có mức mạnh/rất mạnh hoặc xác suất. Thiếu tổ hợp không loại trừ bệnh."@vi ;
+    ex:limitation "Mô hình CBM hiện không dự đoán C08 (chưa vào bottleneck) nên chỉ đánh giá được một phần tổ hợp."@vi ;
+    ex:printedPage "142"^^xsd:integer ;
+    ex:requiresConcept ex:C03 ,
+        ex:C06 ,
+        ex:C07 ,
+        ex:C08 ;
+    rdfs:label "Tổ hợp phù hợp mô tả đốm nâu"@vi .
+
+ex:P03
+    a ex:CandidateCombination ,
+        owl:NamedIndividual ;
+    ex:code "P03" ;
+    ex:combinationEvidence ex:E21 ,
+        ex:E22 ,
+        ex:E23 ,
+        ex:E24 ;
+    ex:combinationFor ex:D_BacLa ;
+    ex:combinationScope ex:U_CungVungTrenLa ;
+    ex:combinationStatus "RESEARCH_QUERY_NOT_DIAGNOSTIC" ;
+    ex:evaluableFromModel "true"^^xsd:boolean ;
+    ex:interpretation "C09 là vị trí quan sát, không khẳng định khởi phát; C04 có thể bổ sung. Đầu ra là phù hợp tổ hợp mô tả. Không có mức mạnh/rất mạnh hoặc xác suất. Thiếu tổ hợp không loại trừ bệnh. (v1.8: C10 nay gồm cả màu xám của khô vằn; cần C09 + C11 đi kèm để phù hợp bạc lá.)"@vi ;
+    ex:optionalConcept ex:C04 ;
+    ex:printedPage "145"^^xsd:integer ;
+    ex:requiresConcept ex:C09 ,
+        ex:C10 ,
+        ex:C11 ;
+    rdfs:label "Tổ hợp phù hợp mô tả bạc lá"@vi .
+
+ex:P04
+    a ex:CandidateCombination ,
+        owl:NamedIndividual ;
+    ex:code "P04" ;
+    ex:combinationEvidence ex:E15 ,
+        ex:E16 ,
+        ex:E17 ;
+    ex:combinationFor ex:D_KhoVan ;
+    ex:combinationScope ex:U_BeLa ;
+    ex:combinationStatus "RESEARCH_QUERY_NOT_DIAGNOSTIC" ;
+    ex:evaluableFromModel "false"^^xsd:boolean ;
+    ex:interpretation "Phù hợp một phần mô tả màu và vị trí; xem thêm C06 hoặc C15. Không dùng C13 đơn độc. Đầu ra là phù hợp tổ hợp mô tả. Không có mức mạnh/rất mạnh hoặc xác suất. Thiếu tổ hợp không loại trừ bệnh. (v1.8: C17 đã gộp vào C10.)"@vi ;
+    ex:limitation "Mô hình CBM hiện không dự đoán C13 (chưa vào bottleneck) nên chỉ đánh giá được một phần tổ hợp."@vi ;
+    ex:optionalConcept ex:C06 ,
+        ex:C15 ;
+    ex:printedPage "143"^^xsd:integer ;
+    ex:requiresConcept ex:C03 ,
+        ex:C10 ,
+        ex:C13 ;
+    rdfs:label "Tổ hợp phù hợp mô tả vết khô vằn trên bẹ"@vi .
+
+ex:RiceDisease
+    a owl:Class ;
+    rdfs:label "Bệnh lúa mục tiêu"@vi ;
+    rdfs:subClassOf ex:DatasetClass ;
+    owl:disjointWith ex:ImageLevelLabel .
+
+ex:S01
+    a ex:SourceBook ,
+        owl:NamedIndividual ;
+    ex:bibliography "Nguyễn Ngọc Đệ (2008). Giáo trình Cây lúa. Trường Đại học Cần Thơ, Viện Nghiên cứu Phát triển Đồng bằng sông Cửu Long. Năm chốt theo bìa; chân trang ghi 2007."@vi ;
+    ex:code "S01" ;
+    ex:url "https://drive.google.com/file/d/1nZLpPHPk5jtoE9Gg5qb0zI1iwthE7dx0/view"^^xsd:anyURI ;
+    rdfs:label "Giáo trình Cây lúa"@vi .
+
+ex:SourceBook
+    a owl:Class ;
+    rdfs:label "Sách nguồn"@vi .
+
+ex:U_BeLa
+    a ex:ObservationUnit ,
+        owl:NamedIndividual ;
+    rdfs:label "Bẹ lá mang tổn thương"@vi .
+
+ex:U_CungVungLaHoacBe
+    a ex:ObservationUnit ,
+        owl:NamedIndividual ;
+    rdfs:label "Cùng vùng trên cùng lá hoặc bẹ"@vi .
+
+ex:U_CungVungTrenLa
+    a ex:ObservationUnit ,
+        owl:NamedIndividual ;
+    rdfs:label "Cùng vùng trên cùng lá"@vi .
+
+ex:U_PhienLaQuanSat
+    a ex:ObservationUnit ,
+        owl:NamedIndividual ;
+    rdfs:label "Phần phiến lá quan sát"@vi .
+
+ex:U_TungVet
+    a ex:ObservationUnit ,
+        owl:NamedIndividual ;
+    rdfs:label "Từng vết"@vi .
+
+ex:U_TungVetHoacVung
+    a ex:ObservationUnit ,
+        owl:NamedIndividual ;
+    rdfs:label "Từng vết hoặc cùng vùng trên cùng lá/bẹ"@vi .
+
+ex:VisualConcept
+    a owl:Class ;
+    rdfs:label "Concept thị giác"@vi ;
+    owl:disjointWith ex:DatasetClass .
+
+ex:assignedPer
+    a owl:ObjectProperty ;
+    rdfs:domain ex:VisualConcept ;
+    rdfs:label "Đơn vị gán nhãn của concept"@vi ;
+    rdfs:range ex:ObservationUnit .
+
+ex:basis
+    a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+ex:bibliography
+    a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+ex:bookSection
+    a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+ex:bottleneckStatus
+    a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+ex:bottleneckTodo
+    a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+ex:code
+    a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+ex:combinationEvidence
+    a owl:ObjectProperty ;
+    rdfs:domain ex:CandidateCombination ;
+    rdfs:label "Bằng chứng cho tổ hợp"@vi ;
+    rdfs:range ex:Evidence .
+
+ex:combinationFor
+    a owl:ObjectProperty ;
+    rdfs:domain ex:CandidateCombination ;
+    rdfs:label "Tổ hợp phù hợp mô tả bệnh"@vi ;
+    rdfs:range ex:RiceDisease .
+
+ex:combinationScope
+    a owl:ObjectProperty ;
+    rdfs:domain ex:CandidateCombination ;
+    rdfs:label "Phạm vi đồng xuất hiện yêu cầu"@vi ;
+    rdfs:range ex:ObservationUnit .
+
+ex:combinationStatus
+    a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+ex:conceptStatus
+    a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+ex:datasetCode
+    a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+ex:describedForDisease
+    a owl:ObjectProperty ;
+    rdfs:domain ex:VisualConcept ;
+    rdfs:label "Sách mô tả concept ở bệnh này (không độc quyền, không phải điều kiện cần/đủ)"@vi ;
+    rdfs:range ex:RiceDisease .
+
+ex:evaluableFromModel
+    a owl:DatatypeProperty ;
+    rdfs:range xsd:boolean .
+
+ex:evidenceAbout
+    a owl:ObjectProperty ;
+    rdfs:domain ex:Evidence ;
+    rdfs:label "Bằng chứng nói về bệnh"@vi .
+
+ex:evidenceFrom
+    a owl:ObjectProperty ;
+    rdfs:domain ex:Evidence ;
+    rdfs:label "Bằng chứng trích từ sách"@vi ;
+    rdfs:range ex:SourceBook .
+
+ex:hasEvidence
+    a owl:ObjectProperty ;
+    rdfs:domain ex:VisualConcept ;
+    rdfs:label "Concept có căn cứ từ bằng chứng"@vi ;
+    rdfs:range ex:Evidence .
+
+ex:imageFolder
+    a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+ex:imageLabelConcept
+    a owl:ObjectProperty ;
+    rdfs:domain ex:ImageLevelLabel ;
+    rdfs:label "Concept biểu diễn nhãn cấp ảnh"@vi ;
+    rdfs:range ex:VisualConcept .
+
+ex:interpretation
+    a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+ex:limitation
+    a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+ex:meaningUsed
+    a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+ex:migrationFromV17
+    a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+ex:observableOnLeafImages
+    a owl:DatatypeProperty ;
+    rdfs:range xsd:boolean .
+
+ex:optionalConcept
+    a owl:ObjectProperty ;
+    rdfs:domain ex:CandidateCombination ;
+    rdfs:label "Concept bổ sung, thiếu không loại tổ hợp"@vi ;
+    rdfs:range ex:VisualConcept .
+
+ex:pathogenAsInSource
+    a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+ex:pdfPage
+    a owl:DatatypeProperty ;
+    rdfs:range xsd:integer .
+
+ex:printedPage
+    a owl:DatatypeProperty ;
+    rdfs:range xsd:integer .
+
+ex:quote
+    a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+ex:requiresConcept
+    a owl:ObjectProperty ;
+    rdfs:domain ex:CandidateCombination ;
+    rdfs:label "Concept bắt buộc trong tổ hợp"@vi ;
+    rdfs:range ex:VisualConcept .
+
+ex:rule0
+    a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+ex:rule1
+    a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+ex:rule9
+    a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+ex:sourcePages
+    a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+ex:statementType
+    a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+ex:trainNegative
+    a owl:DatatypeProperty ;
+    rdfs:range xsd:integer .
+
+ex:trainPositive
+    a owl:DatatypeProperty ;
+    rdfs:range xsd:integer .
+
+ex:trainUnknown
+    a owl:DatatypeProperty ;
+    rdfs:range xsd:integer .
+
+ex:url
+    a owl:DatatypeProperty ;
+    rdfs:range xsd:anyURI .
+
+ex:usedInBottleneck
+    a owl:DatatypeProperty ;
+    rdfs:range xsd:boolean .

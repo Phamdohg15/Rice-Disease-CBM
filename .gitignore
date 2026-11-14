@@ -179,3 +179,26 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+# ---------------- Rice-Disease-CBM ----------------
+# Trong so mo hinh (qua nang, GitHub chan file > 100 MB)
+*.pt
+*.pth
+*.ckpt
+*.pt.tmp
+# Moi truong Python
+.venv/
+venv/
+# Du lieu anh va nhan concept tung anh (khong dua len)
+Dataset/
+Concept/
+**/anh_mau/
+*_V18_FINAL_*.csv
+# Luot chay thu va ket qua thu cua app
+runs_smoke/
+runs_*smoke/
+runs_cu/
+**/ket_qua_thu/
+# File tam cua Windows / Office
+~$*
+Thumbs.db
+desktop.ini

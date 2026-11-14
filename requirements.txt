@@ -1,0 +1,14 @@
+# Moi truong da dung (Windows 11, Python 3.11.0). Cai torch truoc:
+#   pip install torch==2.7.1 torchvision==0.22.1 --index-url https://download.pytorch.org/whl/cu128
+torch==2.7.1
+torchvision==0.22.1
+numpy==1.26.4
+pandas==2.2.3
+scikit-learn==1.6.1
+scipy==1.17.1
+matplotlib==3.10.1
+openpyxl==3.1.5
+pillow==11.1.0
+# App chan doan (05_App_ChanDoan)
+fastapi==0.162.2
+uvicorn==0.54.0

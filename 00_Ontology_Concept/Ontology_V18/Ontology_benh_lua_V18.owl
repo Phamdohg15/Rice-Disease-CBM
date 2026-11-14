@@ -1,0 +1,1202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ex="http://example.org/rice-cbm/ontology/v18#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdfs:comment xml:lang="vi">16 concept C01–C16 theo Bang_concept_v1_8. Nguồn bệnh học duy nhất: S01 Giáo trình Cây lúa (2008). Tổ hợp P01–P04 là thiết kế truy vấn nghiên cứu, không phải luật chẩn đoán. Không có SWRL hoặc tiên đề điều kiện đủ.</rdfs:comment>
+    <rdfs:label xml:lang="vi">Ontology bệnh lúa cho CBM – concept V1.8</rdfs:label>
+    <owl:priorVersion rdf:resource="https://example.org/rice-v16-two-books"/>
+    <owl:versionInfo>1.8.0</owl:versionInfo>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#BacterialDisease">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="vi">Bệnh do vi khuẩn</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://example.org/rice-cbm/ontology/v18#RiceDisease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#C01">
+    <ex:assignedPer rdf:resource="http://example.org/rice-cbm/ontology/v18#U_TungVet"/>
+    <ex:basis xml:lang="vi">Trực tiếp từ giáo trình</ex:basis>
+    <ex:bottleneckStatus xml:lang="vi">Đưa vào bottleneck</ex:bottleneckStatus>
+    <ex:bottleneckTodo xml:lang="vi">Rà lại ảnh đạo ôn (phóng to); bổ sung ảnh rõ dấu từ bộ paddy.</ex:bottleneckTodo>
+    <ex:code>C01</ex:code>
+    <ex:conceptStatus>ACTIVE_SOURCE</ex:conceptStatus>
+    <ex:describedForDisease rdf:resource="http://example.org/rice-cbm/ontology/v18#D_DaoOn"/>
+    <ex:hasEvidence rdf:resource="http://example.org/rice-cbm/ontology/v18#E01"/>
+    <ex:migrationFromV17 xml:lang="vi">Giữ nguyên mã và nhãn v1.7.</ex:migrationFromV17>
+    <ex:observableOnLeafImages rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:observableOnLeafImages>
+    <ex:rule0 xml:lang="vi">Vùng cần xét đủ rõ và xác nhận không có đặc điểm này; không suy từ nhãn bệnh.</ex:rule0>
+    <ex:rule1 xml:lang="vi">Vùng cần xét đủ rõ và có đặc điểm đúng định nghĩa; lưu định danh vết/vùng tương ứng.</ex:rule1>
+    <ex:rule9 xml:lang="vi">Không thấy đủ vùng cần xét, ảnh mờ, bị che/cắt hoặc không đủ chi tiết để quyết định.</ex:rule9>
+    <ex:sourcePages xml:lang="vi">S01, tr. 141</ex:sourcePages>
+    <ex:trainNegative rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">489</ex:trainNegative>
+    <ex:trainPositive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">112</ex:trainPositive>
+    <ex:trainUnknown rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2049</ex:trainUnknown>
+    <ex:usedInBottleneck rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:usedInBottleneck>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#VisualConcept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">Vết hình mắt én, hai đầu hẹp, giữa phình</rdfs:label>
+    <skos:definition xml:lang="vi">Một vết có phần giữa phình và hai đầu hẹp, tạo hình mắt én. Không yêu cầu hướng theo chiều lá.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#C02">
+    <ex:assignedPer rdf:resource="http://example.org/rice-cbm/ontology/v18#U_TungVet"/>
+    <ex:basis xml:lang="vi">Trực tiếp từ giáo trình</ex:basis>
+    <ex:bottleneckStatus xml:lang="vi">Chờ rà lại (chưa đủ dữ liệu)</ex:bottleneckStatus>
+    <ex:bottleneckTodo xml:lang="vi">Như C01.</ex:bottleneckTodo>
+    <ex:code>C02</ex:code>
+    <ex:conceptStatus>ACTIVE_SOURCE</ex:conceptStatus>
+    <ex:describedForDisease rdf:resource="http://example.org/rice-cbm/ontology/v18#D_DaoOn"/>
+    <ex:hasEvidence rdf:resource="http://example.org/rice-cbm/ontology/v18#E01"/>
+    <ex:migrationFromV17 xml:lang="vi">Giữ nguyên mã và nhãn v1.7.</ex:migrationFromV17>
+    <ex:observableOnLeafImages rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:observableOnLeafImages>
+    <ex:rule0 xml:lang="vi">Vùng cần xét đủ rõ và xác nhận không có đặc điểm này; không suy từ nhãn bệnh.</ex:rule0>
+    <ex:rule1 xml:lang="vi">Vùng cần xét đủ rõ và có đặc điểm đúng định nghĩa; lưu định danh vết/vùng tương ứng.</ex:rule1>
+    <ex:rule9 xml:lang="vi">Không thấy đủ vùng cần xét, ảnh mờ, bị che/cắt hoặc không đủ chi tiết để quyết định.</ex:rule9>
+    <ex:sourcePages xml:lang="vi">S01, tr. 141</ex:sourcePages>
+    <ex:trainNegative rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">236</ex:trainNegative>
+    <ex:trainPositive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33</ex:trainPositive>
+    <ex:trainUnknown rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2381</ex:trainUnknown>
+    <ex:usedInBottleneck rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ex:usedInBottleneck>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#VisualConcept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">Phần giữa vết bệnh màu xám tro</rdfs:label>
+    <skos:definition xml:lang="vi">Phần giữa của vết bệnh có màu xám tro; không đồng nhất màu giữa vết với màu toàn vết hoặc màu trắng.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#C03">
+    <ex:assignedPer rdf:resource="http://example.org/rice-cbm/ontology/v18#U_TungVet"/>
+    <ex:basis xml:lang="vi">Trực tiếp từ giáo trình</ex:basis>
+    <ex:bottleneckStatus xml:lang="vi">Đưa vào bottleneck</ex:bottleneckStatus>
+    <ex:code>C03</ex:code>
+    <ex:conceptStatus>ACTIVE_SOURCE</ex:conceptStatus>
+    <ex:describedForDisease rdf:resource="http://example.org/rice-cbm/ontology/v18#D_DaoOn"/>
+    <ex:describedForDisease rdf:resource="http://example.org/rice-cbm/ontology/v18#D_DomNau"/>
+    <ex:describedForDisease rdf:resource="http://example.org/rice-cbm/ontology/v18#D_KhoVan"/>
+    <ex:hasEvidence rdf:resource="http://example.org/rice-cbm/ontology/v18#E02"/>
+    <ex:hasEvidence rdf:resource="http://example.org/rice-cbm/ontology/v18#E09"/>
+    <ex:hasEvidence rdf:resource="http://example.org/rice-cbm/ontology/v18#E16"/>
+    <ex:migrationFromV17 xml:lang="vi">Giữ nguyên mã và nhãn v1.7.</ex:migrationFromV17>
+    <ex:observableOnLeafImages rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:observableOnLeafImages>
+    <ex:rule0 xml:lang="vi">Vùng cần xét đủ rõ và xác nhận không có đặc điểm này; không suy từ nhãn bệnh.</ex:rule0>
+    <ex:rule1 xml:lang="vi">Vùng cần xét đủ rõ và có đặc điểm đúng định nghĩa; lưu định danh vết/vùng tương ứng.</ex:rule1>
+    <ex:rule9 xml:lang="vi">Không thấy đủ vùng cần xét, ảnh mờ, bị che/cắt hoặc không đủ chi tiết để quyết định.</ex:rule9>
+    <ex:sourcePages xml:lang="vi">S01, tr. 141; 142; 143</ex:sourcePages>
+    <ex:trainNegative rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">234</ex:trainNegative>
+    <ex:trainPositive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1922</ex:trainPositive>
+    <ex:trainUnknown rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">494</ex:trainUnknown>
+    <ex:usedInBottleneck rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:usedInBottleneck>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#VisualConcept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">Viền vết bệnh màu nâu</rdfs:label>
+    <skos:definition xml:lang="vi">Dải màu nâu tạo viền quanh vết; đốm nâu được mô tả viền nâu sậm. Không mở rộng riêng thành nâu đỏ khi sách chưa nêu.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#C04">
+    <ex:assignedPer rdf:resource="http://example.org/rice-cbm/ontology/v18#U_CungVungTrenLa"/>
+    <ex:basis xml:lang="vi">Diễn giải gán ảnh từ giáo trình</ex:basis>
+    <ex:bottleneckStatus xml:lang="vi">Đưa vào bottleneck</ex:bottleneckStatus>
+    <ex:code>C04</ex:code>
+    <ex:conceptStatus>ACTIVE_OPERATIONAL_FROM_SOURCE</ex:conceptStatus>
+    <ex:describedForDisease rdf:resource="http://example.org/rice-cbm/ontology/v18#D_BacLa"/>
+    <ex:hasEvidence rdf:resource="http://example.org/rice-cbm/ontology/v18#E22"/>
+    <ex:migrationFromV17 xml:lang="vi">Giữ nguyên mã và nhãn v1.7.</ex:migrationFromV17>
+    <ex:observableOnLeafImages rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:observableOnLeafImages>
+    <ex:rule0 xml:lang="vi">Vùng cần xét đủ rõ và xác nhận không có đặc điểm này; không suy từ nhãn bệnh.</ex:rule0>
+    <ex:rule1 xml:lang="vi">Vùng cần xét đủ rõ và có đặc điểm đúng định nghĩa; lưu định danh vết/vùng tương ứng.</ex:rule1>
+    <ex:rule9 xml:lang="vi">Không thấy đủ vùng cần xét, ảnh mờ, bị che/cắt hoặc không đủ chi tiết để quyết định.</ex:rule9>
+    <ex:sourcePages xml:lang="vi">S01, tr. 145</ex:sourcePages>
+    <ex:trainNegative rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">346</ex:trainNegative>
+    <ex:trainPositive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2043</ex:trainPositive>
+    <ex:trainUnknown rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">261</ex:trainUnknown>
+    <ex:usedInBottleneck rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:usedInBottleneck>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#VisualConcept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">Vùng tổn thương kéo dài theo hướng gân lá</rdfs:label>
+    <skos:definition xml:lang="vi">Vùng tổn thương quan sát được có hướng kéo dài dọc gân lá. Đây là diễn giải để gán trạng thái ảnh từ mô tả diễn tiến trong sách.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#C05">
+    <ex:assignedPer rdf:resource="http://example.org/rice-cbm/ontology/v18#U_TungVet"/>
+    <ex:basis xml:lang="vi">Trực tiếp từ giáo trình</ex:basis>
+    <ex:bottleneckStatus xml:lang="vi">Đưa vào bottleneck</ex:bottleneckStatus>
+    <ex:bottleneckTodo xml:lang="vi">Đủ tối thiểu; theo dõi AUC.</ex:bottleneckTodo>
+    <ex:code>C05</ex:code>
+    <ex:conceptStatus>ACTIVE_SOURCE</ex:conceptStatus>
+    <ex:describedForDisease rdf:resource="http://example.org/rice-cbm/ontology/v18#D_DaoOn"/>
+    <ex:hasEvidence rdf:resource="http://example.org/rice-cbm/ontology/v18#E03"/>
+    <ex:migrationFromV17 xml:lang="vi">Giữ nguyên mã và nhãn v1.7.</ex:migrationFromV17>
+    <ex:observableOnLeafImages rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:observableOnLeafImages>
+    <ex:rule0 xml:lang="vi">Vùng cần xét đủ rõ và xác nhận không có đặc điểm này; không suy từ nhãn bệnh.</ex:rule0>
+    <ex:rule1 xml:lang="vi">Vùng cần xét đủ rõ và có đặc điểm đúng định nghĩa; lưu định danh vết/vùng tương ứng.</ex:rule1>
+    <ex:rule9 xml:lang="vi">Không thấy đủ vùng cần xét, ảnh mờ, bị che/cắt hoặc không đủ chi tiết để quyết định.</ex:rule9>
+    <ex:sourcePages xml:lang="vi">S01, tr. 141</ex:sourcePages>
+    <ex:trainNegative rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">319</ex:trainNegative>
+    <ex:trainPositive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">206</ex:trainPositive>
+    <ex:trainUnknown rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2125</ex:trainUnknown>
+    <ex:usedInBottleneck rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:usedInBottleneck>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#VisualConcept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">Quầng vàng phía ngoài viền nâu của vết</rdfs:label>
+    <skos:definition xml:lang="vi">Vùng vàng tạo quầng phía ngoài viền nâu của cùng một vết. Phân biệt với vàng cả lá hoặc sọc vàng.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#C06">
+    <ex:assignedPer rdf:resource="http://example.org/rice-cbm/ontology/v18#U_TungVet"/>
+    <ex:basis xml:lang="vi">Trực tiếp từ giáo trình</ex:basis>
+    <ex:bottleneckStatus xml:lang="vi">Đưa vào bottleneck</ex:bottleneckStatus>
+    <ex:code>C06</ex:code>
+    <ex:conceptStatus>ACTIVE_SOURCE</ex:conceptStatus>
+    <ex:describedForDisease rdf:resource="http://example.org/rice-cbm/ontology/v18#D_DomNau"/>
+    <ex:describedForDisease rdf:resource="http://example.org/rice-cbm/ontology/v18#D_KhoVan"/>
+    <ex:hasEvidence rdf:resource="http://example.org/rice-cbm/ontology/v18#E08"/>
+    <ex:hasEvidence rdf:resource="http://example.org/rice-cbm/ontology/v18#E15"/>
+    <ex:migrationFromV17 xml:lang="vi">Giữ nguyên mã và nhãn v1.7.</ex:migrationFromV17>
+    <ex:observableOnLeafImages rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:observableOnLeafImages>
+    <ex:rule0 xml:lang="vi">Vùng cần xét đủ rõ và xác nhận không có đặc điểm này; không suy từ nhãn bệnh.</ex:rule0>
+    <ex:rule1 xml:lang="vi">Vùng cần xét đủ rõ và có đặc điểm đúng định nghĩa; lưu định danh vết/vùng tương ứng.</ex:rule1>
+    <ex:rule9 xml:lang="vi">Không thấy đủ vùng cần xét, ảnh mờ, bị che/cắt hoặc không đủ chi tiết để quyết định.</ex:rule9>
+    <ex:sourcePages xml:lang="vi">S01, tr. 142; 143</ex:sourcePages>
+    <ex:trainNegative rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">376</ex:trainNegative>
+    <ex:trainPositive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1163</ex:trainPositive>
+    <ex:trainUnknown rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1111</ex:trainUnknown>
+    <ex:usedInBottleneck rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:usedInBottleneck>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#VisualConcept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">Đốm hình tròn hoặc bầu dục</rdfs:label>
+    <skos:definition xml:lang="vi">Một đốm có hình tròn hoặc bầu dục; không đặt yêu cầu nhỏ hoặc ngưỡng kích thước.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#C07">
+    <ex:assignedPer rdf:resource="http://example.org/rice-cbm/ontology/v18#U_TungVet"/>
+    <ex:basis xml:lang="vi">Trực tiếp từ giáo trình</ex:basis>
+    <ex:bottleneckStatus xml:lang="vi">Đưa vào bottleneck</ex:bottleneckStatus>
+    <ex:bottleneckTodo xml:lang="vi">Rà lại ảnh đốm nâu; bổ sung ảnh rõ dấu.</ex:bottleneckTodo>
+    <ex:code>C07</ex:code>
+    <ex:conceptStatus>ACTIVE_SOURCE</ex:conceptStatus>
+    <ex:describedForDisease rdf:resource="http://example.org/rice-cbm/ontology/v18#D_DomNau"/>
+    <ex:hasEvidence rdf:resource="http://example.org/rice-cbm/ontology/v18#E09"/>
+    <ex:migrationFromV17 xml:lang="vi">Giữ nguyên mã và nhãn v1.7.</ex:migrationFromV17>
+    <ex:observableOnLeafImages rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:observableOnLeafImages>
+    <ex:rule0 xml:lang="vi">Vùng cần xét đủ rõ và xác nhận không có đặc điểm này; không suy từ nhãn bệnh.</ex:rule0>
+    <ex:rule1 xml:lang="vi">Vùng cần xét đủ rõ và có đặc điểm đúng định nghĩa; lưu định danh vết/vùng tương ứng.</ex:rule1>
+    <ex:rule9 xml:lang="vi">Không thấy đủ vùng cần xét, ảnh mờ, bị che/cắt hoặc không đủ chi tiết để quyết định.</ex:rule9>
+    <ex:sourcePages xml:lang="vi">S01, tr. 142</ex:sourcePages>
+    <ex:trainNegative rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">370</ex:trainNegative>
+    <ex:trainPositive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">125</ex:trainPositive>
+    <ex:trainUnknown rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2155</ex:trainUnknown>
+    <ex:usedInBottleneck rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:usedInBottleneck>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#VisualConcept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">Phần chính của đốm trên lá màu nâu lợt</rdfs:label>
+    <skos:definition xml:lang="vi">Phần chính bên trong đốm trên lá có màu nâu lợt. Màu nâu sậm của viền được biểu diễn bằng C03.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#C08">
+    <ex:assignedPer rdf:resource="http://example.org/rice-cbm/ontology/v18#U_TungVet"/>
+    <ex:basis xml:lang="vi">Trực tiếp từ giáo trình</ex:basis>
+    <ex:bottleneckStatus xml:lang="vi">Chờ rà lại (chưa đủ dữ liệu)</ex:bottleneckStatus>
+    <ex:bottleneckTodo xml:lang="vi">Như C07.</ex:bottleneckTodo>
+    <ex:code>C08</ex:code>
+    <ex:conceptStatus>ACTIVE_SOURCE</ex:conceptStatus>
+    <ex:describedForDisease rdf:resource="http://example.org/rice-cbm/ontology/v18#D_DomNau"/>
+    <ex:hasEvidence rdf:resource="http://example.org/rice-cbm/ontology/v18#E10"/>
+    <ex:migrationFromV17 xml:lang="vi">Giữ nguyên mã và nhãn v1.7.</ex:migrationFromV17>
+    <ex:observableOnLeafImages rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:observableOnLeafImages>
+    <ex:rule0 xml:lang="vi">Vùng cần xét đủ rõ và xác nhận không có đặc điểm này; không suy từ nhãn bệnh.</ex:rule0>
+    <ex:rule1 xml:lang="vi">Vùng cần xét đủ rõ và có đặc điểm đúng định nghĩa; lưu định danh vết/vùng tương ứng.</ex:rule1>
+    <ex:rule9 xml:lang="vi">Không thấy đủ vùng cần xét, ảnh mờ, bị che/cắt hoặc không đủ chi tiết để quyết định.</ex:rule9>
+    <ex:sourcePages xml:lang="vi">S01, tr. 142</ex:sourcePages>
+    <ex:trainNegative rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">377</ex:trainNegative>
+    <ex:trainPositive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</ex:trainPositive>
+    <ex:trainUnknown rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2265</ex:trainUnknown>
+    <ex:usedInBottleneck rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ex:usedInBottleneck>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#VisualConcept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">Vòng đồng tâm bên trong vết đốm</rdfs:label>
+    <skos:definition xml:lang="vi">Trong cùng một vết đốm thấy cấu trúc các vòng đồng tâm.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#C09">
+    <ex:assignedPer rdf:resource="http://example.org/rice-cbm/ontology/v18#U_CungVungTrenLa"/>
+    <ex:basis xml:lang="vi">Diễn giải gán ảnh từ giáo trình</ex:basis>
+    <ex:bottleneckStatus xml:lang="vi">Đưa vào bottleneck</ex:bottleneckStatus>
+    <ex:code>C09</ex:code>
+    <ex:conceptStatus>ACTIVE_OPERATIONAL_FROM_SOURCE</ex:conceptStatus>
+    <ex:describedForDisease rdf:resource="http://example.org/rice-cbm/ontology/v18#D_BacLa"/>
+    <ex:hasEvidence rdf:resource="http://example.org/rice-cbm/ontology/v18#E21"/>
+    <ex:hasEvidence rdf:resource="http://example.org/rice-cbm/ontology/v18#E22"/>
+    <ex:migrationFromV17 xml:lang="vi">Giữ nguyên mã và nhãn v1.7.</ex:migrationFromV17>
+    <ex:observableOnLeafImages rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:observableOnLeafImages>
+    <ex:rule0 xml:lang="vi">Vùng cần xét đủ rõ và xác nhận không có đặc điểm này; không suy từ nhãn bệnh.</ex:rule0>
+    <ex:rule1 xml:lang="vi">Vùng cần xét đủ rõ và có đặc điểm đúng định nghĩa; lưu định danh vết/vùng tương ứng.</ex:rule1>
+    <ex:rule9 xml:lang="vi">Không thấy đủ vùng cần xét, ảnh mờ, bị che/cắt hoặc không đủ chi tiết để quyết định.</ex:rule9>
+    <ex:sourcePages xml:lang="vi">S01, tr. 145</ex:sourcePages>
+    <ex:trainNegative rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">618</ex:trainNegative>
+    <ex:trainPositive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1625</ex:trainPositive>
+    <ex:trainUnknown rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">407</ex:trainUnknown>
+    <ex:usedInBottleneck rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:usedInBottleneck>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#VisualConcept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">Tổn thương tiếp giáp chóp hoặc mép lá</rdfs:label>
+    <skos:definition xml:lang="vi">Vùng tổn thương có tiếp giáp quan sát được với chóp hoặc mép lá; không suy điểm khởi phát hay hướng lan.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#C10">
+    <ex:assignedPer rdf:resource="http://example.org/rice-cbm/ontology/v18#U_TungVetHoacVung"/>
+    <ex:basis xml:lang="vi">Gộp hai phát biểu trực tiếp từ giáo trình</ex:basis>
+    <ex:bottleneckStatus xml:lang="vi">Đưa vào bottleneck</ex:bottleneckStatus>
+    <ex:code>C10</ex:code>
+    <ex:conceptStatus>ACTIVE_MERGED_FROM_SOURCE</ex:conceptStatus>
+    <ex:describedForDisease rdf:resource="http://example.org/rice-cbm/ontology/v18#D_BacLa"/>
+    <ex:describedForDisease rdf:resource="http://example.org/rice-cbm/ontology/v18#D_KhoVan"/>
+    <ex:hasEvidence rdf:resource="http://example.org/rice-cbm/ontology/v18#E16"/>
+    <ex:hasEvidence rdf:resource="http://example.org/rice-cbm/ontology/v18#E23"/>
+    <ex:migrationFromV17 xml:lang="vi">C10 v1.8 = 1 nếu C10 v1.7 = 1 hoặc C17 v1.7 = 1; = 0 nếu cả hai = 0; còn lại = 9.</ex:migrationFromV17>
+    <ex:observableOnLeafImages rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:observableOnLeafImages>
+    <ex:rule0 xml:lang="vi">Vùng cần xét đủ rõ và xác nhận không có đặc điểm này; không suy từ nhãn bệnh.</ex:rule0>
+    <ex:rule1 xml:lang="vi">Vùng cần xét đủ rõ và có đặc điểm đúng định nghĩa; lưu định danh vết/vùng tương ứng.</ex:rule1>
+    <ex:rule9 xml:lang="vi">Không thấy đủ vùng cần xét, ảnh mờ, bị che/cắt hoặc không đủ chi tiết để quyết định.</ex:rule9>
+    <ex:sourcePages xml:lang="vi">S01, tr. 143; 145</ex:sourcePages>
+    <ex:trainNegative rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">366</ex:trainNegative>
+    <ex:trainPositive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">789</ex:trainPositive>
+    <ex:trainUnknown rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1495</ex:trainUnknown>
+    <ex:usedInBottleneck rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:usedInBottleneck>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#VisualConcept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:comment xml:lang="vi">V1.8 gộp C10 (xám trắng – bạc lá) và C17 (vết màu xám – khô vằn) của V1.7. Không gồm phần giữa xám tro hình mắt én (C02).</rdfs:comment>
+    <rdfs:label xml:lang="vi">Vùng/vết tổn thương màu xám – xám trắng</rdfs:label>
+    <skos:definition xml:lang="vi">Phần chính của vết hoặc vùng tổn thương có màu xám đến xám trắng, phân biệt với viền nâu. Gộp C10 (xám trắng, bạc lá) và C17 (vết màu xám, khô vằn) của v1.7 vì người gán không phân biệt ổn định hai sắc độ trên ảnh. Không bao gồm phần giữa xám tro của vết hình mắt én (C02).</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#C11">
+    <ex:assignedPer rdf:resource="http://example.org/rice-cbm/ontology/v18#U_CungVungTrenLa"/>
+    <ex:basis xml:lang="vi">Trực tiếp từ giáo trình</ex:basis>
+    <ex:bottleneckStatus xml:lang="vi">Đưa vào bottleneck</ex:bottleneckStatus>
+    <ex:bottleneckTodo xml:lang="vi">Đủ tối thiểu; theo dõi AUC.</ex:bottleneckTodo>
+    <ex:code>C11</ex:code>
+    <ex:conceptStatus>ACTIVE_SOURCE</ex:conceptStatus>
+    <ex:describedForDisease rdf:resource="http://example.org/rice-cbm/ontology/v18#D_BacLa"/>
+    <ex:hasEvidence rdf:resource="http://example.org/rice-cbm/ontology/v18#E24"/>
+    <ex:migrationFromV17 xml:lang="vi">Giữ nguyên mã và nhãn v1.7.</ex:migrationFromV17>
+    <ex:observableOnLeafImages rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:observableOnLeafImages>
+    <ex:rule0 xml:lang="vi">Vùng cần xét đủ rõ và xác nhận không có đặc điểm này; không suy từ nhãn bệnh.</ex:rule0>
+    <ex:rule1 xml:lang="vi">Vùng cần xét đủ rõ và có đặc điểm đúng định nghĩa; lưu định danh vết/vùng tương ứng.</ex:rule1>
+    <ex:rule9 xml:lang="vi">Không thấy đủ vùng cần xét, ảnh mờ, bị che/cắt hoặc không đủ chi tiết để quyết định.</ex:rule9>
+    <ex:sourcePages xml:lang="vi">S01, tr. 145</ex:sourcePages>
+    <ex:trainNegative rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">883</ex:trainNegative>
+    <ex:trainPositive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">190</ex:trainPositive>
+    <ex:trainUnknown rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1577</ex:trainUnknown>
+    <ex:usedInBottleneck rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:usedInBottleneck>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#VisualConcept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">Viền ngoài vùng tổn thương có hình gợn sóng</rdfs:label>
+    <skos:definition xml:lang="vi">Đường viền ngoài của vùng tổn thương có hình gợn sóng; không coi mọi ranh giới không đều là gợn sóng.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#C12">
+    <ex:assignedPer rdf:resource="http://example.org/rice-cbm/ontology/v18#U_CungVungTrenLa"/>
+    <ex:basis xml:lang="vi">Trực tiếp từ giáo trình</ex:basis>
+    <ex:bottleneckStatus xml:lang="vi">Đưa vào bottleneck</ex:bottleneckStatus>
+    <ex:bottleneckTodo xml:lang="vi">Rà lại nếu còn thời gian.</ex:bottleneckTodo>
+    <ex:code>C12</ex:code>
+    <ex:conceptStatus>ACTIVE_SOURCE</ex:conceptStatus>
+    <ex:describedForDisease rdf:resource="http://example.org/rice-cbm/ontology/v18#D_DaoOn"/>
+    <ex:hasEvidence rdf:resource="http://example.org/rice-cbm/ontology/v18#E04"/>
+    <ex:migrationFromV17 xml:lang="vi">Giữ nguyên mã và nhãn v1.7.</ex:migrationFromV17>
+    <ex:observableOnLeafImages rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:observableOnLeafImages>
+    <ex:rule0 xml:lang="vi">Vùng lá cần xét đủ rõ và không thấy nhiều vết bệnh liên kết với nhau.</ex:rule0>
+    <ex:rule1 xml:lang="vi">Quan sát đủ rõ nhiều vết bệnh liên kết với nhau trên cùng lá.</ex:rule1>
+    <ex:rule9 xml:lang="vi">Không đủ phạm vi hoặc chi tiết để phân biệt nhiều vết liên kết với một vết đơn hay các vết tách rời.</ex:rule9>
+    <ex:sourcePages xml:lang="vi">S01, tr. 141</ex:sourcePages>
+    <ex:trainNegative rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">639</ex:trainNegative>
+    <ex:trainPositive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87</ex:trainPositive>
+    <ex:trainUnknown rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1924</ex:trainUnknown>
+    <ex:usedInBottleneck rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:usedInBottleneck>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#VisualConcept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">Nhiều vết bệnh liên kết với nhau</rdfs:label>
+    <skos:definition xml:lang="vi">Nhiều vết bệnh liên kết với nhau trên cùng lá. Giáo trình mô tả ở bệnh đạo ôn: nhiều vết bệnh liên kết lại làm cả lá lúa bị cháy khô. Không thêm điều kiện kích thước lớn hoặc ngưỡng diện tích.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#C13">
+    <ex:assignedPer rdf:resource="http://example.org/rice-cbm/ontology/v18#U_BeLa"/>
+    <ex:basis xml:lang="vi">Trực tiếp từ giáo trình</ex:basis>
+    <ex:bottleneckStatus xml:lang="vi">Chờ rà lại (chưa đủ dữ liệu)</ex:bottleneckStatus>
+    <ex:bottleneckTodo xml:lang="vi">Rà lại ảnh khô vằn (bẹ hay phiến).</ex:bottleneckTodo>
+    <ex:code>C13</ex:code>
+    <ex:conceptStatus>ACTIVE_SOURCE</ex:conceptStatus>
+    <ex:describedForDisease rdf:resource="http://example.org/rice-cbm/ontology/v18#D_BacLa"/>
+    <ex:describedForDisease rdf:resource="http://example.org/rice-cbm/ontology/v18#D_KhoVan"/>
+    <ex:hasEvidence rdf:resource="http://example.org/rice-cbm/ontology/v18#E15"/>
+    <ex:hasEvidence rdf:resource="http://example.org/rice-cbm/ontology/v18#E25"/>
+    <ex:migrationFromV17 xml:lang="vi">Giữ mã. Nhãn v1.7 toàn bộ là 9; rà lại từ ảnh (ưu tiên ảnh khô vằn), phóng to khi gán.</ex:migrationFromV17>
+    <ex:observableOnLeafImages rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ex:observableOnLeafImages>
+    <ex:rule0 xml:lang="vi">Vùng cần xét đủ rõ và xác nhận không có đặc điểm này; không suy từ nhãn bệnh.</ex:rule0>
+    <ex:rule1 xml:lang="vi">Vùng cần xét đủ rõ và có đặc điểm đúng định nghĩa; lưu định danh vết/vùng tương ứng.</ex:rule1>
+    <ex:rule9 xml:lang="vi">Không thấy đủ vùng cần xét, ảnh mờ, bị che/cắt hoặc không đủ chi tiết để quyết định.</ex:rule9>
+    <ex:sourcePages xml:lang="vi">S01, tr. 143; 145</ex:sourcePages>
+    <ex:trainNegative rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ex:trainNegative>
+    <ex:trainPositive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ex:trainPositive>
+    <ex:trainUnknown rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2650</ex:trainUnknown>
+    <ex:usedInBottleneck rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ex:usedInBottleneck>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#VisualConcept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:comment xml:lang="vi">Dữ liệu hiện tại chủ yếu là ảnh phiến lá: toàn bộ nhãn train = 9. Giữ trong ontology như tri thức sách.</rdfs:comment>
+    <rdfs:label xml:lang="vi">Tổn thương trên bẹ lá</rdfs:label>
+    <skos:definition xml:lang="vi">Tổn thương nằm trên phần bẹ lá được nhận diện đủ rõ trong ảnh. Đây là đặc điểm vị trí dùng chung.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#C14">
+    <ex:assignedPer rdf:resource="http://example.org/rice-cbm/ontology/v18#U_TungVet"/>
+    <ex:basis xml:lang="vi">Diễn giải gán ảnh từ giáo trình</ex:basis>
+    <ex:bottleneckStatus xml:lang="vi">Đưa vào bottleneck</ex:bottleneckStatus>
+    <ex:code>C14</ex:code>
+    <ex:conceptStatus>ACTIVE_OPERATIONAL_FROM_SOURCE</ex:conceptStatus>
+    <ex:describedForDisease rdf:resource="http://example.org/rice-cbm/ontology/v18#D_KhoVan"/>
+    <ex:hasEvidence rdf:resource="http://example.org/rice-cbm/ontology/v18#E17"/>
+    <ex:migrationFromV17 xml:lang="vi">Giữ nguyên mã và nhãn v1.7.</ex:migrationFromV17>
+    <ex:observableOnLeafImages rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:observableOnLeafImages>
+    <ex:rule0 xml:lang="vi">Vùng cần xét đủ rõ và xác nhận không có đặc điểm này; không suy từ nhãn bệnh.</ex:rule0>
+    <ex:rule1 xml:lang="vi">Vùng cần xét đủ rõ và có đặc điểm đúng định nghĩa; lưu định danh vết/vùng tương ứng.</ex:rule1>
+    <ex:rule9 xml:lang="vi">Không thấy đủ vùng cần xét, ảnh mờ, bị che/cắt hoặc không đủ chi tiết để quyết định.</ex:rule9>
+    <ex:sourcePages xml:lang="vi">S01, tr. 143</ex:sourcePages>
+    <ex:trainNegative rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">552</ex:trainNegative>
+    <ex:trainPositive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1326</ex:trainPositive>
+    <ex:trainUnknown rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">772</ex:trainUnknown>
+    <ex:usedInBottleneck rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:usedInBottleneck>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#VisualConcept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">Vết tổn thương có hình dạng không đều</rdfs:label>
+    <skos:definition xml:lang="vi">Một vết có đường bao không đều. Hình tròn/bầu dục được tách sang C06; không đặt điều kiện vết lớn.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#C15">
+    <ex:assignedPer rdf:resource="http://example.org/rice-cbm/ontology/v18#U_CungVungLaHoacBe"/>
+    <ex:basis xml:lang="vi">Trực tiếp từ giáo trình</ex:basis>
+    <ex:bottleneckStatus xml:lang="vi">Đưa vào bottleneck</ex:bottleneckStatus>
+    <ex:bottleneckTodo xml:lang="vi">Đủ tối thiểu; theo dõi AUC.</ex:bottleneckTodo>
+    <ex:code>C15</ex:code>
+    <ex:conceptStatus>ACTIVE_SOURCE</ex:conceptStatus>
+    <ex:describedForDisease rdf:resource="http://example.org/rice-cbm/ontology/v18#D_KhoVan"/>
+    <ex:hasEvidence rdf:resource="http://example.org/rice-cbm/ontology/v18#E17"/>
+    <ex:migrationFromV17 xml:lang="vi">Giữ nguyên mã và nhãn v1.7.</ex:migrationFromV17>
+    <ex:observableOnLeafImages rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:observableOnLeafImages>
+    <ex:rule0 xml:lang="vi">Vùng cần xét đủ rõ và xác nhận không có đặc điểm này; không suy từ nhãn bệnh.</ex:rule0>
+    <ex:rule1 xml:lang="vi">Vùng cần xét đủ rõ và có đặc điểm đúng định nghĩa; lưu định danh vết/vùng tương ứng.</ex:rule1>
+    <ex:rule9 xml:lang="vi">Không thấy đủ vùng cần xét, ảnh mờ, bị che/cắt hoặc không đủ chi tiết để quyết định.</ex:rule9>
+    <ex:sourcePages xml:lang="vi">S01, tr. 143</ex:sourcePages>
+    <ex:trainNegative rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1800</ex:trainNegative>
+    <ex:trainPositive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">180</ex:trainPositive>
+    <ex:trainUnknown rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">670</ex:trainUnknown>
+    <ex:usedInBottleneck rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:usedInBottleneck>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#VisualConcept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">Vết loang lỗ, vằn vện như da hổ</rdfs:label>
+    <skos:definition xml:lang="vi">Vùng tổn thương có biểu hiện loang lỗ, vằn vện gợi kiểu da hổ theo mô tả của giáo trình.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#C16">
+    <ex:assignedPer rdf:resource="http://example.org/rice-cbm/ontology/v18#U_PhienLaQuanSat"/>
+    <ex:basis xml:lang="vi">Quy ước dự án / không phải phát biểu trực tiếp của sách</ex:basis>
+    <ex:bottleneckStatus xml:lang="vi">Đưa vào bottleneck</ex:bottleneckStatus>
+    <ex:bottleneckTodo xml:lang="vi">Cắt lá cho 165 ảnh khỏe đang = 9.</ex:bottleneckTodo>
+    <ex:code>C16</ex:code>
+    <ex:conceptStatus>ACTIVE_PROJECT_LABEL</ex:conceptStatus>
+    <ex:migrationFromV17 xml:lang="vi">Giữ mã. Khi C16 = 1, các concept bệnh trên phiến lá (C01–C12, C14, C15) phải là 0, không để 9; C13 giữ theo quan sát bẹ.</ex:migrationFromV17>
+    <ex:observableOnLeafImages rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:observableOnLeafImages>
+    <ex:rule0 xml:lang="vi">Thấy tổn thương hoặc bất thường rõ trên phần phiến lá cần xét.</ex:rule0>
+    <ex:rule1 xml:lang="vi">Phần phiến lá cần xét đủ rõ, không thấy tổn thương rõ trong phạm vi đó.</ex:rule1>
+    <ex:rule9 xml:lang="vi">Phiến lá quá mờ, che/cắt hoặc không đủ chi tiết để đánh giá.</ex:rule9>
+    <ex:sourcePages xml:lang="vi">Quy ước dự án</ex:sourcePages>
+    <ex:trainNegative rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2262</ex:trainNegative>
+    <ex:trainPositive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">234</ex:trainPositive>
+    <ex:trainUnknown rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">154</ex:trainUnknown>
+    <ex:usedInBottleneck rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:usedInBottleneck>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#VisualConcept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:comment xml:lang="vi">Ràng buộc gán nhãn: C16 = 1 kéo theo C01–C12, C14, C15 = 0 (không để 9); C13 theo quan sát bẹ.</rdfs:comment>
+    <rdfs:label xml:lang="vi">Không thấy tổn thương rõ trên phần phiến lá quan sát</rdfs:label>
+    <skos:definition xml:lang="vi">Phần phiến lá quan sát được đủ rõ và không thấy tổn thương rõ. Chỉ là nhãn biểu hiện trên ảnh, không kết luận cây khỏe sinh học.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#CandidateCombination">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="vi">Tổ hợp ứng viên nghiên cứu</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#D_BacLa">
+    <ex:datasetCode>01_bac_la</ex:datasetCode>
+    <ex:imageFolder>Bacterial Leaf Blight</ex:imageFolder>
+    <ex:pathogenAsInSource>Xanthomonas campestris pv. oyzae</ex:pathogenAsInSource>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#BacterialDisease"/>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#RiceDisease"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">Bạc lá</rdfs:label>
+    <skos:altLabel xml:lang="en">Bacterial Leaf Blight</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#D_DaoOn">
+    <ex:datasetCode>03_dao_on_la</ex:datasetCode>
+    <ex:imageFolder>Leaf Blast</ex:imageFolder>
+    <ex:pathogenAsInSource>Do nấm Pyricularia oryzae gây ra</ex:pathogenAsInSource>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#FungalDisease"/>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#RiceDisease"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">Đạo ôn</rdfs:label>
+    <skos:altLabel xml:lang="en">Leaf Blast</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#D_DomNau">
+    <ex:datasetCode>02_dom_nau</ex:datasetCode>
+    <ex:imageFolder>Brown Spot</ex:imageFolder>
+    <ex:pathogenAsInSource>do nấm Helminthosporium oryzae</ex:pathogenAsInSource>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#FungalDisease"/>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#RiceDisease"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">Đốm nâu</rdfs:label>
+    <skos:altLabel xml:lang="en">Brown Spot</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#D_KhoVan">
+    <ex:datasetCode>04_kho_van</ex:datasetCode>
+    <ex:imageFolder>Sheath Blight</ex:imageFolder>
+    <ex:pathogenAsInSource>Thanatephorus cucumeris (Rhizoctonia solani Kuhn)</ex:pathogenAsInSource>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#FungalDisease"/>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#RiceDisease"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">Khô vằn</rdfs:label>
+    <skos:altLabel xml:lang="en">Sheath Blight</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#D_ThoiBe">
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#OutOfScopeDisease"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:comment xml:lang="vi">Bối cảnh ngoài 4 bệnh (E27): tổn thương bẹ không độc quyền khô vằn. Không phải lớp dữ liệu.</rdfs:comment>
+    <rdfs:label xml:lang="vi">Thối bẹ (Sheath rot)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#DatasetClass">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="vi">Lớp ảnh trong dữ liệu</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#E01">
+    <ex:bookSection>8.2.1.1</ex:bookSection>
+    <ex:code>E01</ex:code>
+    <ex:evidenceAbout rdf:resource="http://example.org/rice-cbm/ontology/v18#D_DaoOn"/>
+    <ex:evidenceFrom rdf:resource="http://example.org/rice-cbm/ontology/v18#S01"/>
+    <ex:meaningUsed xml:lang="vi">Đạo ôn: hình mắt én, hai đầu hẹp, giữa phình và có màu xám tro.</ex:meaningUsed>
+    <ex:pdfPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">153</ex:pdfPage>
+    <ex:printedPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">141</ex:printedPage>
+    <ex:quote xml:lang="vi">dạng hình mắt én, hai đầu hẹp, giữa phình ra có màu xám tro</ex:quote>
+    <ex:statementType xml:lang="vi">Tri thức bệnh học</ex:statementType>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#Evidence"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">E01 – Đạo ôn</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#E02">
+    <ex:bookSection>8.2.1.1</ex:bookSection>
+    <ex:code>E02</ex:code>
+    <ex:evidenceAbout rdf:resource="http://example.org/rice-cbm/ontology/v18#D_DaoOn"/>
+    <ex:evidenceFrom rdf:resource="http://example.org/rice-cbm/ontology/v18#S01"/>
+    <ex:meaningUsed xml:lang="vi">Đạo ôn có viền nâu rõ rệt.</ex:meaningUsed>
+    <ex:pdfPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">153</ex:pdfPage>
+    <ex:printedPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">141</ex:printedPage>
+    <ex:quote xml:lang="vi">Chung quanh vết bệnh có viền nâu rõ rệt</ex:quote>
+    <ex:statementType xml:lang="vi">Tri thức bệnh học</ex:statementType>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#Evidence"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">E02 – Đạo ôn</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#E03">
+    <ex:bookSection>8.2.1.1</ex:bookSection>
+    <ex:code>E03</ex:code>
+    <ex:evidenceAbout rdf:resource="http://example.org/rice-cbm/ontology/v18#D_DaoOn"/>
+    <ex:evidenceFrom rdf:resource="http://example.org/rice-cbm/ontology/v18#S01"/>
+    <ex:meaningUsed xml:lang="vi">Đạo ôn thường có quầng vàng ngoài viền nâu.</ex:meaningUsed>
+    <ex:pdfPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">153</ex:pdfPage>
+    <ex:printedPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">141</ex:printedPage>
+    <ex:quote xml:lang="vi">ngoài viền nâu thường có một quầng vàng</ex:quote>
+    <ex:statementType xml:lang="vi">Tri thức bệnh học</ex:statementType>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#Evidence"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">E03 – Đạo ôn</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#E04">
+    <ex:bookSection>8.2.1.1</ex:bookSection>
+    <ex:code>E04</ex:code>
+    <ex:evidenceAbout rdf:resource="http://example.org/rice-cbm/ontology/v18#D_DaoOn"/>
+    <ex:evidenceFrom rdf:resource="http://example.org/rice-cbm/ontology/v18#S01"/>
+    <ex:limitation xml:lang="vi">Ảnh tĩnh chỉ thể hiện trạng thái vùng tổn thương, không xác nhận lịch sử liên kết.</ex:limitation>
+    <ex:meaningUsed xml:lang="vi">Giáo trình ghi nhận nhiều vết đạo ôn liên kết, gây lá cháy khô.</ex:meaningUsed>
+    <ex:pdfPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">153</ex:pdfPage>
+    <ex:printedPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">141</ex:printedPage>
+    <ex:quote xml:lang="vi">Nhiều vết bệnh liên kết lại làm cả lá lúa bị cháy khô.</ex:quote>
+    <ex:statementType xml:lang="vi">Diễn tiến và biểu hiện</ex:statementType>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#Evidence"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">E04 – Đạo ôn</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#E05">
+    <ex:bookSection>8.2.1.1</ex:bookSection>
+    <ex:code>E05</ex:code>
+    <ex:evidenceAbout rdf:resource="http://example.org/rice-cbm/ontology/v18#D_DaoOn"/>
+    <ex:evidenceFrom rdf:resource="http://example.org/rice-cbm/ontology/v18#S01"/>
+    <ex:meaningUsed xml:lang="vi">Tên tác nhân đạo ôn được giáo trình sử dụng.</ex:meaningUsed>
+    <ex:pdfPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">153</ex:pdfPage>
+    <ex:printedPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">141</ex:printedPage>
+    <ex:quote xml:lang="vi">Do nấm Pyricularia oryzae gây ra</ex:quote>
+    <ex:statementType xml:lang="vi">Tên tác nhân theo nguồn</ex:statementType>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#Evidence"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">E05 – Đạo ôn</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#E06">
+    <ex:bookSection>8.2.1.1</ex:bookSection>
+    <ex:code>E06</ex:code>
+    <ex:evidenceAbout rdf:resource="http://example.org/rice-cbm/ontology/v18#D_DaoOn"/>
+    <ex:evidenceFrom rdf:resource="http://example.org/rice-cbm/ontology/v18#S01"/>
+    <ex:meaningUsed xml:lang="vi">Đạo ôn được mô tả xuất hiện nhiều ở phiến lá.</ex:meaningUsed>
+    <ex:pdfPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">153</ex:pdfPage>
+    <ex:printedPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">141</ex:printedPage>
+    <ex:quote xml:lang="vi">nhiều nhất là ở phiến lá</ex:quote>
+    <ex:statementType xml:lang="vi">Vị trí</ex:statementType>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#Evidence"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">E06 – Đạo ôn</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#E07">
+    <ex:bookSection>8.2.1.1</ex:bookSection>
+    <ex:code>E07</ex:code>
+    <ex:evidenceAbout rdf:resource="http://example.org/rice-cbm/ontology/v18#D_DaoOn"/>
+    <ex:evidenceFrom rdf:resource="http://example.org/rice-cbm/ontology/v18#S01"/>
+    <ex:limitation xml:lang="vi">Không chuyển chữ nhỏ thành ngưỡng ảnh hoặc yêu cầu cho đốm nâu.</ex:limitation>
+    <ex:meaningUsed xml:lang="vi">Đốm nhỏ màu nâu là biểu hiện ban đầu của đạo ôn trong nguồn.</ex:meaningUsed>
+    <ex:pdfPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">153</ex:pdfPage>
+    <ex:printedPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">141</ex:printedPage>
+    <ex:quote xml:lang="vi">vết bệnh lúc đầu nhỏ màu nâu</ex:quote>
+    <ex:statementType xml:lang="vi">Diễn tiến</ex:statementType>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#Evidence"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">E07 – Đạo ôn</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#E08">
+    <ex:bookSection>8.2.1.2</ex:bookSection>
+    <ex:code>E08</ex:code>
+    <ex:evidenceAbout rdf:resource="http://example.org/rice-cbm/ontology/v18#D_DomNau"/>
+    <ex:evidenceFrom rdf:resource="http://example.org/rice-cbm/ontology/v18#S01"/>
+    <ex:meaningUsed xml:lang="vi">Hình tròn hoặc bầu dục của đốm nâu trên lá.</ex:meaningUsed>
+    <ex:pdfPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">154</ex:pdfPage>
+    <ex:printedPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">142</ex:printedPage>
+    <ex:quote xml:lang="vi">đốm bệnh có hình tròn hay bầu dục</ex:quote>
+    <ex:statementType xml:lang="vi">Tri thức bệnh học</ex:statementType>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#Evidence"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">E08 – Đốm nâu</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#E09">
+    <ex:bookSection>8.2.1.2</ex:bookSection>
+    <ex:code>E09</ex:code>
+    <ex:evidenceAbout rdf:resource="http://example.org/rice-cbm/ontology/v18#D_DomNau"/>
+    <ex:evidenceFrom rdf:resource="http://example.org/rice-cbm/ontology/v18#S01"/>
+    <ex:meaningUsed xml:lang="vi">Màu phần chính và màu viền của đốm nâu trên lá được tách riêng.</ex:meaningUsed>
+    <ex:pdfPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">154</ex:pdfPage>
+    <ex:printedPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">142</ex:printedPage>
+    <ex:quote xml:lang="vi">màu nâu lợt có viền nâu sậm</ex:quote>
+    <ex:statementType xml:lang="vi">Tri thức bệnh học</ex:statementType>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#Evidence"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">E09 – Đốm nâu</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#E10">
+    <ex:bookSection>8.2.1.2</ex:bookSection>
+    <ex:code>E10</ex:code>
+    <ex:evidenceAbout rdf:resource="http://example.org/rice-cbm/ontology/v18#D_DomNau"/>
+    <ex:evidenceFrom rdf:resource="http://example.org/rice-cbm/ontology/v18#S01"/>
+    <ex:meaningUsed xml:lang="vi">Cấu trúc vòng đồng tâm trong vết đốm nâu.</ex:meaningUsed>
+    <ex:pdfPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">154</ex:pdfPage>
+    <ex:printedPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">142</ex:printedPage>
+    <ex:quote xml:lang="vi">với các vòng đồng tâm trong vết bệnh</ex:quote>
+    <ex:statementType xml:lang="vi">Tri thức bệnh học</ex:statementType>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#Evidence"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">E10 – Đốm nâu</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#E11">
+    <ex:bookSection>8.2.1.2</ex:bookSection>
+    <ex:code>E11</ex:code>
+    <ex:evidenceAbout rdf:resource="http://example.org/rice-cbm/ontology/v18#D_DomNau"/>
+    <ex:evidenceFrom rdf:resource="http://example.org/rice-cbm/ontology/v18#S01"/>
+    <ex:meaningUsed xml:lang="vi">Tên tác nhân đốm nâu được giáo trình sử dụng.</ex:meaningUsed>
+    <ex:pdfPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">154</ex:pdfPage>
+    <ex:printedPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">142</ex:printedPage>
+    <ex:quote xml:lang="vi">do nấm Helminthosporium oryzae</ex:quote>
+    <ex:statementType xml:lang="vi">Tên tác nhân theo nguồn</ex:statementType>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#Evidence"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">E11 – Đốm nâu</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#E12">
+    <ex:bookSection>8.2.1.2</ex:bookSection>
+    <ex:code>E12</ex:code>
+    <ex:evidenceAbout rdf:resource="http://example.org/rice-cbm/ontology/v18#D_DomNau"/>
+    <ex:evidenceFrom rdf:resource="http://example.org/rice-cbm/ontology/v18#S01"/>
+    <ex:limitation xml:lang="vi">Không dùng đoạn này làm căn cứ cho phần chính đốm trên lá màu nâu sẫm.</ex:limitation>
+    <ex:meaningUsed xml:lang="vi">Màu nâu đen được nguồn gắn với vết trên hạt.</ex:meaningUsed>
+    <ex:pdfPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">154</ex:pdfPage>
+    <ex:printedPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">142</ex:printedPage>
+    <ex:quote xml:lang="vi">Trên hạt, vết bệnh có màu nâu đen</ex:quote>
+    <ex:statementType xml:lang="vi">Vị trí và màu sắc</ex:statementType>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#Evidence"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">E12 – Đốm nâu</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#E13">
+    <ex:bookSection>8.2.1.5</ex:bookSection>
+    <ex:code>E13</ex:code>
+    <ex:evidenceAbout rdf:resource="http://example.org/rice-cbm/ontology/v18#D_KhoVan"/>
+    <ex:evidenceFrom rdf:resource="http://example.org/rice-cbm/ontology/v18#S01"/>
+    <ex:meaningUsed xml:lang="vi">Tên đốm vằn, khô vằn và ung thư trong giáo trình.</ex:meaningUsed>
+    <ex:pdfPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">155</ex:pdfPage>
+    <ex:printedPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">143</ex:printedPage>
+    <ex:quote xml:lang="vi">còn gọi là khô vằn hay ung thư</ex:quote>
+    <ex:statementType xml:lang="vi">Tên bệnh theo nguồn</ex:statementType>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#Evidence"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">E13 – Khô vằn</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#E14">
+    <ex:bookSection>8.2.1.5</ex:bookSection>
+    <ex:code>E14</ex:code>
+    <ex:evidenceAbout rdf:resource="http://example.org/rice-cbm/ontology/v18#D_KhoVan"/>
+    <ex:evidenceFrom rdf:resource="http://example.org/rice-cbm/ontology/v18#S01"/>
+    <ex:limitation xml:lang="vi">Lưu chuỗi tên theo sách; không tự khẳng định quan hệ phân loại hiện hành bằng owl:sameAs.</ex:limitation>
+    <ex:meaningUsed xml:lang="vi">Tên tác nhân khô vằn được sách ghi.</ex:meaningUsed>
+    <ex:pdfPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">155</ex:pdfPage>
+    <ex:printedPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">143</ex:printedPage>
+    <ex:quote xml:lang="vi">Thanatephorus cucumeris (Rhizoctonia solani Kuhn)</ex:quote>
+    <ex:statementType xml:lang="vi">Tên tác nhân theo nguồn</ex:statementType>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#Evidence"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">E14 – Khô vằn</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#E15">
+    <ex:bookSection>8.2.1.5</ex:bookSection>
+    <ex:code>E15</ex:code>
+    <ex:evidenceAbout rdf:resource="http://example.org/rice-cbm/ontology/v18#D_KhoVan"/>
+    <ex:evidenceFrom rdf:resource="http://example.org/rice-cbm/ontology/v18#S01"/>
+    <ex:meaningUsed xml:lang="vi">Khô vằn: vị trí trên bẹ và hình tròn hoặc bầu dục ban đầu.</ex:meaningUsed>
+    <ex:pdfPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">155</ex:pdfPage>
+    <ex:printedPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">143</ex:printedPage>
+    <ex:quote xml:lang="vi">Trên bẹ lá, vết bệnh lúc đầu tròn hay bầu dục</ex:quote>
+    <ex:statementType xml:lang="vi">Tri thức bệnh học</ex:statementType>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#Evidence"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">E15 – Khô vằn</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#E16">
+    <ex:bookSection>8.2.1.5</ex:bookSection>
+    <ex:code>E16</ex:code>
+    <ex:evidenceAbout rdf:resource="http://example.org/rice-cbm/ontology/v18#D_KhoVan"/>
+    <ex:evidenceFrom rdf:resource="http://example.org/rice-cbm/ontology/v18#S01"/>
+    <ex:limitation xml:lang="vi">Đoạn này không nói riêng tâm trắng.</ex:limitation>
+    <ex:meaningUsed xml:lang="vi">Màu xám của vết và viền nâu ở khô vằn.</ex:meaningUsed>
+    <ex:pdfPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">155</ex:pdfPage>
+    <ex:printedPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">143</ex:printedPage>
+    <ex:quote xml:lang="vi">màu xám có viền nâu</ex:quote>
+    <ex:statementType xml:lang="vi">Tri thức bệnh học</ex:statementType>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#Evidence"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">E16 – Khô vằn</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#E17">
+    <ex:bookSection>8.2.1.5</ex:bookSection>
+    <ex:code>E17</ex:code>
+    <ex:evidenceAbout rdf:resource="http://example.org/rice-cbm/ontology/v18#D_KhoVan"/>
+    <ex:evidenceFrom rdf:resource="http://example.org/rice-cbm/ontology/v18#S01"/>
+    <ex:meaningUsed xml:lang="vi">Khô vằn có diễn tiến lan không đều và biểu hiện loang lỗ vằn vện.</ex:meaningUsed>
+    <ex:pdfPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">155</ex:pdfPage>
+    <ex:printedPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">143</ex:printedPage>
+    <ex:quote xml:lang="vi">sau lan ra không đều thành những vết loang lỗ vằn vện như da hổ</ex:quote>
+    <ex:statementType xml:lang="vi">Diễn tiến và biểu hiện</ex:statementType>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#Evidence"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">E17 – Khô vằn</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#E18">
+    <ex:bookSection>8.2.1.5</ex:bookSection>
+    <ex:code>E18</ex:code>
+    <ex:evidenceAbout rdf:resource="http://example.org/rice-cbm/ontology/v18#D_KhoVan"/>
+    <ex:evidenceFrom rdf:resource="http://example.org/rice-cbm/ontology/v18#S01"/>
+    <ex:limitation xml:lang="vi">Không dùng vị trí trên một ảnh để suy ngược cơ chế lây.</ex:limitation>
+    <ex:meaningUsed xml:lang="vi">Diễn tiến từ bẹ lên phiến lá được sách mô tả trong trường hợp lan bằng hạch nấm.</ex:meaningUsed>
+    <ex:pdfPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">155</ex:pdfPage>
+    <ex:printedPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">143</ex:printedPage>
+    <ex:quote xml:lang="vi">bệnh xuất hiện đầu tiên ở bẹ lá, rồi từ đó lan dần lên phiến lá</ex:quote>
+    <ex:statementType xml:lang="vi">Diễn tiến có điều kiện</ex:statementType>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#Evidence"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">E18 – Khô vằn</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#E19">
+    <ex:bookSection>8.2.1.5</ex:bookSection>
+    <ex:code>E19</ex:code>
+    <ex:evidenceAbout rdf:resource="http://example.org/rice-cbm/ontology/v18#D_KhoVan"/>
+    <ex:evidenceFrom rdf:resource="http://example.org/rice-cbm/ontology/v18#S01"/>
+    <ex:limitation xml:lang="vi">Lưu theo nguồn 2008; bản này không đánh giá tính cập nhật của cơ chế và không dùng làm luật ảnh.</ex:limitation>
+    <ex:meaningUsed xml:lang="vi">Phát biểu của giáo trình về lan bằng bào tử.</ex:meaningUsed>
+    <ex:pdfPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">155</ex:pdfPage>
+    <ex:printedPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">143</ex:printedPage>
+    <ex:quote xml:lang="vi">bệnh còn có thể lan truyền dưới dạng bào tử nấm bay trong không khí</ex:quote>
+    <ex:statementType xml:lang="vi">Cơ chế theo nguồn</ex:statementType>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#Evidence"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">E19 – Khô vằn</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#E20">
+    <ex:bookSection>8.2.1.5</ex:bookSection>
+    <ex:code>E20</ex:code>
+    <ex:evidenceAbout rdf:resource="http://example.org/rice-cbm/ontology/v18#D_KhoVan"/>
+    <ex:evidenceFrom rdf:resource="http://example.org/rice-cbm/ontology/v18#S01"/>
+    <ex:limitation xml:lang="vi">Chỉ biểu diễn phát biểu trong sách, không suy diễn từ ảnh tĩnh.</ex:limitation>
+    <ex:meaningUsed xml:lang="vi">Diễn tiến từ phiến xuống bẹ trong trường hợp lan bằng bào tử được sách mô tả.</ex:meaningUsed>
+    <ex:pdfPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">155</ex:pdfPage>
+    <ex:printedPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">143</ex:printedPage>
+    <ex:quote xml:lang="vi">bệnh sẽ lan dần từ phiến lá xuống bẹ lá</ex:quote>
+    <ex:statementType xml:lang="vi">Diễn tiến có điều kiện</ex:statementType>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#Evidence"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">E20 – Khô vằn</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#E21">
+    <ex:bookSection>8.2.2.1</ex:bookSection>
+    <ex:code>E21</ex:code>
+    <ex:evidenceAbout rdf:resource="http://example.org/rice-cbm/ontology/v18#D_BacLa"/>
+    <ex:evidenceFrom rdf:resource="http://example.org/rice-cbm/ontology/v18#S01"/>
+    <ex:meaningUsed xml:lang="vi">Bạc lá: vị trí và biểu hiện ban đầu.</ex:meaningUsed>
+    <ex:pdfPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">157</ex:pdfPage>
+    <ex:printedPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">145</ex:printedPage>
+    <ex:quote xml:lang="vi">những sọc vàng nhỏ ở chóp lá và bìa lá</ex:quote>
+    <ex:statementType xml:lang="vi">Diễn tiến và vị trí</ex:statementType>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#Evidence"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">E21 – Bạc lá</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#E22">
+    <ex:bookSection>8.2.2.1</ex:bookSection>
+    <ex:code>E22</ex:code>
+    <ex:evidenceAbout rdf:resource="http://example.org/rice-cbm/ontology/v18#D_BacLa"/>
+    <ex:evidenceFrom rdf:resource="http://example.org/rice-cbm/ontology/v18#S01"/>
+    <ex:limitation xml:lang="vi">C04 chỉ gán hướng quan sát được; C09 chỉ gán vị trí tiếp giáp.</ex:limitation>
+    <ex:meaningUsed xml:lang="vi">Bạc lá có diễn tiến dọc gân và từ bìa vào trong.</ex:meaningUsed>
+    <ex:pdfPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">157</ex:pdfPage>
+    <ex:printedPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">145</ex:printedPage>
+    <ex:quote xml:lang="vi">lan rộng và dọc theo các gân lá và từ bìa lá vào trong</ex:quote>
+    <ex:statementType xml:lang="vi">Diễn tiến</ex:statementType>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#Evidence"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">E22 – Bạc lá</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#E23">
+    <ex:bookSection>8.2.2.1</ex:bookSection>
+    <ex:code>E23</ex:code>
+    <ex:evidenceAbout rdf:resource="http://example.org/rice-cbm/ontology/v18#D_BacLa"/>
+    <ex:evidenceFrom rdf:resource="http://example.org/rice-cbm/ontology/v18#S01"/>
+    <ex:limitation xml:lang="vi">Màu xám trắng và trạng thái khô cần được xem xét riêng khi gán ảnh.</ex:limitation>
+    <ex:meaningUsed xml:lang="vi">Bạc lá: vết dần khô và có màu xám trắng.</ex:meaningUsed>
+    <ex:pdfPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">157</ex:pdfPage>
+    <ex:printedPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">145</ex:printedPage>
+    <ex:quote xml:lang="vi">Vết bệnh dần khô lại có màu xám trắng</ex:quote>
+    <ex:statementType xml:lang="vi">Diễn tiến và màu sắc</ex:statementType>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#Evidence"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">E23 – Bạc lá</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#E24">
+    <ex:bookSection>8.2.2.1</ex:bookSection>
+    <ex:code>E24</ex:code>
+    <ex:evidenceAbout rdf:resource="http://example.org/rice-cbm/ontology/v18#D_BacLa"/>
+    <ex:evidenceFrom rdf:resource="http://example.org/rice-cbm/ontology/v18#S01"/>
+    <ex:meaningUsed xml:lang="vi">Ranh giới ngoài vết bạc lá có hình gợn sóng.</ex:meaningUsed>
+    <ex:pdfPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">157</ex:pdfPage>
+    <ex:printedPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">145</ex:printedPage>
+    <ex:quote xml:lang="vi">viền ngoài vết bệnh có hình gợn sóng</ex:quote>
+    <ex:statementType xml:lang="vi">Tri thức bệnh học</ex:statementType>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#Evidence"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">E24 – Bạc lá</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#E25">
+    <ex:bookSection>8.2.2.1</ex:bookSection>
+    <ex:code>E25</ex:code>
+    <ex:evidenceAbout rdf:resource="http://example.org/rice-cbm/ontology/v18#D_BacLa"/>
+    <ex:evidenceFrom rdf:resource="http://example.org/rice-cbm/ontology/v18#S01"/>
+    <ex:meaningUsed xml:lang="vi">Bạc lá nặng có thể có tổn thương đến bẹ.</ex:meaningUsed>
+    <ex:pdfPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">157</ex:pdfPage>
+    <ex:printedPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">145</ex:printedPage>
+    <ex:quote xml:lang="vi">Bệnh nặng vết bệnh có thể lan dần đến bẹ lá</ex:quote>
+    <ex:statementType xml:lang="vi">Vị trí có điều kiện</ex:statementType>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#Evidence"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">E25 – Bạc lá</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#E26">
+    <ex:bookSection>8.2.2.1</ex:bookSection>
+    <ex:code>E26</ex:code>
+    <ex:evidenceAbout rdf:resource="http://example.org/rice-cbm/ontology/v18#D_BacLa"/>
+    <ex:evidenceFrom rdf:resource="http://example.org/rice-cbm/ontology/v18#S01"/>
+    <ex:limitation xml:lang="vi">Chưa kiểm tra hình trang gốc để phân biệt lỗi in và lỗi nhận dạng chữ. Không dùng chuỗi này để khẳng định tên phân loại hiện hành.</ex:limitation>
+    <ex:meaningUsed xml:lang="vi">Chuỗi tên tác nhân bạc lá trong văn bản trích xuất.</ex:meaningUsed>
+    <ex:pdfPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">157</ex:pdfPage>
+    <ex:printedPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">145</ex:printedPage>
+    <ex:quote xml:lang="vi">Xanthomonas campestris pv. oyzae</ex:quote>
+    <ex:statementType xml:lang="vi">Tên tác nhân theo nguồn</ex:statementType>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#Evidence"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">E26 – Bạc lá</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#E27">
+    <ex:bookSection>8.2.1.6</ex:bookSection>
+    <ex:code>E27</ex:code>
+    <ex:evidenceAbout rdf:resource="http://example.org/rice-cbm/ontology/v18#D_ThoiBe"/>
+    <ex:evidenceFrom rdf:resource="http://example.org/rice-cbm/ontology/v18#S01"/>
+    <ex:limitation xml:lang="vi">Không tạo bệnh mục tiêu thứ năm. Dùng để làm rõ tổn thương bẹ không độc quyền khô vằn.</ex:limitation>
+    <ex:meaningUsed xml:lang="vi">Giáo trình còn mô tả một bệnh khác ở bẹ ngoài bốn bệnh mục tiêu.</ex:meaningUsed>
+    <ex:pdfPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">155</ex:pdfPage>
+    <ex:printedPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">143</ex:printedPage>
+    <ex:quote xml:lang="vi">Bệnh thối bẹ (Sheath rot)</ex:quote>
+    <ex:statementType xml:lang="vi">Bối cảnh ngoài phạm vi</ex:statementType>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#Evidence"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">E27 – Bối cảnh ngoài 4 bệnh</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#Evidence">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="vi">Bằng chứng trích từ sách</rdfs:label>
+    <owl:disjointWith rdf:resource="http://example.org/rice-cbm/ontology/v18#VisualConcept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#FungalDisease">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="vi">Bệnh do nấm</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://example.org/rice-cbm/ontology/v18#RiceDisease"/>
+    <owl:disjointWith rdf:resource="http://example.org/rice-cbm/ontology/v18#BacterialDisease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#ImageLevelLabel">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="vi">Nhãn biểu hiện cấp ảnh (không phải bệnh)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://example.org/rice-cbm/ontology/v18#DatasetClass"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#L_LaKhoe">
+    <ex:datasetCode>05_la_khoe</ex:datasetCode>
+    <ex:imageFolder>Healthy Rice Leaf</ex:imageFolder>
+    <ex:imageLabelConcept rdf:resource="http://example.org/rice-cbm/ontology/v18#C16"/>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#ImageLevelLabel"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:comment xml:lang="vi">Quy ước dự án: lớp ảnh, không phải bệnh và không kết luận cây khỏe sinh học. Gắn với C16.</rdfs:comment>
+    <rdfs:label xml:lang="vi">Lá khỏe (không thấy tổn thương rõ)</rdfs:label>
+    <skos:altLabel xml:lang="en">Healthy Rice Leaf</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#ObservationUnit">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="vi">Đơn vị gán nhãn</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#OutOfScopeDisease">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="vi">Bệnh ngoài phạm vi (bối cảnh)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#P01">
+    <ex:code>P01</ex:code>
+    <ex:combinationEvidence rdf:resource="http://example.org/rice-cbm/ontology/v18#E01"/>
+    <ex:combinationEvidence rdf:resource="http://example.org/rice-cbm/ontology/v18#E02"/>
+    <ex:combinationEvidence rdf:resource="http://example.org/rice-cbm/ontology/v18#E03"/>
+    <ex:combinationFor rdf:resource="http://example.org/rice-cbm/ontology/v18#D_DaoOn"/>
+    <ex:combinationScope rdf:resource="http://example.org/rice-cbm/ontology/v18#U_TungVet"/>
+    <ex:combinationStatus>RESEARCH_QUERY_NOT_DIAGNOSTIC</ex:combinationStatus>
+    <ex:evaluableFromModel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ex:evaluableFromModel>
+    <ex:interpretation xml:lang="vi">C05 có thể bổ sung mô tả; thiếu C05 không tự loại đạo ôn. Đầu ra là phù hợp tổ hợp mô tả. Không có mức mạnh/rất mạnh hoặc xác suất. Thiếu tổ hợp không loại trừ bệnh.</ex:interpretation>
+    <ex:limitation xml:lang="vi">Mô hình CBM hiện không dự đoán C02 (chưa vào bottleneck) nên chỉ đánh giá được một phần tổ hợp.</ex:limitation>
+    <ex:optionalConcept rdf:resource="http://example.org/rice-cbm/ontology/v18#C05"/>
+    <ex:printedPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">141</ex:printedPage>
+    <ex:requiresConcept rdf:resource="http://example.org/rice-cbm/ontology/v18#C01"/>
+    <ex:requiresConcept rdf:resource="http://example.org/rice-cbm/ontology/v18#C02"/>
+    <ex:requiresConcept rdf:resource="http://example.org/rice-cbm/ontology/v18#C03"/>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#CandidateCombination"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">Tổ hợp phù hợp mô tả đạo ôn</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#P02">
+    <ex:code>P02</ex:code>
+    <ex:combinationEvidence rdf:resource="http://example.org/rice-cbm/ontology/v18#E08"/>
+    <ex:combinationEvidence rdf:resource="http://example.org/rice-cbm/ontology/v18#E09"/>
+    <ex:combinationEvidence rdf:resource="http://example.org/rice-cbm/ontology/v18#E10"/>
+    <ex:combinationFor rdf:resource="http://example.org/rice-cbm/ontology/v18#D_DomNau"/>
+    <ex:combinationScope rdf:resource="http://example.org/rice-cbm/ontology/v18#U_TungVet"/>
+    <ex:combinationStatus>RESEARCH_QUERY_NOT_DIAGNOSTIC</ex:combinationStatus>
+    <ex:evaluableFromModel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ex:evaluableFromModel>
+    <ex:interpretation xml:lang="vi">Đặc điểm nhiều đốm rời rạc của bản cũ đã bị loại. Không thấy rõ vòng đồng tâm là 9, không phải bằng chứng loại bệnh. Đầu ra là phù hợp tổ hợp mô tả. Không có mức mạnh/rất mạnh hoặc xác suất. Thiếu tổ hợp không loại trừ bệnh.</ex:interpretation>
+    <ex:limitation xml:lang="vi">Mô hình CBM hiện không dự đoán C08 (chưa vào bottleneck) nên chỉ đánh giá được một phần tổ hợp.</ex:limitation>
+    <ex:printedPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">142</ex:printedPage>
+    <ex:requiresConcept rdf:resource="http://example.org/rice-cbm/ontology/v18#C03"/>
+    <ex:requiresConcept rdf:resource="http://example.org/rice-cbm/ontology/v18#C06"/>
+    <ex:requiresConcept rdf:resource="http://example.org/rice-cbm/ontology/v18#C07"/>
+    <ex:requiresConcept rdf:resource="http://example.org/rice-cbm/ontology/v18#C08"/>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#CandidateCombination"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">Tổ hợp phù hợp mô tả đốm nâu</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#P03">
+    <ex:code>P03</ex:code>
+    <ex:combinationEvidence rdf:resource="http://example.org/rice-cbm/ontology/v18#E21"/>
+    <ex:combinationEvidence rdf:resource="http://example.org/rice-cbm/ontology/v18#E22"/>
+    <ex:combinationEvidence rdf:resource="http://example.org/rice-cbm/ontology/v18#E23"/>
+    <ex:combinationEvidence rdf:resource="http://example.org/rice-cbm/ontology/v18#E24"/>
+    <ex:combinationFor rdf:resource="http://example.org/rice-cbm/ontology/v18#D_BacLa"/>
+    <ex:combinationScope rdf:resource="http://example.org/rice-cbm/ontology/v18#U_CungVungTrenLa"/>
+    <ex:combinationStatus>RESEARCH_QUERY_NOT_DIAGNOSTIC</ex:combinationStatus>
+    <ex:evaluableFromModel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:evaluableFromModel>
+    <ex:interpretation xml:lang="vi">C09 là vị trí quan sát, không khẳng định khởi phát; C04 có thể bổ sung. Đầu ra là phù hợp tổ hợp mô tả. Không có mức mạnh/rất mạnh hoặc xác suất. Thiếu tổ hợp không loại trừ bệnh. (v1.8: C10 nay gồm cả màu xám của khô vằn; cần C09 + C11 đi kèm để phù hợp bạc lá.)</ex:interpretation>
+    <ex:optionalConcept rdf:resource="http://example.org/rice-cbm/ontology/v18#C04"/>
+    <ex:printedPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">145</ex:printedPage>
+    <ex:requiresConcept rdf:resource="http://example.org/rice-cbm/ontology/v18#C09"/>
+    <ex:requiresConcept rdf:resource="http://example.org/rice-cbm/ontology/v18#C10"/>
+    <ex:requiresConcept rdf:resource="http://example.org/rice-cbm/ontology/v18#C11"/>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#CandidateCombination"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">Tổ hợp phù hợp mô tả bạc lá</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#P04">
+    <ex:code>P04</ex:code>
+    <ex:combinationEvidence rdf:resource="http://example.org/rice-cbm/ontology/v18#E15"/>
+    <ex:combinationEvidence rdf:resource="http://example.org/rice-cbm/ontology/v18#E16"/>
+    <ex:combinationEvidence rdf:resource="http://example.org/rice-cbm/ontology/v18#E17"/>
+    <ex:combinationFor rdf:resource="http://example.org/rice-cbm/ontology/v18#D_KhoVan"/>
+    <ex:combinationScope rdf:resource="http://example.org/rice-cbm/ontology/v18#U_BeLa"/>
+    <ex:combinationStatus>RESEARCH_QUERY_NOT_DIAGNOSTIC</ex:combinationStatus>
+    <ex:evaluableFromModel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ex:evaluableFromModel>
+    <ex:interpretation xml:lang="vi">Phù hợp một phần mô tả màu và vị trí; xem thêm C06 hoặc C15. Không dùng C13 đơn độc. Đầu ra là phù hợp tổ hợp mô tả. Không có mức mạnh/rất mạnh hoặc xác suất. Thiếu tổ hợp không loại trừ bệnh. (v1.8: C17 đã gộp vào C10.)</ex:interpretation>
+    <ex:limitation xml:lang="vi">Mô hình CBM hiện không dự đoán C13 (chưa vào bottleneck) nên chỉ đánh giá được một phần tổ hợp.</ex:limitation>
+    <ex:optionalConcept rdf:resource="http://example.org/rice-cbm/ontology/v18#C06"/>
+    <ex:optionalConcept rdf:resource="http://example.org/rice-cbm/ontology/v18#C15"/>
+    <ex:printedPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">143</ex:printedPage>
+    <ex:requiresConcept rdf:resource="http://example.org/rice-cbm/ontology/v18#C03"/>
+    <ex:requiresConcept rdf:resource="http://example.org/rice-cbm/ontology/v18#C10"/>
+    <ex:requiresConcept rdf:resource="http://example.org/rice-cbm/ontology/v18#C13"/>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#CandidateCombination"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">Tổ hợp phù hợp mô tả vết khô vằn trên bẹ</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#RiceDisease">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="vi">Bệnh lúa mục tiêu</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://example.org/rice-cbm/ontology/v18#DatasetClass"/>
+    <owl:disjointWith rdf:resource="http://example.org/rice-cbm/ontology/v18#ImageLevelLabel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#S01">
+    <ex:bibliography xml:lang="vi">Nguyễn Ngọc Đệ (2008). Giáo trình Cây lúa. Trường Đại học Cần Thơ, Viện Nghiên cứu Phát triển Đồng bằng sông Cửu Long. Năm chốt theo bìa; chân trang ghi 2007.</ex:bibliography>
+    <ex:code>S01</ex:code>
+    <ex:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://drive.google.com/file/d/1nZLpPHPk5jtoE9Gg5qb0zI1iwthE7dx0/view</ex:url>
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#SourceBook"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">Giáo trình Cây lúa</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#SourceBook">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="vi">Sách nguồn</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#U_BeLa">
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#ObservationUnit"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">Bẹ lá mang tổn thương</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#U_CungVungLaHoacBe">
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#ObservationUnit"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">Cùng vùng trên cùng lá hoặc bẹ</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#U_CungVungTrenLa">
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#ObservationUnit"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">Cùng vùng trên cùng lá</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#U_PhienLaQuanSat">
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#ObservationUnit"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">Phần phiến lá quan sát</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#U_TungVet">
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#ObservationUnit"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">Từng vết</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#U_TungVetHoacVung">
+    <rdf:type rdf:resource="http://example.org/rice-cbm/ontology/v18#ObservationUnit"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="vi">Từng vết hoặc cùng vùng trên cùng lá/bẹ</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#VisualConcept">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="vi">Concept thị giác</rdfs:label>
+    <owl:disjointWith rdf:resource="http://example.org/rice-cbm/ontology/v18#DatasetClass"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#assignedPer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/rice-cbm/ontology/v18#VisualConcept"/>
+    <rdfs:label xml:lang="vi">Đơn vị gán nhãn của concept</rdfs:label>
+    <rdfs:range rdf:resource="http://example.org/rice-cbm/ontology/v18#ObservationUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#basis">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#bibliography">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#bookSection">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#bottleneckStatus">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#bottleneckTodo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#code">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#combinationEvidence">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/rice-cbm/ontology/v18#CandidateCombination"/>
+    <rdfs:label xml:lang="vi">Bằng chứng cho tổ hợp</rdfs:label>
+    <rdfs:range rdf:resource="http://example.org/rice-cbm/ontology/v18#Evidence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#combinationFor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/rice-cbm/ontology/v18#CandidateCombination"/>
+    <rdfs:label xml:lang="vi">Tổ hợp phù hợp mô tả bệnh</rdfs:label>
+    <rdfs:range rdf:resource="http://example.org/rice-cbm/ontology/v18#RiceDisease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#combinationScope">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/rice-cbm/ontology/v18#CandidateCombination"/>
+    <rdfs:label xml:lang="vi">Phạm vi đồng xuất hiện yêu cầu</rdfs:label>
+    <rdfs:range rdf:resource="http://example.org/rice-cbm/ontology/v18#ObservationUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#combinationStatus">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#conceptStatus">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#datasetCode">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#describedForDisease">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/rice-cbm/ontology/v18#VisualConcept"/>
+    <rdfs:label xml:lang="vi">Sách mô tả concept ở bệnh này (không độc quyền, không phải điều kiện cần/đủ)</rdfs:label>
+    <rdfs:range rdf:resource="http://example.org/rice-cbm/ontology/v18#RiceDisease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#evaluableFromModel">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#evidenceAbout">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/rice-cbm/ontology/v18#Evidence"/>
+    <rdfs:label xml:lang="vi">Bằng chứng nói về bệnh</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#evidenceFrom">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/rice-cbm/ontology/v18#Evidence"/>
+    <rdfs:label xml:lang="vi">Bằng chứng trích từ sách</rdfs:label>
+    <rdfs:range rdf:resource="http://example.org/rice-cbm/ontology/v18#SourceBook"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#hasEvidence">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/rice-cbm/ontology/v18#VisualConcept"/>
+    <rdfs:label xml:lang="vi">Concept có căn cứ từ bằng chứng</rdfs:label>
+    <rdfs:range rdf:resource="http://example.org/rice-cbm/ontology/v18#Evidence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#imageFolder">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#imageLabelConcept">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/rice-cbm/ontology/v18#ImageLevelLabel"/>
+    <rdfs:label xml:lang="vi">Concept biểu diễn nhãn cấp ảnh</rdfs:label>
+    <rdfs:range rdf:resource="http://example.org/rice-cbm/ontology/v18#VisualConcept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#interpretation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#limitation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#meaningUsed">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#migrationFromV17">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#observableOnLeafImages">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#optionalConcept">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/rice-cbm/ontology/v18#CandidateCombination"/>
+    <rdfs:label xml:lang="vi">Concept bổ sung, thiếu không loại tổ hợp</rdfs:label>
+    <rdfs:range rdf:resource="http://example.org/rice-cbm/ontology/v18#VisualConcept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#pathogenAsInSource">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#pdfPage">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#printedPage">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#quote">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#requiresConcept">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/rice-cbm/ontology/v18#CandidateCombination"/>
+    <rdfs:label xml:lang="vi">Concept bắt buộc trong tổ hợp</rdfs:label>
+    <rdfs:range rdf:resource="http://example.org/rice-cbm/ontology/v18#VisualConcept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#rule0">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#rule1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#rule9">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#sourcePages">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#statementType">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#trainNegative">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#trainPositive">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#trainUnknown">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#url">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice-cbm/ontology/v18#usedInBottleneck">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </rdf:Description>
+</rdf:RDF>

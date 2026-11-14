@@ -1,0 +1,28 @@
+﻿Mã bằng chứng,Chủ đề bệnh,Trang in,Trang PDF tham chiếu,Mục sách,Trích đoạn giáo trình,Ý nghĩa được dùng,Loại phát biểu,Giới hạn,Nguồn S01
+E01,Đạo ôn,141,153,8.2.1.1,"dạng hình mắt én, hai đầu hẹp, giữa phình ra có màu xám tro","Đạo ôn: hình mắt én, hai đầu hẹp, giữa phình và có màu xám tro.",Tri thức bệnh học,,"Nguyễn Ngọc Đệ (2008). Giáo trình Cây lúa. Trường Đại học Cần Thơ, Viện Nghiên cứu Phát triển Đồng bằng sông Cửu Long."
+E02,Đạo ôn,141,153,8.2.1.1,Chung quanh vết bệnh có viền nâu rõ rệt,Đạo ôn có viền nâu rõ rệt.,Tri thức bệnh học,,https://drive.google.com/file/d/1nZLpPHPk5jtoE9Gg5qb0zI1iwthE7dx0/view
+E03,Đạo ôn,141,153,8.2.1.1,ngoài viền nâu thường có một quầng vàng,Đạo ôn thường có quầng vàng ngoài viền nâu.,Tri thức bệnh học,,"Trang in là căn cứ chính. Trang PDF +12 kế thừa bản trước, chưa kiểm tra hình trang trong lượt này."
+E04,Đạo ôn,141,153,8.2.1.1,Nhiều vết bệnh liên kết lại làm cả lá lúa bị cháy khô.,"Giáo trình ghi nhận nhiều vết đạo ôn liên kết, gây lá cháy khô.",Diễn tiến và biểu hiện,"Ảnh tĩnh chỉ thể hiện trạng thái vùng tổn thương, không xác nhận lịch sử liên kết.",
+E05,Đạo ôn,141,153,8.2.1.1,Do nấm Pyricularia oryzae gây ra,Tên tác nhân đạo ôn được giáo trình sử dụng.,Tên tác nhân theo nguồn,,
+E06,Đạo ôn,141,153,8.2.1.1,nhiều nhất là ở phiến lá,Đạo ôn được mô tả xuất hiện nhiều ở phiến lá.,Vị trí,,
+E07,Đạo ôn,141,153,8.2.1.1,vết bệnh lúc đầu nhỏ màu nâu,Đốm nhỏ màu nâu là biểu hiện ban đầu của đạo ôn trong nguồn.,Diễn tiến,Không chuyển chữ nhỏ thành ngưỡng ảnh hoặc yêu cầu cho đốm nâu.,
+E08,Đốm nâu,142,154,8.2.1.2,đốm bệnh có hình tròn hay bầu dục,Hình tròn hoặc bầu dục của đốm nâu trên lá.,Tri thức bệnh học,,
+E09,Đốm nâu,142,154,8.2.1.2,màu nâu lợt có viền nâu sậm,Màu phần chính và màu viền của đốm nâu trên lá được tách riêng.,Tri thức bệnh học,,
+E10,Đốm nâu,142,154,8.2.1.2,với các vòng đồng tâm trong vết bệnh,Cấu trúc vòng đồng tâm trong vết đốm nâu.,Tri thức bệnh học,,
+E11,Đốm nâu,142,154,8.2.1.2,do nấm Helminthosporium oryzae,Tên tác nhân đốm nâu được giáo trình sử dụng.,Tên tác nhân theo nguồn,,
+E12,Đốm nâu,142,154,8.2.1.2,"Trên hạt, vết bệnh có màu nâu đen",Màu nâu đen được nguồn gắn với vết trên hạt.,Vị trí và màu sắc,Không dùng đoạn này làm căn cứ cho phần chính đốm trên lá màu nâu sẫm.,
+E13,Khô vằn,143,155,8.2.1.5,còn gọi là khô vằn hay ung thư,"Tên đốm vằn, khô vằn và ung thư trong giáo trình.",Tên bệnh theo nguồn,,
+E14,Khô vằn,143,155,8.2.1.5,Thanatephorus cucumeris (Rhizoctonia solani Kuhn),Tên tác nhân khô vằn được sách ghi.,Tên tác nhân theo nguồn,Lưu chuỗi tên theo sách; không tự khẳng định quan hệ phân loại hiện hành bằng owl:sameAs.,
+E15,Khô vằn,143,155,8.2.1.5,"Trên bẹ lá, vết bệnh lúc đầu tròn hay bầu dục",Khô vằn: vị trí trên bẹ và hình tròn hoặc bầu dục ban đầu.,Tri thức bệnh học,,
+E16,Khô vằn,143,155,8.2.1.5,màu xám có viền nâu,Màu xám của vết và viền nâu ở khô vằn.,Tri thức bệnh học,Đoạn này không nói riêng tâm trắng.,
+E17,Khô vằn,143,155,8.2.1.5,sau lan ra không đều thành những vết loang lỗ vằn vện như da hổ,Khô vằn có diễn tiến lan không đều và biểu hiện loang lỗ vằn vện.,Diễn tiến và biểu hiện,,
+E18,Khô vằn,143,155,8.2.1.5,"bệnh xuất hiện đầu tiên ở bẹ lá, rồi từ đó lan dần lên phiến lá",Diễn tiến từ bẹ lên phiến lá được sách mô tả trong trường hợp lan bằng hạch nấm.,Diễn tiến có điều kiện,Không dùng vị trí trên một ảnh để suy ngược cơ chế lây.,
+E19,Khô vằn,143,155,8.2.1.5,bệnh còn có thể lan truyền dưới dạng bào tử nấm bay trong không khí,Phát biểu của giáo trình về lan bằng bào tử.,Cơ chế theo nguồn,Lưu theo nguồn 2008; bản này không đánh giá tính cập nhật của cơ chế và không dùng làm luật ảnh.,
+E20,Khô vằn,143,155,8.2.1.5,bệnh sẽ lan dần từ phiến lá xuống bẹ lá,Diễn tiến từ phiến xuống bẹ trong trường hợp lan bằng bào tử được sách mô tả.,Diễn tiến có điều kiện,"Chỉ biểu diễn phát biểu trong sách, không suy diễn từ ảnh tĩnh.",
+E21,Bạc lá,145,157,8.2.2.1,những sọc vàng nhỏ ở chóp lá và bìa lá,Bạc lá: vị trí và biểu hiện ban đầu.,Diễn tiến và vị trí,,
+E22,Bạc lá,145,157,8.2.2.1,lan rộng và dọc theo các gân lá và từ bìa lá vào trong,Bạc lá có diễn tiến dọc gân và từ bìa vào trong.,Diễn tiến,C04 chỉ gán hướng quan sát được; C09 chỉ gán vị trí tiếp giáp.,
+E23,Bạc lá,145,157,8.2.2.1,Vết bệnh dần khô lại có màu xám trắng,Bạc lá: vết dần khô và có màu xám trắng.,Diễn tiến và màu sắc,Màu xám trắng và trạng thái khô cần được xem xét riêng khi gán ảnh.,
+E24,Bạc lá,145,157,8.2.2.1,viền ngoài vết bệnh có hình gợn sóng,Ranh giới ngoài vết bạc lá có hình gợn sóng.,Tri thức bệnh học,,
+E25,Bạc lá,145,157,8.2.2.1,Bệnh nặng vết bệnh có thể lan dần đến bẹ lá,Bạc lá nặng có thể có tổn thương đến bẹ.,Vị trí có điều kiện,,
+E26,Bạc lá,145,157,8.2.2.1,Xanthomonas campestris pv. oyzae,Chuỗi tên tác nhân bạc lá trong văn bản trích xuất.,Tên tác nhân theo nguồn,Chưa kiểm tra hình trang gốc để phân biệt lỗi in và lỗi nhận dạng chữ. Không dùng chuỗi này để khẳng định tên phân loại hiện hành.,
+E27,Bối cảnh ngoài 4 bệnh,143,155,8.2.1.6,Bệnh thối bẹ (Sheath rot),Giáo trình còn mô tả một bệnh khác ở bẹ ngoài bốn bệnh mục tiêu.,Bối cảnh ngoài phạm vi,Không tạo bệnh mục tiêu thứ năm. Dùng để làm rõ tổn thương bẹ không độc quyền khô vằn.,
