@@ -16,7 +16,7 @@ Thứ tự folder là thứ tự thực hiện. Ngày chạy lấy từ trườn
 | 01 | `01_Baseline_5CNN` | 5 CNN baseline × 3 seed | 08–09/11/2026 | Xong | Macro-F1 từ 0,8470 (ResNet18) đến 0,9326 (ConvNeXt-Tiny) |
 | 02 | `02_CBM_5CNN_14concept` | 5 CNN + Attention + CBM + MLP × 3 seed, so với 01 | 09/11/2026 | Xong | Macro-F1 từ 0,8565 đến 0,8934; AUC concept 0,913–0,929 |
 | 03 | `03_Ablation_14_vs_16concept` | Huấn luyện lại CBM với 16 concept để kiểm tra việc loại C08, C13 | 14/11/2026 | Xong | Δ macro-F1 (16 − 14) = +0,011, Wilcoxon p = 0,52 |
-| 04 | `04_TransferLearning` | So sánh chiến lược transfer learning (fine-tune toàn bộ / hai giai đoạn / đóng băng / từ đầu) | — | Code xong, chưa chạy | — |
+| 04 | `04_TransferLearning` | So sánh chiến lược transfer learning (fine-tune toàn bộ / hai giai đoạn / đóng băng / từ đầu) trên baseline và CBM | 14–15/11/2026 | Xong | Fine-tune toàn bộ cao nhất: CBM 0,8747; hai giai đoạn 0,8375; đóng băng 0,8402; từ đầu 0,6003 |
 | 05 | `05_App_ChanDoan` | Ứng dụng web chẩn đoán 1 ảnh: bệnh, dấu hiệu, heatmap, đối chiếu ontology | 09/11/2026 | Xong | Dùng mô hình ConvNeXt-Tiny CBM seed 43 |
 
 Mỗi folder có `README.md` riêng ghi mục đích, thiết lập, lệnh đã chạy và kết quả.
@@ -29,7 +29,7 @@ code/                          Code dùng chung cho 01–04 (một bộ code, kh
 01_Baseline_5CNN/              Kết quả baseline
 02_CBM_5CNN_14concept/         Kết quả CBM 14 concept + bảng so sánh với baseline
 03_Ablation_14_vs_16concept/   Kết quả CBM 16 concept + so sánh 14 vs 16
-04_TransferLearning/           (kết quả sẽ thêm khi chạy xong)
+04_TransferLearning/           Kết quả 4 chiến lược transfer learning + bảng so sánh
 05_App_ChanDoan/               Code ứng dụng chẩn đoán
 docs/                          Báo cáo nguồn dữ liệu RiceyLeafDisease
 ```
@@ -78,7 +78,7 @@ Trích dẫn:
 - Ảnh dataset và file nhãn concept từng ảnh.
 - Trọng số mô hình `best.pt` (mỗi file 9–117 MB; GitHub giới hạn 100 MB/file).
 - File dự đoán từng ảnh (`*_predictions.csv`) và các báo cáo trên tập val của từng lượt; các số liệu val chính vẫn có trong `metrics.json`.
-- Các lượt chạy thử nhanh (`runs_smoke`, `runs_16c_smoke`, `runs_cu`).
+- Các lượt chạy thử nhanh (`runs_smoke`, `runs_16c_smoke`, `runs_tl_smoke`, `runs_cu`).
 
 ## Môi trường
 

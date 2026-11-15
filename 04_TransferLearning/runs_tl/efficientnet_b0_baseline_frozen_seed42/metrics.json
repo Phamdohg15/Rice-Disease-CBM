@@ -1,0 +1,22 @@
+{
+  "backbone": "efficientnet_b0",
+  "mode": "baseline",
+  "seed": 42,
+  "strategy": "frozen",
+  "parameters": 4013953,
+  "epochs_run": 30,
+  "best_epoch": 24,
+  "best_val_f1": 0.7823569023569024,
+  "training_seconds": 497.44454279999627,
+  "peak_gpu_memory_mb": 258.251953125,
+  "trainable_params": 6405,
+  "unfrozen_backbone_params": 0,
+  "val_acc": 0.7777777777777778,
+  "val_f1": 0.7823569023569024,
+  "val_ce": 0.6650766209950523,
+  "test_acc": 0.7619047619047619,
+  "test_f1": 0.7647092341209988,
+  "test_ce": 0.5746355577120705,
+  "test_ms_per_image": 21.068249999982996,
+  "finished": "2026-11-14T23:56:53"
+}

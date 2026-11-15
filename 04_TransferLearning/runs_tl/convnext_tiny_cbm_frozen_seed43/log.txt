@@ -1,0 +1,35 @@
+[03:28:43] === convnext_tiny_cbm_frozen_seed43 | GD1: dong bang backbone, hoc phan dau | lr=0.001 | tham so hoc 1,346,579/29,165,171 ===
+[03:29:02] [GD1] epoch 01 | train loss=2.5378 F1=0.0702 | val CE=1.6081 acc=0.2143 F1=0.0706 val_cAUC=0.777 | 19s *
+[03:29:20] [GD1] epoch 02 | train loss=2.3281 F1=0.2098 | val CE=1.5136 acc=0.3651 F1=0.2723 val_cAUC=0.844 | 18s *
+[03:29:37] [GD1] epoch 03 | train loss=2.0158 F1=0.4848 | val CE=1.3995 acc=0.5159 F1=0.4264 val_cAUC=0.890 | 18s *
+[03:29:55] [GD1] epoch 04 | train loss=1.7889 F1=0.5358 | val CE=1.2402 acc=0.5873 F1=0.5054 val_cAUC=0.905 | 18s *
+[03:30:13] [GD1] epoch 05 | train loss=1.6321 F1=0.5459 | val CE=1.1188 acc=0.5873 F1=0.4873 val_cAUC=0.907 | 18s
+[03:30:31] [GD1] epoch 06 | train loss=1.4934 F1=0.5745 | val CE=0.9987 acc=0.6032 F1=0.5417 val_cAUC=0.907 | 18s *
+[03:30:49] [GD1] epoch 07 | train loss=1.3707 F1=0.7174 | val CE=0.8767 acc=0.7302 F1=0.7150 val_cAUC=0.913 | 18s *
+[03:31:07] [GD1] epoch 08 | train loss=1.2226 F1=0.7553 | val CE=0.7841 acc=0.7619 F1=0.7499 val_cAUC=0.910 | 18s *
+[03:31:25] [GD1] epoch 09 | train loss=1.1043 F1=0.8438 | val CE=0.6938 acc=0.8254 F1=0.8274 val_cAUC=0.911 | 18s *
+[03:31:42] [GD1] epoch 10 | train loss=1.0669 F1=0.8190 | val CE=0.6733 acc=0.8016 F1=0.8008 val_cAUC=0.902 | 18s
+[03:32:00] [GD1] epoch 11 | train loss=1.0024 F1=0.8487 | val CE=0.5870 acc=0.8254 F1=0.8249 val_cAUC=0.911 | 18s
+[03:32:18] [GD1] epoch 12 | train loss=0.9400 F1=0.8739 | val CE=0.5686 acc=0.8571 F1=0.8599 val_cAUC=0.910 | 18s *
+[03:32:36] [GD1] epoch 13 | train loss=0.9008 F1=0.8679 | val CE=0.5415 acc=0.8413 F1=0.8438 val_cAUC=0.916 | 18s
+[03:32:54] [GD1] epoch 14 | train loss=0.8533 F1=0.8730 | val CE=0.4574 acc=0.8968 F1=0.8997 val_cAUC=0.916 | 18s *
+[03:33:12] [GD1] epoch 15 | train loss=0.8223 F1=0.8939 | val CE=0.4542 acc=0.8571 F1=0.8644 val_cAUC=0.916 | 18s
+[03:33:29] [GD1] epoch 16 | train loss=0.7929 F1=0.8953 | val CE=0.4314 acc=0.8968 F1=0.9007 val_cAUC=0.919 | 18s *
+[03:33:47] [GD1] epoch 17 | train loss=0.7473 F1=0.9166 | val CE=0.4261 acc=0.8889 F1=0.8912 val_cAUC=0.923 | 18s
+[03:34:05] [GD1] epoch 18 | train loss=0.7110 F1=0.9219 | val CE=0.4180 acc=0.8730 F1=0.8754 val_cAUC=0.924 | 18s
+[03:34:23] [GD1] epoch 19 | train loss=0.6842 F1=0.9382 | val CE=0.3921 acc=0.9048 F1=0.9072 val_cAUC=0.926 | 18s *
+[03:34:41] [GD1] epoch 20 | train loss=0.6510 F1=0.9550 | val CE=0.3937 acc=0.8730 F1=0.8750 val_cAUC=0.921 | 18s
+[03:34:59] [GD1] epoch 21 | train loss=0.6363 F1=0.9501 | val CE=0.3721 acc=0.9048 F1=0.9065 val_cAUC=0.925 | 18s
+[03:35:17] [GD1] epoch 22 | train loss=0.6396 F1=0.9464 | val CE=0.3648 acc=0.9048 F1=0.9077 val_cAUC=0.926 | 18s *
+[03:35:34] [GD1] epoch 23 | train loss=0.6140 F1=0.9523 | val CE=0.3692 acc=0.8968 F1=0.8987 val_cAUC=0.926 | 18s
+[03:35:52] [GD1] epoch 24 | train loss=0.5976 F1=0.9584 | val CE=0.3688 acc=0.8730 F1=0.8744 val_cAUC=0.923 | 18s
+[03:36:10] [GD1] epoch 25 | train loss=0.5935 F1=0.9496 | val CE=0.3661 acc=0.9048 F1=0.9077 val_cAUC=0.921 | 18s
+[03:36:28] [GD1] epoch 26 | train loss=0.5831 F1=0.9621 | val CE=0.3525 acc=0.8968 F1=0.8986 val_cAUC=0.924 | 18s
+[03:36:45] [GD1] epoch 27 | train loss=0.5700 F1=0.9634 | val CE=0.3543 acc=0.8968 F1=0.8994 val_cAUC=0.922 | 18s
+[03:37:03] [GD1] epoch 28 | train loss=0.5627 F1=0.9638 | val CE=0.3576 acc=0.9048 F1=0.9069 val_cAUC=0.923 | 18s
+[03:37:21] [GD1] epoch 29 | train loss=0.5566 F1=0.9690 | val CE=0.3556 acc=0.8968 F1=0.8986 val_cAUC=0.923 | 18s
+[03:37:39] [GD1] epoch 30 | train loss=0.5710 F1=0.9637 | val CE=0.3546 acc=0.8968 F1=0.8986 val_cAUC=0.923 | 18s
+[03:37:39] GD1 xong: 30 epoch, best epoch 22, 8.9 phut
+[03:37:43] VAL: acc=0.9048 F1=0.9077 concept AUC=0.926 F1=0.802
+[03:37:45] TEST: acc=0.8810 F1=0.8832 concept AUC=0.922 F1=0.794
+[03:37:45] XONG

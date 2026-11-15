@@ -1,0 +1,22 @@
+{
+  "backbone": "mobilenet_v2",
+  "mode": "baseline",
+  "seed": 43,
+  "strategy": "frozen",
+  "parameters": 2230277,
+  "epochs_run": 30,
+  "best_epoch": 28,
+  "best_val_f1": 0.6937181113460184,
+  "training_seconds": 551.6383499999938,
+  "peak_gpu_memory_mb": 251.4189453125,
+  "trainable_params": 6405,
+  "unfrozen_backbone_params": 0,
+  "val_acc": 0.6904761904761905,
+  "val_f1": 0.6937181113460184,
+  "val_ce": 0.8354632646318466,
+  "test_acc": 0.7619047619047619,
+  "test_f1": 0.7671473038153582,
+  "test_ce": 0.6709825008634537,
+  "test_ms_per_image": 22.83440714289475,
+  "finished": "2026-11-15T07:32:20"
+}

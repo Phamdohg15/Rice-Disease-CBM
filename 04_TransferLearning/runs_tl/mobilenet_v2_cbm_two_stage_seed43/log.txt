@@ -1,0 +1,24 @@
+[07:00:50] === mobilenet_v2_cbm_two_stage_seed43 | GD2: mo khoi stride-32 ['body.features.14', 'body.features.15', 'body.features.16', 'body.features.17', 'body.features.18'] | BatchNorm dong bang | lr=1e-05 | tham so hoc 3,067,283/3,627,795 ===
+[07:01:09] [GD2] epoch 01 | train loss=0.6120 F1=0.9717 | val CE=0.5833 acc=0.8175 F1=0.8190 val_cAUC=0.900 | 19s *
+[07:01:28] [GD2] epoch 02 | train loss=0.6045 F1=0.9747 | val CE=0.5988 acc=0.8016 F1=0.8018 val_cAUC=0.900 | 19s
+[07:01:48] [GD2] epoch 03 | train loss=0.6006 F1=0.9765 | val CE=0.5827 acc=0.8254 F1=0.8268 val_cAUC=0.900 | 19s *
+[07:02:07] [GD2] epoch 04 | train loss=0.6012 F1=0.9715 | val CE=0.5743 acc=0.8175 F1=0.8193 val_cAUC=0.901 | 19s
+[07:02:26] [GD2] epoch 05 | train loss=0.5903 F1=0.9782 | val CE=0.5730 acc=0.8175 F1=0.8193 val_cAUC=0.900 | 19s
+[07:02:46] [GD2] epoch 06 | train loss=0.5958 F1=0.9765 | val CE=0.5756 acc=0.8254 F1=0.8265 val_cAUC=0.899 | 20s
+[07:03:05] [GD2] epoch 07 | train loss=0.5953 F1=0.9832 | val CE=0.5662 acc=0.8175 F1=0.8209 val_cAUC=0.899 | 19s
+[07:03:24] [GD2] epoch 08 | train loss=0.5920 F1=0.9781 | val CE=0.5644 acc=0.8333 F1=0.8354 val_cAUC=0.899 | 19s *
+[07:03:44] [GD2] epoch 09 | train loss=0.5862 F1=0.9801 | val CE=0.5717 acc=0.8095 F1=0.8117 val_cAUC=0.899 | 19s
+[07:04:03] [GD2] epoch 10 | train loss=0.5846 F1=0.9832 | val CE=0.5756 acc=0.8175 F1=0.8198 val_cAUC=0.899 | 19s
+[07:04:22] [GD2] epoch 11 | train loss=0.5778 F1=0.9864 | val CE=0.5800 acc=0.8175 F1=0.8193 val_cAUC=0.899 | 19s
+[07:04:43] [GD2] epoch 12 | train loss=0.5768 F1=0.9883 | val CE=0.5828 acc=0.8095 F1=0.8121 val_cAUC=0.899 | 20s
+[07:05:02] [GD2] epoch 13 | train loss=0.5754 F1=0.9901 | val CE=0.5739 acc=0.8095 F1=0.8121 val_cAUC=0.900 | 20s
+[07:05:22] [GD2] epoch 14 | train loss=0.5704 F1=0.9831 | val CE=0.5720 acc=0.8016 F1=0.8040 val_cAUC=0.898 | 19s
+[07:05:42] [GD2] epoch 15 | train loss=0.5721 F1=0.9833 | val CE=0.5786 acc=0.8095 F1=0.8121 val_cAUC=0.899 | 20s
+[07:06:02] [GD2] epoch 16 | train loss=0.5714 F1=0.9833 | val CE=0.5764 acc=0.8175 F1=0.8198 val_cAUC=0.898 | 20s
+[07:06:21] [GD2] epoch 17 | train loss=0.5664 F1=0.9882 | val CE=0.5837 acc=0.8095 F1=0.8121 val_cAUC=0.898 | 20s
+[07:06:41] [GD2] epoch 18 | train loss=0.5639 F1=0.9866 | val CE=0.5778 acc=0.8175 F1=0.8193 val_cAUC=0.898 | 20s
+[07:06:41] [GD2] Early stopping sau 10 epoch khong cai thien
+[07:06:41] GD2 xong: 18 epoch, best epoch 8, 5.9 phut
+[07:06:45] VAL: acc=0.8333 F1=0.8354 concept AUC=0.899 F1=0.755
+[07:06:48] TEST: acc=0.8254 F1=0.8233 concept AUC=0.905 F1=0.762
+[07:06:48] XONG

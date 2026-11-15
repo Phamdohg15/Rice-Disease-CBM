@@ -1,0 +1,195 @@
+{
+  "data_root": "D:\\Thesis\\Dataset\\Data",
+  "label_dir": "D:\\Thesis\\Concept",
+  "label_files": {
+    "train": "Train_V18_FINAL_587.csv",
+    "val": "Val_V18_FINAL_126.csv",
+    "test": "Test_V18_FINAL_126.csv"
+  },
+  "runs_root": "D:\\Thesis\\CBM_V18\\runs",
+  "classes": [
+    "01_dao_on",
+    "02_dom_nau",
+    "03_bac_la",
+    "04_kho_van",
+    "05_la_khoe"
+  ],
+  "concepts": [
+    "C01",
+    "C02",
+    "C03",
+    "C04",
+    "C05",
+    "C06",
+    "C07",
+    "C09",
+    "C10",
+    "C11",
+    "C12",
+    "C14",
+    "C15",
+    "C16"
+  ],
+  "absence_concept": "C16",
+  "image_size": 448,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "expected_counts": {
+    "train": 587,
+    "val": 126,
+    "test": 126
+  },
+  "expected_n1": {
+    "train": {
+      "C01": 95,
+      "C02": 85,
+      "C03": 345,
+      "C04": 440,
+      "C05": 158,
+      "C06": 216,
+      "C07": 89,
+      "C09": 325,
+      "C10": 209,
+      "C11": 133,
+      "C12": 132,
+      "C14": 243,
+      "C15": 83,
+      "C16": 103
+    },
+    "val": {
+      "C01": 18,
+      "C02": 15,
+      "C03": 76,
+      "C04": 92,
+      "C05": 34,
+      "C06": 35,
+      "C07": 12,
+      "C09": 67,
+      "C10": 47,
+      "C11": 32,
+      "C12": 21,
+      "C14": 44,
+      "C15": 13,
+      "C16": 22
+    },
+    "test": {
+      "C01": 22,
+      "C02": 19,
+      "C03": 81,
+      "C04": 90,
+      "C05": 32,
+      "C06": 42,
+      "C07": 19,
+      "C09": 68,
+      "C10": 55,
+      "C11": 29,
+      "C12": 28,
+      "C14": 57,
+      "C15": 20,
+      "C16": 22
+    }
+  },
+  "cbm": {
+    "_ghi_chu": "Tham so rieng cua CBM, dung chung cho ca 5 backbone",
+    "d_model": 256,
+    "n_heads": 8,
+    "n_transformer_blocks": 1,
+    "ff_dim": 512,
+    "dropout": 0.1,
+    "mlp_hidden": 64,
+    "lambda_c": 1.0,
+    "lambda_r": 0.0,
+    "pos_weight_max": 10.0,
+    "auc_ontology_min": 0.75,
+    "head_learning_rate": 0.001,
+    "_ghi_chu_head_lr": "Phan CBM moi khoi tao (chieu 1x1, Transformer, 14 truy van, dau concept, MLP) dung lr 1e-3; backbone giu 1e-4 nhu baseline. Chon phuong an A ngay 2026-11-09."
+  },
+  "backbone": {
+    "name": "densenet121",
+    "learning_rate": 0.0001,
+    "weight_decay": 0.0001,
+    "batch_size": 8,
+    "accumulation_steps": 4,
+    "epochs": 60,
+    "patience": 12,
+    "grad_clip": 5.0,
+    "feature_nodes": {
+      "low": "features.denseblock3",
+      "high": "features.norm5"
+    }
+  },
+  "transfer": {
+    "_ghi_chu": "Thi nghiem transfer learning (2026-11-14). Chien luoc A (fine-tune toan bo) = cac luot da co trong runs/. File nay chi dung cho run_tl.py.",
+    "runs_root": "runs_tl",
+    "stage1": {
+      "_ghi_chu": "Giai doan 1: dong bang toan bo backbone, chi hoc phan dau moi (baseline: lop Linear cuoi; CBM: chieu 1x1 + Transformer + truy van concept + dau concept + MLP)",
+      "learning_rate": 0.001,
+      "epochs": 30,
+      "patience": 10
+    },
+    "stage2": {
+      "_ghi_chu": "Giai doan 2: mo khoi stride-32 cua backbone, mot lr chung cho moi tham so dang hoc (theo notebook cua thay: 1e-3 roi 1e-5)",
+      "learning_rate": 1e-05,
+      "epochs": 30,
+      "patience": 10
+    },
+    "freeze_batchnorm": true,
+    "_ghi_chu_unfreeze": "Quy tac chung cho 5 backbone: mo toan bo cac khoi chay o do phan giai thap nhat (stride 32), ke ca lop ha mau dau khoi. BatchNorm trong cac khoi nay van dong bang.",
+    "unfreeze_stride32": {
+      "resnet18": [
+        "layer4"
+      ],
+      "densenet121": [
+        "features.transition3",
+        "features.denseblock4",
+        "features.norm5"
+      ],
+      "efficientnet_b0": [
+        "features.6",
+        "features.7",
+        "features.8"
+      ],
+      "convnext_tiny": [
+        "features.6",
+        "features.7"
+      ],
+      "mobilenet_v2": [
+        "features.14",
+        "features.15",
+        "features.16",
+        "features.17",
+        "features.18"
+      ]
+    }
+  },
+  "run": {
+    "backbone": "densenet121",
+    "mode": "baseline",
+    "seed": 42,
+    "strategy": "frozen",
+    "started": "2026-11-14T20:42:53",
+    "stage": 1,
+    "stage_info": {
+      "trainable_params": 5125,
+      "head_params": 5125,
+      "unfrozen_backbone_params": 0,
+      "total_params": 6958981,
+      "unfrozen_blocks": {}
+    },
+    "stage_settings": {
+      "_ghi_chu": "Giai doan 1: dong bang toan bo backbone, chi hoc phan dau moi (baseline: lop Linear cuoi; CBM: chieu 1x1 + Transformer + truy van concept + dau concept + MLP)",
+      "learning_rate": 0.001,
+      "epochs": 30,
+      "patience": 10
+    },
+    "env": {
+      "python": "3.11.0",
+      "torch": "2.7.1+cu128",
+      "torchvision": "0.22.1+cu128",
+      "gpu": "NVIDIA GeForce RTX 5070"
+    }
+  }
+}

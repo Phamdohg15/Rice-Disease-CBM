@@ -1,0 +1,21 @@
+{
+  "backbone": "densenet121",
+  "mode": "baseline",
+  "seed": 43,
+  "strategy": "scratch",
+  "parameters": 6958981,
+  "epochs_run": 37,
+  "best_epoch": 25,
+  "best_val_f1": 0.7995877741633943,
+  "training_seconds": 777.3847593999963,
+  "peak_gpu_memory_mb": 2243.26123046875,
+  "trainable_params": 6958981,
+  "val_acc": 0.7936507936507936,
+  "val_f1": 0.7995877741633943,
+  "val_ce": 0.7589695453643799,
+  "test_acc": 0.7857142857142857,
+  "test_f1": 0.7864747785906815,
+  "test_ce": 1.128078892117455,
+  "test_ms_per_image": 21.8054817460287,
+  "finished": "2026-11-14T22:16:47"
+}

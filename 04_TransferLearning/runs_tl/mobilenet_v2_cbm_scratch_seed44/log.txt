@@ -1,0 +1,41 @@
+[08:17:02] === mobilenet_v2_cbm_scratch_seed44 | khong dung trong so ImageNet, cac thiet lap khac giong luot A | tham so 3,627,795 ===
+[08:17:25] epoch 01 | train loss=2.5270 F1=0.1444 | val CE=1.6097 acc=0.1905 F1=0.0640 val_cAUC=0.652 | 22s *
+[08:17:45] epoch 02 | train loss=2.4741 F1=0.1716 | val CE=1.5943 acc=0.2540 F1=0.1394 val_cAUC=0.698 | 20s *
+[08:18:05] epoch 03 | train loss=2.4520 F1=0.1543 | val CE=1.5792 acc=0.2540 F1=0.1276 val_cAUC=0.754 | 20s
+[08:18:25] epoch 04 | train loss=2.4099 F1=0.1534 | val CE=1.5561 acc=0.2460 F1=0.1158 val_cAUC=0.748 | 20s
+[08:18:46] epoch 05 | train loss=2.3467 F1=0.1650 | val CE=1.5184 acc=0.3095 F1=0.2116 val_cAUC=0.764 | 20s *
+[08:19:06] epoch 06 | train loss=2.2940 F1=0.2574 | val CE=1.4857 acc=0.3333 F1=0.2048 val_cAUC=0.774 | 20s
+[08:19:27] epoch 07 | train loss=2.2464 F1=0.3025 | val CE=1.4225 acc=0.4365 F1=0.3364 val_cAUC=0.789 | 20s *
+[08:19:47] epoch 08 | train loss=2.2044 F1=0.3140 | val CE=1.4008 acc=0.4286 F1=0.3287 val_cAUC=0.796 | 20s
+[08:20:07] epoch 09 | train loss=2.1564 F1=0.3456 | val CE=1.3570 acc=0.4444 F1=0.3583 val_cAUC=0.796 | 20s *
+[08:20:28] epoch 10 | train loss=2.1013 F1=0.3671 | val CE=1.3363 acc=0.4524 F1=0.3518 val_cAUC=0.777 | 20s
+[08:20:48] epoch 11 | train loss=2.0869 F1=0.3644 | val CE=1.3039 acc=0.4524 F1=0.3624 val_cAUC=0.787 | 20s *
+[08:21:09] epoch 12 | train loss=2.0256 F1=0.4108 | val CE=1.2653 acc=0.4683 F1=0.3969 val_cAUC=0.802 | 20s *
+[08:21:29] epoch 13 | train loss=1.9952 F1=0.3995 | val CE=1.2690 acc=0.4365 F1=0.3541 val_cAUC=0.777 | 20s
+[08:21:49] epoch 14 | train loss=2.0058 F1=0.4240 | val CE=1.2355 acc=0.4603 F1=0.3841 val_cAUC=0.790 | 20s
+[08:22:10] epoch 15 | train loss=1.9796 F1=0.4400 | val CE=1.2215 acc=0.4683 F1=0.4095 val_cAUC=0.796 | 20s *
+[08:22:30] epoch 16 | train loss=1.9451 F1=0.3981 | val CE=1.2291 acc=0.4286 F1=0.3561 val_cAUC=0.779 | 20s
+[08:22:51] epoch 17 | train loss=1.9455 F1=0.4646 | val CE=1.1864 acc=0.5079 F1=0.4428 val_cAUC=0.805 | 20s *
+[08:23:11] epoch 18 | train loss=1.9242 F1=0.4431 | val CE=1.1639 acc=0.4921 F1=0.4157 val_cAUC=0.802 | 20s
+[08:23:31] epoch 19 | train loss=1.8456 F1=0.4867 | val CE=1.1799 acc=0.4603 F1=0.3969 val_cAUC=0.797 | 20s
+[08:23:52] epoch 20 | train loss=1.8556 F1=0.4585 | val CE=1.1498 acc=0.4444 F1=0.3823 val_cAUC=0.800 | 20s
+[08:24:12] epoch 21 | train loss=1.8295 F1=0.4603 | val CE=1.1312 acc=0.5000 F1=0.4265 val_cAUC=0.805 | 20s
+[08:24:33] epoch 22 | train loss=1.8289 F1=0.4488 | val CE=1.1262 acc=0.4683 F1=0.3944 val_cAUC=0.801 | 20s
+[08:24:53] epoch 23 | train loss=1.8305 F1=0.4522 | val CE=1.1366 acc=0.5317 F1=0.4564 val_cAUC=0.807 | 20s *
+[08:25:13] epoch 24 | train loss=1.7549 F1=0.4782 | val CE=1.1146 acc=0.4921 F1=0.4228 val_cAUC=0.805 | 20s
+[08:25:33] epoch 25 | train loss=1.7706 F1=0.5021 | val CE=1.1340 acc=0.4841 F1=0.4072 val_cAUC=0.803 | 20s
+[08:25:54] epoch 26 | train loss=1.7635 F1=0.4602 | val CE=1.1261 acc=0.4921 F1=0.4195 val_cAUC=0.789 | 20s
+[08:26:14] epoch 27 | train loss=1.7570 F1=0.4772 | val CE=1.1252 acc=0.3810 F1=0.3406 val_cAUC=0.794 | 20s
+[08:26:34] epoch 28 | train loss=1.7694 F1=0.4639 | val CE=1.0938 acc=0.4524 F1=0.3920 val_cAUC=0.804 | 20s
+[08:26:55] epoch 29 | train loss=1.7298 F1=0.4967 | val CE=1.0627 acc=0.5000 F1=0.4386 val_cAUC=0.804 | 20s
+[08:27:15] epoch 30 | train loss=1.6832 F1=0.5116 | val CE=1.0780 acc=0.4841 F1=0.4234 val_cAUC=0.801 | 20s
+[08:27:36] epoch 31 | train loss=1.6815 F1=0.4821 | val CE=1.1110 acc=0.4444 F1=0.3894 val_cAUC=0.803 | 20s
+[08:27:56] epoch 32 | train loss=1.6837 F1=0.4834 | val CE=1.1110 acc=0.5079 F1=0.4485 val_cAUC=0.803 | 20s
+[08:28:16] epoch 33 | train loss=1.6839 F1=0.4975 | val CE=1.0403 acc=0.5079 F1=0.4363 val_cAUC=0.811 | 20s
+[08:28:37] epoch 34 | train loss=1.6288 F1=0.5079 | val CE=1.0432 acc=0.5000 F1=0.4539 val_cAUC=0.812 | 20s
+[08:28:57] epoch 35 | train loss=1.6894 F1=0.5235 | val CE=1.0184 acc=0.4921 F1=0.4292 val_cAUC=0.815 | 20s
+[08:28:57] Early stopping sau 12 epoch khong cai thien
+[08:28:57] Train xong: 35 epoch, best epoch 23, 11.9 phut
+[08:29:01] VAL: acc=0.5317 F1=0.4564 concept AUC=0.807 F1=0.658
+[08:29:04] TEST: acc=0.4444 F1=0.3882 concept AUC=0.783 F1=0.612
+[08:29:04] XONG

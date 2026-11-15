@@ -1,0 +1,65 @@
+[08:47:33] === mobilenet_v2_baseline_scratch_seed44 | khong dung trong so ImageNet, cac thiet lap khac giong luot A | tham so 2,230,277 ===
+[08:47:54] epoch 01 | train loss=1.6457 F1=0.1226 | val CE=1.6646 acc=0.2063 F1=0.0684 | 21s *
+[08:48:14] epoch 02 | train loss=1.5780 F1=0.2246 | val CE=1.5308 acc=0.3492 F1=0.3527 | 20s *
+[08:48:33] epoch 03 | train loss=1.5476 F1=0.2756 | val CE=1.4589 acc=0.3810 F1=0.3477 | 20s
+[08:48:53] epoch 04 | train loss=1.4955 F1=0.3416 | val CE=1.3791 acc=0.4048 F1=0.3478 | 20s
+[08:49:12] epoch 05 | train loss=1.4169 F1=0.3454 | val CE=1.3260 acc=0.4365 F1=0.3877 | 20s *
+[08:49:32] epoch 06 | train loss=1.3808 F1=0.3920 | val CE=1.3030 acc=0.4683 F1=0.4596 | 20s *
+[08:49:52] epoch 07 | train loss=1.3340 F1=0.4381 | val CE=1.2303 acc=0.5000 F1=0.4987 | 20s *
+[08:50:11] epoch 08 | train loss=1.3121 F1=0.4503 | val CE=1.2081 acc=0.5317 F1=0.5219 | 20s *
+[08:50:31] epoch 09 | train loss=1.2496 F1=0.4972 | val CE=1.2009 acc=0.5079 F1=0.4997 | 20s
+[08:50:51] epoch 10 | train loss=1.2203 F1=0.5054 | val CE=1.1747 acc=0.4921 F1=0.4888 | 20s
+[08:51:10] epoch 11 | train loss=1.1824 F1=0.5360 | val CE=1.1918 acc=0.5079 F1=0.5150 | 20s
+[08:51:30] epoch 12 | train loss=1.1427 F1=0.5635 | val CE=1.2309 acc=0.5317 F1=0.5248 | 20s *
+[08:51:50] epoch 13 | train loss=1.1625 F1=0.5225 | val CE=1.2038 acc=0.5159 F1=0.4978 | 20s
+[08:52:09] epoch 14 | train loss=1.1044 F1=0.5499 | val CE=1.1558 acc=0.5397 F1=0.5518 | 20s *
+[08:52:29] epoch 15 | train loss=1.1002 F1=0.5895 | val CE=1.1159 acc=0.5476 F1=0.5410 | 20s
+[08:52:48] epoch 16 | train loss=1.0978 F1=0.5545 | val CE=1.1443 acc=0.5397 F1=0.5380 | 20s
+[08:53:08] epoch 17 | train loss=1.0765 F1=0.5780 | val CE=1.0698 acc=0.6270 F1=0.6196 | 20s *
+[08:53:28] epoch 18 | train loss=1.0649 F1=0.5738 | val CE=1.1182 acc=0.5952 F1=0.5877 | 20s
+[08:53:47] epoch 19 | train loss=1.0264 F1=0.6132 | val CE=1.1088 acc=0.5952 F1=0.5832 | 20s
+[08:54:07] epoch 20 | train loss=0.9897 F1=0.6302 | val CE=1.1709 acc=0.5476 F1=0.5565 | 20s
+[08:54:27] epoch 21 | train loss=0.9955 F1=0.6249 | val CE=1.1100 acc=0.5714 F1=0.5493 | 20s
+[08:54:46] epoch 22 | train loss=1.0183 F1=0.5927 | val CE=1.0250 acc=0.5873 F1=0.5826 | 20s
+[08:55:06] epoch 23 | train loss=0.9874 F1=0.6272 | val CE=1.0920 acc=0.5873 F1=0.5781 | 20s
+[08:55:25] epoch 24 | train loss=0.9483 F1=0.6036 | val CE=1.0666 acc=0.5952 F1=0.5770 | 20s
+[08:55:45] epoch 25 | train loss=0.9384 F1=0.6327 | val CE=1.0812 acc=0.5873 F1=0.5818 | 20s
+[08:56:05] epoch 26 | train loss=0.9655 F1=0.6284 | val CE=1.0630 acc=0.6429 F1=0.6298 | 20s *
+[08:56:24] epoch 27 | train loss=0.9627 F1=0.6196 | val CE=1.0088 acc=0.6270 F1=0.6190 | 20s
+[08:56:44] epoch 28 | train loss=0.9435 F1=0.6240 | val CE=0.9666 acc=0.6349 F1=0.6342 | 20s *
+[08:57:04] epoch 29 | train loss=0.9265 F1=0.6390 | val CE=1.0270 acc=0.6349 F1=0.6308 | 20s
+[08:57:23] epoch 30 | train loss=0.9122 F1=0.6577 | val CE=1.0659 acc=0.6190 F1=0.6165 | 20s
+[08:57:43] epoch 31 | train loss=0.9183 F1=0.6214 | val CE=0.9891 acc=0.6587 F1=0.6569 | 20s *
+[08:58:03] epoch 32 | train loss=0.8941 F1=0.6691 | val CE=1.0098 acc=0.6349 F1=0.6340 | 20s
+[08:58:22] epoch 33 | train loss=0.8741 F1=0.6845 | val CE=1.0095 acc=0.6190 F1=0.6131 | 20s
+[08:58:42] epoch 34 | train loss=0.8543 F1=0.6852 | val CE=0.9706 acc=0.6111 F1=0.6100 | 20s
+[08:59:02] epoch 35 | train loss=0.8719 F1=0.6633 | val CE=1.0087 acc=0.6587 F1=0.6540 | 20s
+[08:59:21] epoch 36 | train loss=0.8316 F1=0.6806 | val CE=0.9748 acc=0.6508 F1=0.6452 | 20s
+[08:59:41] epoch 37 | train loss=0.8498 F1=0.6799 | val CE=0.9982 acc=0.6429 F1=0.6366 | 20s
+[09:00:01] epoch 38 | train loss=0.8310 F1=0.6733 | val CE=0.9686 acc=0.6667 F1=0.6646 | 20s *
+[09:00:20] epoch 39 | train loss=0.8434 F1=0.6688 | val CE=1.0042 acc=0.6349 F1=0.6354 | 20s
+[09:00:40] epoch 40 | train loss=0.8587 F1=0.6691 | val CE=0.9946 acc=0.6270 F1=0.6286 | 20s
+[09:00:59] epoch 41 | train loss=0.8116 F1=0.6842 | val CE=0.9853 acc=0.6190 F1=0.6142 | 20s
+[09:01:19] epoch 42 | train loss=0.8155 F1=0.6952 | val CE=0.9922 acc=0.5952 F1=0.5880 | 20s
+[09:01:39] epoch 43 | train loss=0.7700 F1=0.6989 | val CE=0.9925 acc=0.6349 F1=0.6336 | 20s
+[09:01:58] epoch 44 | train loss=0.8290 F1=0.6778 | val CE=1.0219 acc=0.6349 F1=0.6374 | 20s
+[09:02:18] epoch 45 | train loss=0.7763 F1=0.7157 | val CE=0.9886 acc=0.6270 F1=0.6268 | 20s
+[09:02:38] epoch 46 | train loss=0.7696 F1=0.7287 | val CE=1.0438 acc=0.6429 F1=0.6379 | 20s
+[09:02:57] epoch 47 | train loss=0.7850 F1=0.6848 | val CE=1.0200 acc=0.6429 F1=0.6421 | 20s
+[09:03:17] epoch 48 | train loss=0.7773 F1=0.6963 | val CE=0.9897 acc=0.6429 F1=0.6466 | 20s
+[09:03:37] epoch 49 | train loss=0.7692 F1=0.7212 | val CE=0.9809 acc=0.6667 F1=0.6625 | 20s
+[09:03:56] epoch 50 | train loss=0.7325 F1=0.7125 | val CE=0.9728 acc=0.6746 F1=0.6746 | 20s *
+[09:04:16] epoch 51 | train loss=0.7533 F1=0.7008 | val CE=1.0105 acc=0.6508 F1=0.6518 | 20s
+[09:04:36] epoch 52 | train loss=0.7716 F1=0.7186 | val CE=1.0220 acc=0.6429 F1=0.6405 | 20s
+[09:04:55] epoch 53 | train loss=0.7546 F1=0.7317 | val CE=1.0186 acc=0.6429 F1=0.6401 | 20s
+[09:05:15] epoch 54 | train loss=0.7416 F1=0.7278 | val CE=1.0785 acc=0.6349 F1=0.6317 | 20s
+[09:05:35] epoch 55 | train loss=0.7935 F1=0.7019 | val CE=0.9981 acc=0.6667 F1=0.6679 | 20s
+[09:05:54] epoch 56 | train loss=0.7667 F1=0.7153 | val CE=0.9762 acc=0.6349 F1=0.6329 | 20s
+[09:06:14] epoch 57 | train loss=0.7730 F1=0.6966 | val CE=1.0264 acc=0.6270 F1=0.6305 | 20s
+[09:06:33] epoch 58 | train loss=0.8040 F1=0.6807 | val CE=1.0038 acc=0.6429 F1=0.6463 | 20s
+[09:06:53] epoch 59 | train loss=0.7278 F1=0.7277 | val CE=1.0035 acc=0.6667 F1=0.6655 | 20s
+[09:07:13] epoch 60 | train loss=0.7741 F1=0.7189 | val CE=1.0035 acc=0.6508 F1=0.6496 | 20s
+[09:07:13] Train xong: 60 epoch, best epoch 50, 19.7 phut
+[09:07:16] VAL: acc=0.6746 F1=0.6746
+[09:07:19] TEST: acc=0.5873 F1=0.5893
+[09:07:19] XONG

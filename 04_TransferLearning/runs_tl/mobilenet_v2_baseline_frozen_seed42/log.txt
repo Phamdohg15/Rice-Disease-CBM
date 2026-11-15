@@ -1,0 +1,35 @@
+[06:26:21] === mobilenet_v2_baseline_frozen_seed42 | GD1: dong bang backbone, hoc phan dau | lr=0.001 | tham so hoc 6,405/2,230,277 ===
+[06:26:38] [GD1] epoch 01 | train loss=1.5549 F1=0.2916 | val CE=1.3688 acc=0.5556 F1=0.5444 | 17s *
+[06:26:55] [GD1] epoch 02 | train loss=1.2393 F1=0.5678 | val CE=1.1990 acc=0.6111 F1=0.6056 | 16s *
+[06:27:11] [GD1] epoch 03 | train loss=1.0786 F1=0.6094 | val CE=1.0881 acc=0.5873 F1=0.5983 | 16s
+[06:27:27] [GD1] epoch 04 | train loss=0.9770 F1=0.6679 | val CE=1.0270 acc=0.5952 F1=0.6117 | 16s *
+[06:27:44] [GD1] epoch 05 | train loss=0.8961 F1=0.6929 | val CE=0.9899 acc=0.6111 F1=0.6046 | 16s
+[06:28:00] [GD1] epoch 06 | train loss=0.8694 F1=0.6726 | val CE=0.9547 acc=0.6270 F1=0.6211 | 16s *
+[06:28:17] [GD1] epoch 07 | train loss=0.8311 F1=0.7201 | val CE=0.9507 acc=0.6429 F1=0.6213 | 16s *
+[06:28:33] [GD1] epoch 08 | train loss=0.7985 F1=0.7306 | val CE=0.9284 acc=0.5952 F1=0.6062 | 16s
+[06:28:49] [GD1] epoch 09 | train loss=0.7594 F1=0.7431 | val CE=0.8974 acc=0.6667 F1=0.6707 | 16s *
+[06:29:06] [GD1] epoch 10 | train loss=0.7304 F1=0.7651 | val CE=0.8891 acc=0.6270 F1=0.6479 | 16s
+[06:29:22] [GD1] epoch 11 | train loss=0.7254 F1=0.7395 | val CE=0.8689 acc=0.6825 F1=0.6833 | 16s *
+[06:29:38] [GD1] epoch 12 | train loss=0.6964 F1=0.7724 | val CE=0.8581 acc=0.7063 F1=0.7070 | 16s *
+[06:29:55] [GD1] epoch 13 | train loss=0.6929 F1=0.7598 | val CE=0.8622 acc=0.6508 F1=0.6682 | 16s
+[06:30:11] [GD1] epoch 14 | train loss=0.6787 F1=0.7817 | val CE=0.8424 acc=0.7143 F1=0.7147 | 16s *
+[06:30:28] [GD1] epoch 15 | train loss=0.6525 F1=0.7857 | val CE=0.8381 acc=0.7143 F1=0.7187 | 16s *
+[06:30:44] [GD1] epoch 16 | train loss=0.6490 F1=0.7995 | val CE=0.8333 acc=0.6984 F1=0.7072 | 16s
+[06:31:00] [GD1] epoch 17 | train loss=0.6390 F1=0.7934 | val CE=0.8356 acc=0.6825 F1=0.6989 | 16s
+[06:31:17] [GD1] epoch 18 | train loss=0.6296 F1=0.8090 | val CE=0.8260 acc=0.6905 F1=0.6995 | 16s
+[06:31:33] [GD1] epoch 19 | train loss=0.6154 F1=0.8119 | val CE=0.8227 acc=0.7143 F1=0.7187 | 16s *
+[06:31:49] [GD1] epoch 20 | train loss=0.6055 F1=0.8254 | val CE=0.8205 acc=0.7063 F1=0.7155 | 16s
+[06:32:06] [GD1] epoch 21 | train loss=0.6074 F1=0.8059 | val CE=0.8194 acc=0.7302 F1=0.7364 | 16s *
+[06:32:22] [GD1] epoch 22 | train loss=0.5975 F1=0.8222 | val CE=0.8167 acc=0.6905 F1=0.7000 | 17s
+[06:32:39] [GD1] epoch 23 | train loss=0.6087 F1=0.8243 | val CE=0.8148 acc=0.7222 F1=0.7279 | 16s
+[06:32:55] [GD1] epoch 24 | train loss=0.6097 F1=0.8101 | val CE=0.8128 acc=0.7302 F1=0.7347 | 16s
+[06:33:11] [GD1] epoch 25 | train loss=0.6135 F1=0.8000 | val CE=0.8150 acc=0.6984 F1=0.7090 | 16s
+[06:33:28] [GD1] epoch 26 | train loss=0.5985 F1=0.8138 | val CE=0.8137 acc=0.7143 F1=0.7249 | 16s
+[06:33:44] [GD1] epoch 27 | train loss=0.5911 F1=0.8084 | val CE=0.8141 acc=0.7222 F1=0.7307 | 16s
+[06:34:00] [GD1] epoch 28 | train loss=0.5962 F1=0.8121 | val CE=0.8133 acc=0.7222 F1=0.7299 | 16s
+[06:34:17] [GD1] epoch 29 | train loss=0.6014 F1=0.8372 | val CE=0.8132 acc=0.7222 F1=0.7307 | 16s
+[06:34:33] [GD1] epoch 30 | train loss=0.6064 F1=0.8155 | val CE=0.8132 acc=0.7222 F1=0.7307 | 16s
+[06:34:33] GD1 xong: 30 epoch, best epoch 21, 8.2 phut
+[06:34:36] VAL: acc=0.7302 F1=0.7364
+[06:34:39] TEST: acc=0.7460 F1=0.7534
+[06:34:39] XONG

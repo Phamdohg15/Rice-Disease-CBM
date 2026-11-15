@@ -1,0 +1,31 @@
+[18:00:17] === resnet18_baseline_scratch_seed42 | khong dung trong so ImageNet, cac thiet lap khac giong luot A | tham so 11,179,077 ===
+[18:00:37] epoch 01 | train loss=1.4547 F1=0.3836 | val CE=1.1723 acc=0.5397 F1=0.5035 | 20s *
+[18:00:56] epoch 02 | train loss=1.1974 F1=0.5358 | val CE=0.9943 acc=0.6587 F1=0.6591 | 19s *
+[18:01:15] epoch 03 | train loss=1.0620 F1=0.5945 | val CE=1.0138 acc=0.5794 F1=0.5759 | 19s
+[18:01:34] epoch 04 | train loss=1.0093 F1=0.6291 | val CE=0.8608 acc=0.7063 F1=0.6960 | 19s *
+[18:01:54] epoch 05 | train loss=0.9149 F1=0.6627 | val CE=0.9962 acc=0.5714 F1=0.5750 | 19s
+[18:02:13] epoch 06 | train loss=0.8956 F1=0.6625 | val CE=1.3702 acc=0.6270 F1=0.6038 | 19s
+[18:02:32] epoch 07 | train loss=0.8127 F1=0.7020 | val CE=0.7612 acc=0.7460 F1=0.7500 | 19s *
+[18:02:51] epoch 08 | train loss=0.8098 F1=0.7015 | val CE=0.9653 acc=0.7302 F1=0.7279 | 19s
+[18:03:10] epoch 09 | train loss=0.7298 F1=0.7424 | val CE=0.8310 acc=0.7302 F1=0.7352 | 19s
+[18:03:30] epoch 10 | train loss=0.6900 F1=0.7425 | val CE=0.8980 acc=0.6825 F1=0.6953 | 19s
+[18:03:49] epoch 11 | train loss=0.6614 F1=0.7510 | val CE=0.9883 acc=0.7063 F1=0.7007 | 19s
+[18:04:08] epoch 12 | train loss=0.6829 F1=0.7497 | val CE=0.9086 acc=0.7063 F1=0.7059 | 19s
+[18:04:27] epoch 13 | train loss=0.6307 F1=0.7521 | val CE=0.7519 acc=0.7778 F1=0.7814 | 19s *
+[18:04:46] epoch 14 | train loss=0.5671 F1=0.7917 | val CE=0.8599 acc=0.7143 F1=0.7169 | 19s
+[18:05:06] epoch 15 | train loss=0.5392 F1=0.8153 | val CE=1.0480 acc=0.6587 F1=0.6650 | 19s
+[18:05:25] epoch 16 | train loss=0.5576 F1=0.7948 | val CE=1.0034 acc=0.7460 F1=0.7518 | 19s
+[18:05:44] epoch 17 | train loss=0.5071 F1=0.8118 | val CE=0.8678 acc=0.7143 F1=0.7241 | 19s
+[18:06:03] epoch 18 | train loss=0.4787 F1=0.8334 | val CE=0.9058 acc=0.6984 F1=0.6985 | 19s
+[18:06:22] epoch 19 | train loss=0.4384 F1=0.8474 | val CE=1.0705 acc=0.6905 F1=0.6913 | 19s
+[18:06:42] epoch 20 | train loss=0.4556 F1=0.8413 | val CE=0.9948 acc=0.6905 F1=0.6877 | 19s
+[18:07:01] epoch 21 | train loss=0.4051 F1=0.8657 | val CE=1.0038 acc=0.7063 F1=0.7010 | 19s
+[18:07:20] epoch 22 | train loss=0.3540 F1=0.8824 | val CE=1.0298 acc=0.7540 F1=0.7457 | 19s
+[18:07:39] epoch 23 | train loss=0.3814 F1=0.8607 | val CE=1.0770 acc=0.6905 F1=0.6971 | 19s
+[18:07:58] epoch 24 | train loss=0.3366 F1=0.8885 | val CE=0.9959 acc=0.7619 F1=0.7538 | 19s
+[18:08:18] epoch 25 | train loss=0.2957 F1=0.9023 | val CE=0.9857 acc=0.6905 F1=0.6987 | 19s
+[18:08:18] Early stopping sau 12 epoch khong cai thien
+[18:08:18] Train xong: 25 epoch, best epoch 13, 8.0 phut
+[18:08:21] VAL: acc=0.7778 F1=0.7814
+[18:08:24] TEST: acc=0.6349 F1=0.6416
+[18:08:24] XONG

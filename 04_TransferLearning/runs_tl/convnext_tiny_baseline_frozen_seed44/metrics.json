@@ -1,0 +1,22 @@
+{
+  "backbone": "convnext_tiny",
+  "mode": "baseline",
+  "seed": 44,
+  "strategy": "frozen",
+  "parameters": 27823973,
+  "epochs_run": 28,
+  "best_epoch": 18,
+  "best_val_f1": 0.7728226760270254,
+  "training_seconds": 488.0205567000012,
+  "peak_gpu_memory_mb": 411.447265625,
+  "trainable_params": 3845,
+  "unfrozen_backbone_params": 0,
+  "val_acc": 0.7698412698412699,
+  "val_f1": 0.7728226760270254,
+  "val_ce": 0.717204075010996,
+  "test_acc": 0.7936507936507936,
+  "test_f1": 0.7963699373402877,
+  "test_ce": 0.6214138780321393,
+  "test_ms_per_image": 21.8467642856893,
+  "finished": "2026-11-15T05:21:50"
+}

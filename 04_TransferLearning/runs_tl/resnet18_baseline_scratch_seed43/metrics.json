@@ -1,0 +1,21 @@
+{
+  "backbone": "resnet18",
+  "mode": "baseline",
+  "seed": 43,
+  "strategy": "scratch",
+  "parameters": 11179077,
+  "epochs_run": 55,
+  "best_epoch": 43,
+  "best_val_f1": 0.7786233476668258,
+  "training_seconds": 1058.7737078999999,
+  "peak_gpu_memory_mb": 661.47998046875,
+  "trainable_params": 11179077,
+  "val_acc": 0.7777777777777778,
+  "val_f1": 0.7786233476668258,
+  "val_ce": 0.8940082928017964,
+  "test_acc": 0.7222222222222222,
+  "test_f1": 0.72478231292517,
+  "test_ce": 1.0156766299217466,
+  "test_ms_per_image": 23.04270238095168,
+  "finished": "2026-11-14T19:14:48"
+}
